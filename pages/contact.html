@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Master Maths - Contact</title>
+    <title>MasterMaths - Contact</title>
 </head>
 <body>
     <nav>
@@ -17,8 +17,28 @@
         </div>
     </nav>
     <section id="contact-form">
-        <p class="congratulations"></p>
-        <form method="GET" action="./success.html"></form>
+        <p class="congratulations">
+            Congratulations! You are in luck. I still have availability. Please fill out the following form. Using the hours you have selected, I will send a text letting you know when I will be in touch for a callback.
+        </p>
+        <form method="GET" action="./success.html">
+            <div class="form-left-side">
+                <input type="text" placeholder="Given Name" required>
+                <input type="text" placeholder="Family Name" required>
+                <input type="text" placeholder="Student's Name" required>
+                <div class="form-inline">
+                    <select name="school-year" id="school-year">
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                    </select>
+                </div>
+            </div>
+
+        </form>
     </section>
     <section id="contact-resources">
         <p class="resources-description"></p>
@@ -27,7 +47,7 @@
     <footer>
         <a href="../index.html" class="home-nav">Home</a>
         <a href="./about.html" class="about-nav">About</a>
-        <a href="./resources.html" class="resources-nav">Resources</a></a>
+        <a href="./resources.html" class="resources-nav">Resources</a>
         <a href="./contact.html" class="contact-nav">Contact</a>
     </footer>
 </body>
