@@ -18,9 +18,6 @@ h1, h2, h3 {
 /* Styling for Navigation Bar */
 
 nav {
-}
-
-nav {
     margin: 0 5%;
     display: flex;
     justify-content: space-between;
@@ -57,3 +54,19 @@ hr {
     margin: auto;
 }
 
+/* styling for index.html*/
+
+#home-landing {
+    width: 99%;
+    margin: 10px auto 0;
+    display: flex;
+    align-items: center;
+}
+
+.home-landing-left {
+    max-width: 40%;
+}
+
+.home-landing-right {
+    background-color: #5E9FFF;
+}
