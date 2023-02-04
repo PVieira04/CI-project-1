@@ -49,7 +49,7 @@ nav {
 
 hr {
     height: 2px;
-    background-color: black;
+    background-color: #565254;
     width: 99%;
     margin: auto;
 }
@@ -57,5 +57,72 @@ hr {
 /* styling for index.html*/
 
 #home-landing {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.home-landing-left {
+    width: 33%;
+    margin-left: 0.5%;
+}
+
+.tutor-pic {
+    height: 600px;
+}
+
+.tutor-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.tutor-info {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tutor-info ul li{
+    font-size: x-large;
+    list-style: circle inside;
+    padding: 5px;
+}
+
+.vl {
+    height: inherit;
     background-color: black;
+    width: 2px;
+}
+
+.home-landing-right {
+    width: 66%;
+    margin-right: 0.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.tagline {
+    text-align: center;
+    font-size: xxx-large;
+    padding: auto;
+}
+
+.tagline span {
+    color: #5E9FFF;
+    font-family: inherit;
+}
+
+button a {
+    background-color: #EF6F6C;
+    margin: 0 auto;
+    padding: 15px;
+    font-size: x-large;
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid black;
+    border-radius: 7px;
+    font-weight: 500;
 }
