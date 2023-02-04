@@ -54,7 +54,7 @@ hr {
     margin: auto;
 }
 
-/* styling for index.html*/
+/* styling for Section 1 of index.html (landing page) */
 
 #home-landing {
     display: flex;
@@ -69,7 +69,7 @@ hr {
 }
 
 .tutor-pic {
-    height: 600px;
+    height: 580px;
 }
 
 .tutor-pic img {
@@ -125,4 +125,32 @@ button a {
     border: 2px solid black;
     border-radius: 7px;
     font-weight: 500;
+}
+
+/* Styling for Section 2 of index.html (contact) */
+
+#home-callback {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 400px;
+}
+
+#home-callback h1 {
+    text-align: center;
+    font-size: xxx-large;
+}
+
+/* Styling for Section 3 of index.html (resources) */
+
+#home-resources {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 400px;
+}
+
+#home-resources h1 {
+    text-align: center;
+    font-size: xxx-large;
 }
