@@ -264,3 +264,125 @@ i {
     width: 100%;
     object-fit: cover;
 }
+
+/* Styling for Contact page*/
+
+#contact-form, #contact-resources {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+#contact-form {
+    height: 400px;
+    margin: 25px 0;
+}
+
+#contact-form p {
+    margin: 0 20px;
+}
+
+#contact-form p {
+    font-size: larger;
+}
+
+#contact-form p span {
+    font-size: xx-large;
+}
+
+/* Styling for the contact form */
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 900px;
+    margin-right: 27px;
+}
+
+.main-form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.form-left-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    margin: 0 20px;
+}
+
+.form-left-side input {
+    border: 2px solid #565254 ;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+}
+
+.form-left-side div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-left-side div select {
+    border: 2px solid #565254 ;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+}
+
+#school-year {
+    margin-left: -7px;
+    margin-right: 7px;
+}
+
+#contact-time {
+    margin-right: -7px;
+    margin-left: 7px;
+}
+
+.form-right-side {
+    width: 100%;
+}
+
+textarea {
+    border: 2px solid #565254 ;
+    border-radius: 5px;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: -5px;
+    margin-right: 20px;
+}
+
+form > input {
+    border: 2px solid #565254;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #A6BA78;
+    font-size: larger;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 600;
+}
+
+/* Styling for contact page section 2 (resources) */
+
+#contact-resources {
+    height: 100px;
+    margin: 15px 0 35px 0;
+}
+
+#contact-resources p {
+    margin: 0 10px;
+    font-size: larger;
+}
