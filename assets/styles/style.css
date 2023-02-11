@@ -11,6 +11,10 @@
     font-family: 'Noto Serif', serif;
 }
 
+body {
+    height: 100vh;
+}
+
 h1, h2, h3 {
     font-family: 'Montserrat', sans-serif;
 }
@@ -158,10 +162,22 @@ button a {
 /* Styling for the Footer */
 
 footer {
-    margin: 10px;
+    bottom: 0px;
+    margin: 0;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
     align-items: center;
+    width: 100%;
+    position: sticky;
+    top: 100%;
+}
+
+footer div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px 0;
 }
 
 i {
@@ -299,7 +315,8 @@ form {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    width: 900px;
+    width: 90vw;
+    max-width: 900px;
     margin-right: 27px;
 }
 
@@ -386,3 +403,22 @@ form > input {
     margin: 0 10px;
     font-size: larger;
 }
+
+/* Styling for Success Page*/
+
+#success div p {
+    text-align: center;
+    margin: 25px 0;
+    font-size: larger;
+}
+
+#success div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#success div button {
+    margin: 20px 0 30px;
+}
+
