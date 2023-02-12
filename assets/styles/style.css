@@ -296,7 +296,7 @@ i {
 }
 
 #contact-form {
-    height: 400px;
+    min-height: 400px;
     margin: 25px 0;
 }
 
@@ -396,6 +396,10 @@ form > input {
     font-weight: 600;
 }
 
+select:required:invalid {
+    color: grey;
+}
+
 /* Styling for contact page section 2 (resources) */
 
 #contact-resources {
@@ -482,7 +486,7 @@ form > input {
     }
 }
 
-@media only screen and (max-width : 799px) {
+@media only screen and (max-width : 809px) {
     .home-landing-left {
         flex-direction: column;
     }
@@ -495,6 +499,36 @@ form > input {
 /* Media Queries for about.html */
 
 /* Media Queries for contact.html */
+
+@media only screen and (max-width : 809px) {
+    #contact-form p {
+        margin-bottom: 40px;
+    }
+
+    .main-form {
+        flex-direction: column;
+    }
+
+    form {
+        margin-right: 0;
+    }
+
+    .form-left-side input {
+        margin-bottom: 5px;
+    }
+
+    .form-right-side {
+        margin-top: 5px;
+    }
+
+    .form-right-side textarea{
+        margin-right: 0;
+    }
+
+    #contact-resources button {
+        margin-top: 40px;
+    }
+}
 
 /* Media Queries for resources.html */
 

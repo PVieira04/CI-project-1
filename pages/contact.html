@@ -29,7 +29,8 @@
                     <input type="text" placeholder="Family Name" required>
                     <input type="text" placeholder="Student's Name" required>
                     <div class="form-inline">
-                        <select name="school-year" id="school-year">
+                        <select name="school-year" id="school-year" required>
+                            <option value="" disabled selected invalid>Child's School Year</option>
                             <option value="7">7</option>
                             <option value="8">8</option>
                             <option value="9">9</option>
@@ -38,7 +39,8 @@
                             <option value="12">12</option>
                             <option value="13">13</option>
                         </select>
-                        <select name="contact-time" id="contact-time">
+                        <select name="contact-time" id="contact-time" required>
+                            <option value="" disabled selected invalid>Time for Callback</option>
                             <option value="9am">9am</option>
                             <option value="10am">10am</option>
                             <option value="11am">11am</option>
@@ -62,7 +64,7 @@
             While you are waiting for your callback, feel free to check out my recommended resources.
         </p>
         <button class="contact-resources"><a href="./resources.html">Resources</a></button>
-    </section>
+    </section><br><br>
     <footer class="sticky-footer">
         <hr>
         <div>
