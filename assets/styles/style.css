@@ -100,6 +100,10 @@ hr {
     width: 2px;
 }
 
+.hr-for-mobile {
+    display: none;
+}
+
 .home-landing-right {
     width: 66%;
     margin-right: 0.5%;
@@ -422,3 +426,76 @@ form > input {
     margin: 20px 0 30px;
 }
 
+/* Media Queries */
+
+/* Media Queries for navbar */
+
+@media only screen and (max-width : 809px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav {
+        margin: 20px 0;
+    }
+}
+
+/* Media Queries for index.html */
+
+@media only screen and (max-width : 1159px) {
+    #home-landing {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    #home-landing div h1 {
+        padding: 40px 0;
+        text-align: center;
+    }
+
+    .home-landing-right {
+        width: 100%;
+        margin-bottom: 80px;
+        padding: 0 5px;
+    }
+
+    .home-landing-left {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .vl {
+        display: none;
+    }
+
+    .tutor-pic {
+        height: 400px;
+    }
+
+    .hr-for-mobile {
+        display: block;
+    }
+}
+
+@media only screen and (max-width : 799px) {
+    .home-landing-left {
+        flex-direction: column;
+    }
+
+    .tutor-pic {
+        height: 580px;
+    }
+}
+
+/* Media Queries for about.html */
+
+/* Media Queries for contact.html */
+
+/* Media Queries for resources.html */
+
+/* Media Queries for success.html */
