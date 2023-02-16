@@ -65,11 +65,12 @@ hr {
     justify-content: space-between;
     margin-top: 10px;
     margin-bottom: 10px;
+    box-sizing: border-box;
+    padding: 0 0.5%;
 }
 
 .home-landing-left {
     width: 33%;
-    margin-left: 0.5%;
 }
 
 .tutor-pic {
@@ -106,7 +107,6 @@ hr {
 
 .home-landing-right {
     width: 66%;
-    margin-right: 0.5%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -238,8 +238,11 @@ i {
     font-size: xxx-large;
 }
 
-#about-travel img {
+#about-travel div img {
     max-width: 800px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 /* Styling for Section 1 of resources.html */
@@ -254,14 +257,22 @@ i {
 
 #resources-intro h1, #resources-gcse h1, #resources-alevel h1 {
     font-size: xxx-large;
+    text-align: center;
 }
 
 #resources-intro p, #resources-gcse div p, #resources-alevel div p {
     font-size: larger;
+    text-align: center;
+}
+
+#resources-intro p {
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #resources-intro {
-    height: 100px;
+    min-height: 100px;
 }
 
 #resources-gcse div, #resources-alevel div {
@@ -338,7 +349,7 @@ form {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    height: 100%;
+    height: 170px;
     width: 100%;
     margin: 0 20px;
 }
@@ -381,6 +392,7 @@ textarea {
     border: 2px solid #565254 ;
     border-radius: 5px;
     width: 100%;
+    height: 155px;
     padding: 5px;
     margin-bottom: -5px;
     margin-right: 20px;
@@ -461,7 +473,6 @@ select:required:invalid {
     .home-landing-right {
         width: 100%;
         margin-bottom: 80px;
-        padding: 0 5px;
     }
 
     .home-landing-left {
@@ -498,6 +509,12 @@ select:required:invalid {
 
 /* Media Queries for about.html */
 
+@media only screen and (max-width : 699px) {
+    .quote figcaption {
+        margin-left: 0;
+    }
+}
+
 /* Media Queries for contact.html */
 
 @media only screen and (max-width : 809px) {
@@ -523,13 +540,26 @@ select:required:invalid {
 
     .form-right-side textarea{
         margin-right: 0;
+        margin-left: -8px;
+        margin-top: 8px;
     }
 
     #contact-resources button {
-        margin-top: 40px;
+        margin-top: 60px;
     }
 }
 
 /* Media Queries for resources.html */
+
+@media only screen and (max-width : 930px) {
+    #resources-gcse div, #resources-alevel div {
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+
+    #resources-gcse h1, #resources-alevel h1 {
+        margin-bottom: 30px;
+    }
+}
 
 /* Media Queries for success.html */
