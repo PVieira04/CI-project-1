@@ -15,6 +15,11 @@ body {
     height: 100vh;
 }
 
+section {
+    box-sizing: border-box;
+    padding: 0 0.5%;
+}
+
 h1, h2, h3 {
     font-family: 'Montserrat', sans-serif;
 }
@@ -202,7 +207,7 @@ i {
 
 .quote blockquote {
     font-size: xx-large;
-    padding: 150px 0 100px;
+    padding: 50px 0 100px;
 }
 
 .quote figcaption {
@@ -214,12 +219,13 @@ i {
 
 #about-process {
     margin: 50px 5px 100px;
-    height: 500px;
+    max-height: 500px;
     text-align: center;
 }
 
 #about-process h1 {
     font-size: xxx-large;
+    margin-bottom: 30px;
 }
 
 /* Styling for Section 3 of about.html (travel) */
@@ -415,8 +421,8 @@ select:required:invalid {
 /* Styling for contact page section 2 (resources) */
 
 #contact-resources {
-    height: 100px;
-    margin: 15px 0 35px 0;
+    min-height: 100px;
+    margin: 15px 0 20px 0;
 }
 
 #contact-resources p {
