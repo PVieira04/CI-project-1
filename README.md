@@ -101,10 +101,11 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab .
+  - Under the "Code and automation" section, click on "Pages"
+  - Under "Build and Deployment", select the option "Deploy from a branch" for "Source", and for "Branch", select "main".
+
 
 The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
 
