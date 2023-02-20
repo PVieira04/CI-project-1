@@ -448,6 +448,27 @@ select:required:invalid {
     margin: 20px 0 30px;
 }
 
+/* Styling for 404 Page */
+
+#error {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#error h1 {
+    font-size: xx-large;
+}
+
+#error h2 {
+    font-size: large;
+}
+
+#error h2 span {
+    font-family: 'Montserrat', sans-serif;
+    color: #5E9FFF;
+}
+
 /* Media Queries */
 
 /* Media Queries for navbar */
