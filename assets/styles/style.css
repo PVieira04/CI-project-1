@@ -138,6 +138,7 @@ button a {
     border: 2px solid black;
     border-radius: 7px;
     font-weight: 500;
+    max-width: 50px;
 }
 
 /* Styling for Section 2 of index.html (contact) */
@@ -219,7 +220,6 @@ i {
 
 #about-process {
     margin: 50px 5px 100px;
-    max-height: 500px;
     text-align: center;
 }
 
@@ -463,6 +463,12 @@ select:required:invalid {
     }
 }
 
+@media only screen and (max-width : 388px) {
+    .nav a {
+        font-size: small;
+    }
+}
+
 /* Media Queries for index.html */
 
 @media only screen and (max-width : 1159px) {
@@ -510,6 +516,28 @@ select:required:invalid {
 
     .tutor-pic {
         height: 580px;
+    }
+
+    .home-landing-right button a {
+        margin-top: 60px;
+    }
+}
+
+@media only screen and (max-width : 419px) {
+    button a {
+        font-size: larger;
+    }
+
+    h1 {
+        font-size: xx-large !important;
+    }
+
+    .tutor-info ul li {
+        font-size: medium;
+    }
+
+    #home-callback, #home-resources {
+        height: 300px
     }
 }
 
