@@ -21,16 +21,18 @@
     <section id="contact-form">
         <p>
             <span>Congratulations!</span><br><br>I still have availability. Please fill out the following form. Using the hours you have selected, I will send a text letting you know when I will be in touch for a callback.
-        </p>
+        </p><br><br>
         <form method="GET" action="./success.html">
             <div class="main-form">
                 <div class="form-left-side">
                     <input type="text" placeholder="Given Name" required>
                     <input type="text" placeholder="Family Name" required>
                     <input type="text" placeholder="Student's Name" required>
+                    <input type="email" placeholder="Your E-mail Address" required>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{11}" placeholder="Your UK Mobile Number" required>
                     <div class="form-inline">
                         <select name="school-year" id="school-year" required>
-                            <option value="" disabled selected invalid>Child's School Year</option>
+                            <option value="" disabled selected invalid>Student's School Year</option>
                             <option value="7">7</option>
                             <option value="8">8</option>
                             <option value="9">9</option>

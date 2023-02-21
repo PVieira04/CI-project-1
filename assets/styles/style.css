@@ -359,7 +359,7 @@ form {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    height: 170px;
+    height: 239px;
     width: 100%;
     margin: 0 20px;
 }
@@ -402,7 +402,7 @@ textarea {
     border: 2px solid #565254 ;
     border-radius: 5px;
     width: 100%;
-    height: 155px;
+    height: 225px;
     padding: 5px;
     margin-bottom: -5px;
     margin-right: 20px;
