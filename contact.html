@@ -9,6 +9,7 @@
     <title>MasterMaths - Contact</title>
 </head>
 <body>
+    <!-- Navigation Bar includes links to all main pages of site, save for 404.html and success.html which should only be accessible under certain conditions. -->
     <nav id="top">
         <a href="./index.html"><h1 class="logo">MasterMaths</h1></a>
         <div class="nav">
@@ -18,12 +19,14 @@
             <a href="./contact.html" class="contact-nav" id="current-page">Contact</a>
         </div>
     </nav><hr />
+    <!-- Section includes a brief message to the user as well as a contact form.  -->
     <section id="contact-form">
         <p>
             <span>Congratulations!</span><br><br>I still have availability. Please fill out the following form. Using the hours you have selected, I will send a text letting you know when I will be in touch for a callback.
         </p><br><br>
         <form method="GET" action="./success.html">
             <div class="main-form">
+                <!-- Left side of the form contains the essential information. On smaller screens, this is displayed at the top of the page, below the welcome message. -->
                 <div class="form-left-side">
                     <input type="text" placeholder="Given Name" required>
                     <input type="text" placeholder="Family Name" required>
@@ -54,6 +57,7 @@
                         </select>
                     </div>
                 </div>
+                <!-- Right side of the form contains a text area. On smaller screens this is shown below the "essential information" part of the form. -->
                 <div class="form-right-side">
                     <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message here."></textarea>
                 </div>
@@ -61,6 +65,7 @@
             <input type="submit">
         </form>
     </section>
+    <!-- Footer links to social media sites and includes option to return user to the top of the page. -->
     <footer class="sticky-footer">
         <hr>
         <div>

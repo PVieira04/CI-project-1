@@ -496,7 +496,7 @@ select:required:invalid {
 
 /* Media Queries for index.html */
 
-@media only screen and (max-width : 1159px) {
+@media only screen and (max-width : 1199px) {
     #home-landing {
         flex-direction: column-reverse;
         align-items: center;
