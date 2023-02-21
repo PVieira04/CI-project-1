@@ -288,6 +288,10 @@ i {
     margin: 5px 20px;
 }
 
+#resources-gcse h2, #resources-alevel h2 {
+    text-align: center;
+}
+
 #resources-gcse div p, #resources-alevel div p {
     max-width: 600px;
 }
@@ -484,7 +488,7 @@ select:required:invalid {
     }
 }
 
-@media only screen and (max-width : 388px) {
+@media only screen and (max-width : 419px) {
     .nav a {
         font-size: small;
     }
