@@ -26,7 +26,7 @@ h1, h2, h3 {
 
 /* Styling for Navigation Bar */
 
-nav {
+header {
     margin: 0 5%;
     display: flex;
     justify-content: space-between;
@@ -38,16 +38,16 @@ nav {
     color: #5E9FFF;
 }
 
-.nav {
+nav {
     margin: 0;
     font-size: large;
 }
 
-.nav a {
+nav a {
     margin: 0 10px;
 }
 
-.nav a:hover {
+nav a:hover {
     text-underline-offset: 6px;
     text-decoration: underline;
 }
@@ -477,18 +477,18 @@ select:required:invalid {
 /* Media Queries for navbar */
 
 @media only screen and (max-width : 809px) {
-    nav {
+    header {
         display: flex;
         flex-direction: column;
     }
 
-    .nav {
+    nav {
         margin: 20px 0;
     }
 }
 
 @media only screen and (max-width : 419px) {
-    .nav a {
+    nav a {
         font-size: small;
     }
 }
