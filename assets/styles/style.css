@@ -410,6 +410,10 @@ select:required:invalid {
     color: grey;
 }
 
+input:focus, textarea:focus {
+    outline: none;
+}
+
 /* Styling for Success Page*/
 
 #success div p {
