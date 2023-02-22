@@ -54,8 +54,8 @@ In this section, you should go over the different parts of your project, and des
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
   - On smaller screens, the navigation bar will change in layout to present the navigation links below the website logo.
 
-![Nav Bar - Desktop](./assets/media/navbar-feature.jpg)
-![Nav Bar - Mobile](./assets/media/navbar-responsive-feature.jpg)
+![Nav Bar - Desktop](./assets/media/features/navbar-feature.jpg)
+![Nav Bar - Mobile](./assets/media/features/navbar-responsive-feature.jpg)
 
 - __The Landing Page__
 
@@ -64,20 +64,20 @@ In this section, you should go over the different parts of your project, and des
   - Regarding the tagline, the word "better" is highlighted in blue in order to catch the user's attention and invoke a good feeling for the user, since "better" is a positive word.
   - The call to action button is pink which should catch the user's attention next, inviting them to navigate to the about section. 
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page - Section One - Desktop](./assets/media/features/landing-page-section-one-desktop.jpg)
 
   - On devices like tablets which have smaller screens, the layout of this first section changes. Instead, the tagline is placed first, due to its importance, and then the tutor and their information is placed below.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page - Section One - Tablet](./assets/media/features/landing-page-section-one-tablet.jpg)
 
   - On even smaller screens like mobile phones, the layout changes further. Below the tagline, the tutor's photo appears first and then the tutor's information.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page - Section One - Mobile](./assets/media/features/landing-page-section-one-mobile.png)
 
   - Below the first section are two more sections which is dedicated to users that are already convinced by the tutor's teaching skills or are returning to the website seeking resources for their children. The layout of these two sections change minimally on smaller screens.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page - Section Two and Three - Desktop](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page - Section Two and Three - Mobile](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
 
 - __The About Page__
 
