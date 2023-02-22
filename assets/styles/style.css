@@ -306,7 +306,7 @@ i {
 
 /* Styling for Contact page*/
 
-#contact-form, #contact-resources {
+#contact-form {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -418,18 +418,6 @@ form > input {
 
 select:required:invalid {
     color: grey;
-}
-
-/* Styling for contact page section 2 (resources) */
-
-#contact-resources {
-    min-height: 100px;
-    margin: 15px 0 20px 0;
-}
-
-#contact-resources p {
-    margin: 0 10px;
-    font-size: larger;
 }
 
 /* Styling for Success Page*/
@@ -599,10 +587,6 @@ select:required:invalid {
         margin-right: 0;
         margin-left: -8px;
         margin-top: 8px;
-    }
-
-    #contact-resources button {
-        margin-top: 60px;
     }
 }
 
