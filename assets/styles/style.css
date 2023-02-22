@@ -430,14 +430,18 @@ select:required:invalid {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 90%;
+    margin: auto;
 }
 
 #error h1 {
     font-size: xx-large;
+    text-align: center;
 }
 
 #error h2 {
     font-size: large;
+    text-align: center;
 }
 
 #error h2 span {
