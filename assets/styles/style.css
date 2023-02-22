@@ -475,8 +475,20 @@ select:required:invalid {
 }
 
 @media only screen and (max-width : 419px) {
+    header {
+        margin: 0 0.5%;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
     nav a {
-        font-size: small;
+        font-size: 5vw;
+        margin: 0;
+        padding: 0 5px;
     }
 }
 
@@ -539,8 +551,12 @@ select:required:invalid {
         font-size: larger;
     }
 
+    .logo {
+        font-size: 13vw;
+    }
+
     h1 {
-        font-size: xx-large !important;
+        font-size: xx-large /* !important */;
     }
 
     .tutor-info ul li {
