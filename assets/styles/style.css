@@ -11,6 +11,10 @@
     font-family: 'Noto Serif', serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     height: 100vh;
 }
