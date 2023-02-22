@@ -1,21 +1,46 @@
 # Master Math
 
-Master Math is a site that exposes users to the existence of a mathematics home tutor in London, UK. The site will be targeted toward parents who wish to employ the services of a home tutor to help improve their child's mathematics. Master Math will be useful to parents because it will outline the tutor's method of teaching and how to go about employing their services.
+Master Math is a site that exposes users to the existence of a mathematics home tutor in London, UK. The site will be targeted toward parents who wish to employ the services of a home tutor to help improve their child's mathematics. Master Math will be useful to parents because it will outline the tutor's unique method of teaching, show them how to go about employing the tutor's services, and provide information on where to find the best resources for studying.
 
 ## Wireframes:
 
+### Landing Page Mockup - Desktop Version
 ![Landing Page Mockup - Desktop Version](./assets/media/wireframes/landing-page-mockup-desktop.png)
+
+### Landing Page Mockup - Tabelt Version
 ![Landing Page Mockup - Tabelt Version](./assets/media/wireframes/landing-page-mockup-tablet.png)
+
+### Landing Page Mockup - Mobile Version
 ![Landing Page Mockup - Mobile Version](./assets/media/wireframes/landing-page-mockup-mobile.png)
+
+### About Page Mockup - Desktop Version
 ![About Page Mockup - Desktop Version](./assets/media/wireframes/about-page-mockup-desktop.png)
+
+### About Page Mockup - Tabelt Version
 ![About Page Mockup - Tabelt Version](./assets/media/wireframes/about-page-mockup-tablet.png)
+
+### About Page Mockup - Mobile Version
 ![About Page Mockup - Mobile Version](./assets/media/wireframes/about-page-mockup-mobile.png)
+
+### Contact Page Mockup - Desktop Version
 ![Contact Page Mockup - Desktop Version](./assets/media/wireframes/contact-page-mockup-desktop.png)
+
+### Contact Page Mockup - Tabelt Version
 ![Contact Page Mockup - Tabelt Version](./assets/media/wireframes/contact-page-mockup-tablet.png)
+
+### Contact Page Mockup - Mobile Version
 ![Contact Page Mockup - Mobile Version](./assets/media/wireframes/contact-page-mockup-mobile.png)
-![Resources Mockup - Desktop Version](./assets/media/wireframes/resources-page-mockup-desktop.png)
-![Resources Mockup Mockup - Tabelt Version](./assets/media/wireframes/resources-page-mockup-tablet.png)
-![Resources Mockup Mockup - Mobile Version](./assets/media/wireframes/resources-page-mockup-mobile.png)
+
+### Resources Page Mockup - Desktop Version
+![Resources Page Mockup - Desktop Version](./assets/media/wireframes/resources-page-mockup-desktop.png)
+
+### Resources Page Mockup - Tabelt Version
+![Resources Page Mockup - Tabelt Version](./assets/media/wireframes/resources-page-mockup-tablet.png)
+
+### Resources Page Mockup - Mobile Version
+![Resources Page Mockup - Mobile Version](./assets/media/wireframes/resources-page-mockup-mobile.png)
+
+
 
 ## Features 
 
@@ -23,20 +48,35 @@ In this section, you should go over the different parts of your project, and des
 
 ### Existing Features
 
-- __Navigation Bar__
+- __Header and Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Home page, About page, Resources page and Contact page, and is identical in each page to allow for easy navigation.
+  - Featured on all six pages, the fully responsive header and navigation bar includes links to the Home page, About page, Contact page and Resources page; and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
-  - On smaller screens, the navbar will change to present the navigation links below the website logo.
+  - On smaller screens, the navigation bar will change in layout to present the navigation links below the website logo.
 
-![Nav Bar](./assets/media/navbar-feature.jpg)
-![Nav Bar - Responsive](./assets/media/navbar-responsive-feature.jpg)
+![Nav Bar - Desktop](./assets/media/navbar-feature.jpg)
+![Nav Bar - Mobile](./assets/media/navbar-responsive-feature.jpg)
 
 - __The Landing Page__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - The landing page includes three main sections.
+  - The first section includes a photo of the tutor along with some basic information which together take up a third of the page's width on desktop, and a large tagline filling the rest of the page's width. Below the tagline, there is a call to action button.
+  - Regarding the tagline, the word "better" is highlighted in blue in order to catch the user's attention and invoke a good feeling for the user, since "better" is a positive word.
+  - The call to action button is pink which should catch the user's attention next, inviting them to navigate to the about section. 
 
+![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+
+  - On devices like tablets which have smaller screens, the layout of this first section changes. Instead, the tagline is placed first, due to its importance, and then the tutor and their information is placed below.
+
+![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+
+  - On even smaller screens like mobile phones, the layout changes further. Below the tagline, the tutor's photo appears first and then the tutor's information.
+
+![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+
+  - Below the first section are two more sections which is dedicated to users that are already convinced by the tutor's teaching skills or are returning to the website seeking resources for their children. The layout of these two sections change minimally on smaller screens.
+
+![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
 ![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
 
 - __The About Page__
@@ -60,13 +100,6 @@ In this section, you should go over the different parts of your project, and des
 
 ![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
 
-- __The Footer__ 
-
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
-
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
-
 - __The Success Page__
 
   - The gallery will provide the user with supporting images to see what the meet ups look like. 
@@ -79,6 +112,13 @@ In this section, you should go over the different parts of your project, and des
   - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
 
 ![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+
+- __The Footer__ 
+
+  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer is valuable to the user as it encourages them to keep connected via social media
+
+![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
 
 For some/all of your features, you may choose to reference the specific project files that implement them.
 
