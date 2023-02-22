@@ -566,6 +566,12 @@ select:required:invalid {
     }
 }
 
+@media only screen and (max-width : 419px) {
+    #about-travel {
+        height: 700px;
+    }
+}
+
 /* Media Queries for contact.html */
 
 @media only screen and (max-width : 809px) {
