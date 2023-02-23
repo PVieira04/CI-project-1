@@ -409,6 +409,7 @@ form > input {
     font-size: larger;
     font-family: 'montserrat', sans-serif;
     font-weight: 600;
+    margin-left: 25px;
 }
 
 select:required:invalid {
@@ -628,7 +629,15 @@ input:focus, textarea:focus {
     .form-right-side textarea{
         margin-right: 0;
         margin-left: -8px;
-        margin-top: 8px;
+        margin-top: 2px;
+    }
+
+    #level-studying, #exam-board {
+        margin-top: 6px;
+    }
+
+    form > input {
+        margin-left: 0;
     }
 }
 
