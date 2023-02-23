@@ -134,11 +134,12 @@ In this section, you should go over the different parts of your project, and des
 
 ![Resources Page - Mobile](./assets/media/features/resources-section-mobile.png)
 
-- __The 404 Page__
+#### __The 404 Page__
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+  - This page will load for the user in the unlikely event that there are broken links on the website or if a user were to type in a nonexistent subdirectory into the web address box.
+  - This provides value to the user by directing them to the landing page of the website so that they can achieve their goal for visiting.
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+![404 Page](./assets/media/features/404-page.jpg)
 
 - __The Footer__ 
 
