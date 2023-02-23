@@ -428,11 +428,11 @@ input:focus, textarea:focus {
     opacity: 1; /* Firefox */
 }
 
-:-ms-input-placeholder { /* IE 10-11 */
+input:-ms-input-placeholder { /* IE 10-11 */
     color: var(--placeholder);
 }
 
-::-ms-input-placeholder { /* Microsoft Edge */
+input::-ms-input-placeholder { /* Microsoft Edge */
     color: var(--placeholder);
 }
 
