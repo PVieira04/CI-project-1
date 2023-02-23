@@ -102,25 +102,37 @@ In this section, you should go over the different parts of your project, and des
 
 #### __The Contact Page__
 
-  - 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+  - The contact page begins by congratulating the user in finding their way to the contact page while the tutor still has availability. This is to create a sense of scarcity; with the idea being that tomorrow, the tutor's schedule may be all filled out. 
+  - The text below the congratulations message also reminds the user what the process is to securing a callback and promts the user to fill out the following form.
+  - The form is split into two parts, left and right on desktop. The left hand side contains required fields asking for essential information the tutor needs to call the parent back, while the right side contains an optional textbox for the parent to write a custom message.
+  - The form provides value to the parent because by this point they want this tutor to teach their child. Becasue of this, they would want to give as much information as necessary to the tutor so they can do their job to the best of their ability. Filling out the form gives the parent more confidence in the tutor's abilities.
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Contact Page - Desktop]()
 
-- __The Success Page__
+  - While being responsive, the form also chanages layout on smaller screens. The left side which asks for essential information is placed on top, while the textbox is placed beneath. This is to allow the user to still see the placeholder text on smaller screens so it is clear what they should write there.
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+![Contact Page - Mobile]()
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+#### __The Success Page__
 
-- __The Resources Page__
+  - On submitting the contact form, the user will be directed to a page telling the user that their message has been sent successfully. This provides value to the user becasue a user may become anxious that something has gone awry if they are not provided a confirmation message; it comforts the user.
+  - Following the success message, there is a call to action section allowing the user to be shown the way to the resources page. This provides further value to the user because some parents may want some extra work for their children to do while they wait to secure a tutoring session.
+  - If the user does not wish to go to the resources section, they are also given the option to navigate to the landing page. This will allow the user to see the website tagline and tutor's basic information, and further reinforce their decision in selected this tutor.
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+![Success Page - Desktop](./assets/media/features/success-page-desktop.jpg)
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+#### __The Resources Page__
+
+  - The Resources Page begins with a short introduction telling the user what this page is about.
+  - The main section below the welcome message is split into two parts, GCSE and A-Level Maths.
+  - Both parts are styled the same with a screenshot on the left hand side and on the right, a brief description of the website's resources and the tutor's recommendation in how to use it.
+  - This provides great value to the user becasue there is a great variety in reasons to use each resource which can cater for a variety of needs.
+
+![Resources Page - Desktop](./assets/media/features/resources-section-desktop.png)
+
+  - While being responsive, the resources page also changes layout on smaller screens. The screenshot image of the website is shown below the title of the resource, and the description is shown below. This is done to give better readability to the user.
+
+![Resources Page - Mobile](./assets/media/features/resources-section-mobile.png)
 
 - __The 404 Page__
 
