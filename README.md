@@ -270,7 +270,7 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomib ngs of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
 
 ## Deployment
 
@@ -281,9 +281,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
   - Under the "Code and automation" section, click on "Pages"
   - Under "Build and Deployment", select the option "Deploy from a branch" for "Source", and for "Branch", select "main".
 
-
 The live link can be found here - https://pvieira04.github.io/CI-project-1/
-
 
 ## Credits 
 
