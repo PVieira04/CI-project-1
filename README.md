@@ -257,15 +257,6 @@ Screenshots were taken of various websites for the resources section. This gives
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
-
 ### Validator Testing 
 
 - HTML
@@ -292,21 +283,17 @@ The live link can be found here - https://pvieira04.github.io/CI-project-1/
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The links in the head of my html files for the favicons were taken from [favicon.io](https://favicon.io/favicon-generator/).
+- The link in the head of my html files which allow me to use Font Awesome is from a [CDN](https://cdnjs.com/libraries/font-awesome).
 
 ### Media
 
 - The tutor photo used on the home page was an original photo that I have the rights to.
 - The Map of Servicable Areas on the About Page was a screenshot taken from [app.traveltime.com](https://app.traveltime.com/).
-- The images on the resources page were screenshots taken of the website it links to.
+- The images on the resources page were screenshots taken of the website they link to.
 - The favicons were created using the online tool [favicon.io](https://favicon.io/favicon-generator/).
 
 --------------------------------
