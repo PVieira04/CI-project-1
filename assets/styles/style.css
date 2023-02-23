@@ -439,8 +439,8 @@ input:focus, textarea:focus {
     flex-direction: column;
 }
 
-#success div button {
-    margin: 20px 0 30px;
+#success div h2 {
+    text-align: center;
 }
 
 /* Styling for 404 Page */
