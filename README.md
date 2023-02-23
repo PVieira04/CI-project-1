@@ -21,18 +21,21 @@ Master Math is a site that exposes users to the existence of a mathematics home 
 The initial color scheme was derived using the tool from the [coolors]("https://coolors.co/") website.
 
 The initial colours chosen were:
-- #5E9FFF (Cornflower blue) - Used as the colour for icons, the site logo and text emphasis.
-- #565254 (Davy's gray) - Used as the color for partitions
-- #A6BA78 (Olivine) - Used for the submit button on the contact form
 - #E2E2E2 (Platinum) - Used for the background colour for the website
+- #5E9FFF (Cornflower blue) - Used as the colour for icons, the site logo and text emphasis.
 - #EF6F6C (Light Coral) - Used as the background colour for call-to-action buttons.
+- #A6BA78 (Olivine) - Used for the submit button on the contact form
+- #565254 (Davy's gray) - Used as the color for partitions
 
 According to accessibility guidelines (for users with colour blindness), the contrast ratio between foreground and background should be at least 7:1. Because of this, some of the colours needed to be changed.
 
 The revided colour scheme is as follows:
 
-- 
-
+- #E2E2E2 (Platinum) - Used for the background colour for the website
+- #0000F4 (Blue) - Used as the colour for icons, the site logo and text emphasis.
+- #EF6F6C (Light Coral) - Used as the background colour for call-to-action buttons.
+- #A6BA78 (Olivine) - Used for the submit button on the contact form
+- #4A4547 (Davy's gray) - Used as the color for partitions and placeholder text
 
 ### __Typography__
 
