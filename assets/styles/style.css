@@ -581,7 +581,7 @@ input:focus, textarea:focus {
     }
 
     .tutor-info ul li {
-        font-size: medium;
+        font-size: 5.7vw;
     }
 
     #home-callback, #home-resources {
