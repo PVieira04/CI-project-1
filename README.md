@@ -95,7 +95,7 @@ The typography idea was taken from [this website](https://www.fontpairings.com/)
 
 ### __Imagery__
 
-Imagery on this website was kept minimal. The only photo on it is a photo of the tutor. The idea is for this to make the image stand out on the home page and be more memorable.
+Imagery on this website was kept minimal. The only picture on the landing page is a photo of the tutor. The idea is for this to make the image stand out on the home page and be more memorable.
 
 An image was also used for the about section to help users guage whether they lived in an appropriate area for the tutor to travel to.
 
@@ -274,7 +274,7 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomib ngs of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+No unfixed bugs.
 
 ## Deployment
 
