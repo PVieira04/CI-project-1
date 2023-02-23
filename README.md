@@ -39,7 +39,11 @@ Master Math is a site that exposes users to the existence of a mathematics home 
 
 ### User Story - New Customer
 
+A new user will find out about the website, likely via a search engine. They will type in key words such as "maths", "tutor" and "London" and be given this website as one of the results. The user will click on it and see the tutor's face and the tagline. They will become intrigued by the tagline and so they click on the call to action button, taking them to the about page. As they land, they will see the educational quote from the philosopher Confucius, and they gain a sense of the tutor's teaching style. They scroll down and find out about the process the student goes through under the tutor's care. They become convinced of the tutor's ability to teach their child. They want to book a time with this person and secure a tutoring slot. They find the last section of the about page, and realise they live within the tutor's serviceable area. They click on the button at the end of the about page and are taken to the contact page. They begin filling out the form with as much detail as they know and hit send. They are then taken to the success page. The user sees that the message has been sent successfully and that there is a page dedicated to resources. The user clicks on that and scrolls down the page. However, the user is uninterested at this time and so closes the tab and waits for their callback.
+
 ### User Story - Returning Customer
+
+A returning user will navigate to my website for the purpose of finding extra resources for their child. They know their child has trouble in remembering definitions in GCSE mathematics and so they will be happy to find that one of my recommended resources is Corbett Maths, a website that provices flashcards as one of their resources. The user will read the tutor's description for Corbett Maths and be glad they found it. They will tap on the image and navigate to Corbett Maths.
 
 ## Technology
 
