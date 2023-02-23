@@ -1,13 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+:root {
+    --background: #E2E2E2;
+    --logo-emphasis: #5E9FFF;
+    --call-to-action: #EF6F6C;
+    --submit: #A6BA78;
+    --partition: #565254;
+    --text: #000;
+}
+
 * {
     margin: 0;
     border: 0;
     padding: 0;
     text-decoration: none;
-    color: black;
-    background-color: #E2E2E2;
+    color: var(--text);
+    background-color: var(--background);
     font-family: 'Noto Serif', serif;
 }
 
@@ -39,7 +48,7 @@ header {
 
 .logo {
     font-size: xxx-large;
-    color: #5E9FFF;
+    color: var(--logo-emphasis);
 }
 
 nav {
@@ -57,12 +66,12 @@ nav a:hover {
 }
 
 #current-page {
-    color: #5E9FFF;
+    color: var(--logo-emphasis);
 }
 
 hr {
     height: 2px;
-    background-color: #565254;
+    background-color: var(--partition);
     width: 99%;
     margin: auto;
 }
@@ -111,7 +120,7 @@ hr {
 
 .vl {
     height: inherit;
-    background-color: #565254;
+    background-color: var(--partition);
     width: 2px;
 }
 
@@ -133,12 +142,12 @@ hr {
 }
 
 .tagline span {
-    color: #5E9FFF;
+    color: var(--logo-emphasis);
     font-family: inherit;
 }
 
 .action-button {
-    background-color: #EF6F6C;
+    background-color: var(--call-to-action);
     margin: 0 auto;
     padding: 15px;
     font-size: x-large;
@@ -190,7 +199,7 @@ footer div{
 
 i {
     font-size: xx-large;
-    color:#5E9FFF;
+    color: var(--logo-emphasis);
 }
 
 /* Styling for Section 1 of about.html (quote) */
@@ -400,7 +409,7 @@ form > input {
     border: 2px solid #565254;
     padding: 5px 10px;
     border-radius: 5px;
-    background-color: #A6BA78;
+    background-color: var(--submit);
     font-size: larger;
     font-family: 'montserrat', sans-serif;
     font-weight: 600;
@@ -454,7 +463,7 @@ input:focus, textarea:focus {
 
 #error h2 span {
     font-family: 'Montserrat', sans-serif;
-    color: #5E9FFF;
+    color: var(--logo-emphasis);
 }
 
 /* Media Queries */
