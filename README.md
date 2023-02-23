@@ -1,8 +1,10 @@
 # Master Math
 
-Master Math is a site that exposes users to the existence of a mathematics home tutor in London, UK. The site will be targeted toward parents who wish to employ the services of a home tutor to help improve their child's mathematics. Master Math will be useful to parents because it will outline the tutor's unique method of teaching, show them how to go about employing the tutor's services, and provide information on where to find the best resources for studying.
+The live website can be accessed via this [link](https://pvieira04.github.io/CI-project-1/)
 
 ## User Experience (UX)
+
+Master Math is a site that exposes users to the existence of a mathematics home tutor in London, UK. The site will be targeted toward parents who wish to employ the services of a home tutor to help improve their child's mathematics. Master Math will be useful to parents because it will outline the tutor's unique method of teaching, show them how to go about employing the tutor's services, and provide information on where to find the best resources for studying.
 
 ### User Story - New Customer
 
@@ -58,7 +60,11 @@ The typography idea was taken from [this website](https://www.fontpairings.com/)
 
 ### __Imagery__
 
-Imagery on this website was kept minimal. The only picture on it is a photo of the tutor. The idea is for this to make the image stand out and be more memorable.
+Imagery on this website was kept minimal. The only photo on it is a photo of the tutor. The idea is for this to make the image stand out on the home page and be more memorable.
+
+An image was also used for the about section to help users guage whether they lived in an appropriate area for the tutor to travel to.
+
+Screenshots were taken of various websites for the resources section. This gives the user a short break from the monotonous black-on-platinum on the page and also allows for an area the user can click on to navigate to that site.
 
 ### __Wireframes__
 
@@ -247,7 +253,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
   - Under "Build and Deployment", select the option "Deploy from a branch" for "Source", and for "Branch", select "main".
 
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+The live link can be found here - https://pvieira04.github.io/CI-project-1/
 
 
 ## Credits 
@@ -264,9 +270,9 @@ You can break the credits section up into Content and Media, depending on what y
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+- The tutor photo used on the home page was an original photo that I have the rights to.
 
+--------------------------------
 
 Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
 
