@@ -270,13 +270,13 @@ Screenshots were taken of various websites for the resources section. This gives
   - [about.html](about.html)
     - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpvieira04.github.io%2FCI-project-1%2Fabout.html).
   - [contact.html](contact.html)
-    - No errors were returned when passing through the official [W3C validator]().
+    - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpvieira04.github.io%2FCI-project-1%2Fcontact.html).
   - [success.html](success.html)
-    - No errors were returned when passing through the official [W3C validator]().
+    - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpvieira04.github.io%2FCI-project-1%2Fsuccess.html).
   - [resources.html](resources.html)
-    - No errors were returned when passing through the official [W3C validator]().
+    - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpvieira04.github.io%2FCI-project-1%2Fresources.html).
   - [404.html](404.html)
-    - No errors were returned when passing through the official [W3C validator]().
+    - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpvieira04.github.io%2FCI-project-1%2F404.html).
 - CSS
   - No errors were found on my code when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fpvieira04.github.io%2FCI-project-1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css).
   - One error and 86 warnings were given for the CDN Font Aweosme Library. This does not affect the functionality of my code.
