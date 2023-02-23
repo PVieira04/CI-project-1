@@ -18,7 +18,7 @@ Master Math is a site that exposes users to the existence of a mathematics home 
 ## Design
 
 ### __Colour Scheme__
-The initial color scheme was derived using the tool from the [coolors]("https://coolors.co/") website.
+The initial color scheme was derived using the tool from the [coolors](https://coolors.co/) website.
 
 The initial colours chosen were:
 - #E2E2E2 (Platinum) - Used for the background colour for the website
@@ -38,7 +38,7 @@ The revised colour scheme is as follows:
 - #4A4547 (Davy's gray) - Used as the color for partitions and placeholder text.
 - #000000 (Black) - Used for general text.
 
-These are the results of the [contrast checker]("https://webaim.org/resources/contrastchecker/"):
+These are the results of the [contrast checker](https://webaim.org/resources/contrastchecker/):
 
 ![Blue on Platinum Background](./assets/media/contrast/contrast-check-blue-platinum.jpg)
 ![Black on Olivine Background](./assets/media/contrast/contrast-check-black-olivine.jpg)
@@ -47,7 +47,18 @@ These are the results of the [contrast checker]("https://webaim.org/resources/co
 
 ### __Typography__
 
+The fonts for this project were:
+
+- Monserrat - Used for headings and button text.
+- Noto Serif - Used for paragraph text and other non-header text.
+
+Both fonts were obtained through Google Fonts.
+
+The typography idea was taken from [this website](https://www.fontpairings.com/). I thought both fonts complemented each other well and were appropriate for this project.
+
 ### __Imagery__
+
+Imagery on this website was kept minimal. The only picture on it is a photo of the tutor. The idea is for this to make the image stand out and be more memorable.
 
 ### __Wireframes__
 
