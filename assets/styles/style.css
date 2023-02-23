@@ -423,7 +423,7 @@ input:focus, textarea:focus {
     outline: none;
 }
 
-/* The following code was taken from the W3 Schools website and adapted. */
+/* The following style for "::placeholder" was taken from the W3 Schools website and adapted. */
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: var(--placeholder);
     opacity: 1; /* Firefox */
