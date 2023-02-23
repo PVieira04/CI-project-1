@@ -298,6 +298,9 @@ You can break the credits section up into Content and Media, depending on what y
 ### Media
 
 - The tutor photo used on the home page was an original photo that I have the rights to.
+- The Map of Servicable Areas on the About Page was a screenshot taken from [app.traveltime.com](https://app.traveltime.com/).
+- The images on the resources page were screenshots taken of the website it links to.
+- The favicons were created using the online tool [favicon.io](https://favicon.io/favicon-generator/).
 
 --------------------------------
 
