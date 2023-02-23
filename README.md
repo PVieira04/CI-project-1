@@ -2,6 +2,37 @@
 
 The live website can be accessed via this [link](https://pvieira04.github.io/CI-project-1/)
 
+## [Contents](#contents)
+
+* [User Experience (UX)](#user-experience-ux)
+  * [User Story - New Customer](#user-story---new-customer)
+  * [User Story - Returning Customer](#user-story---returning-customer)
+* [Technology](#technology)
+  * [Languages](#languages)
+* [Design](#design)
+  * [Colour Scheme](#colour-scheme)
+  * [Typography](#typography)
+  * [Imagery](#imagery)
+  * [Wireframes](#wireframes)
+* [Features](#features)
+  * [Existing Features](#existing-features)
+    * [Header and Navigation Bar](#header-and-navigation-bar)
+    * [The Landing Page](#the-landing-page)
+    * [The About Page](#the-about-page)
+    * [The Contact Page](#the-contact-page)
+    * [The Success Page](#the-success-page)
+    * [The Resources Page](#the-resources-page)
+    * [The 404 Page](#the-404-page)
+    * [The Footer](#the-footer)
+  * [Features Left to Implement](#features-left-to-implement)
+* [Testing](#testing)
+  * [Validator Testing](#validator-testing)
+  * [Unfixed Bugs](#unfixed-bugs)
+* [Deployment](#deployment)
+* [Credits](#credits)
+  * [Content](#content)
+  * [Media](#media)
+
 ## User Experience (UX)
 
 Master Math is a site that exposes users to the existence of a mathematics home tutor in London, UK. The site will be targeted toward parents who wish to employ the services of a home tutor to help improve their child's mathematics. Master Math will be useful to parents because it will outline the tutor's unique method of teaching, show them how to go about employing the tutor's services, and provide information on where to find the best resources for studying.
@@ -104,8 +135,6 @@ Screenshots were taken of various websites for the resources section. This gives
   ### Resources Page Mockup - Mobile Version
   ![Resources Page Mockup - Mobile Version](./assets/media/wireframes/resources-page-mockup-mobile.png)
 
-
-
 ## Features 
 
 ### Existing Features
@@ -203,7 +232,7 @@ Screenshots were taken of various websites for the resources section. This gives
 
 ![404 Page](./assets/media/features/404-page.jpg)
 
-- __The Footer__ 
+#### __The Footer__ 
 
   - The footer section includes links to the relevant social media sites for MAster Maths. The links will open to a new tab to allow easy navigation for the user.
   - The footer is valuable to the user as it encourages them to keep connected via social media.
