@@ -230,7 +230,7 @@ i {
     text-align: center;
 }
 
-#about-process h1 {
+#about-process h2 {
     margin-bottom: 30px;
 }
 
@@ -464,7 +464,7 @@ input:focus, textarea:focus {
     margin: auto;
 }
 
-#error h1 {
+#error h2 {
     font-size: xx-large;
     text-align: center;
 }
@@ -520,7 +520,7 @@ input:focus, textarea:focus {
         align-items: center;
     }
 
-    #home-landing div h1 {
+    #home-landing div h2 {
         padding: 40px 0;
         text-align: center;
     }
@@ -644,7 +644,7 @@ input:focus, textarea:focus {
         margin-bottom: 40px;
     }
 
-    #resources-gcse h1, #resources-alevel h1 {
+    #resources-gcse h2, #resources-alevel h2 {
         margin-bottom: 30px;
     }
 }
