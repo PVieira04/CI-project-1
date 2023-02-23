@@ -12,6 +12,7 @@ The live website can be accessed via this [link](https://pvieira04.github.io/CI-
 * [Design](#design)
   * [Colour Scheme](#colour-scheme)
   * [Typography](#typography)
+  * [Accessibility](#Accessibility)
   * [Imagery](#imagery)
   * [Wireframes](#wireframes)
 * [Features](#features)
@@ -93,6 +94,10 @@ The fonts for this project were:
 Both fonts were obtained through Google Fonts.
 
 The typography idea was taken from [this website](https://www.fontpairings.com/). I thought both fonts complemented each other well and were appropriate for this project.
+
+### __Accessibility__
+
+In order to adhere to accessibility guidelines for font size, the website is designed so that any font size does not go lower than 16px.
 
 ### __Imagery__
 
