@@ -2,49 +2,83 @@
 
 Master Math is a site that exposes users to the existence of a mathematics home tutor in London, UK. The site will be targeted toward parents who wish to employ the services of a home tutor to help improve their child's mathematics. Master Math will be useful to parents because it will outline the tutor's unique method of teaching, show them how to go about employing the tutor's services, and provide information on where to find the best resources for studying.
 
-## Wireframes:
+## User Experience (UX)
 
-### Landing Page Mockup - Desktop Version
-![Landing Page Mockup - Desktop Version](./assets/media/wireframes/landing-page-mockup-desktop.png)
+### User Story - New Customer
 
-### Landing Page Mockup - Tabelt Version
-![Landing Page Mockup - Tabelt Version](./assets/media/wireframes/landing-page-mockup-tablet.png)
+### User Story - Returning Customer
 
-### Landing Page Mockup - Mobile Version
-![Landing Page Mockup - Mobile Version](./assets/media/wireframes/landing-page-mockup-mobile.png)
+## Technology
 
-### About Page Mockup - Desktop Version
-![About Page Mockup - Desktop Version](./assets/media/wireframes/about-page-mockup-desktop.png)
+### Languages
 
-### About Page Mockup - Tabelt Version
-![About Page Mockup - Tabelt Version](./assets/media/wireframes/about-page-mockup-tablet.png)
+- HTML5 - Latest version of HTML. Allows content to be placed on the website.
+- CSS3 - Lastest version of CSS. Allows for custom styling of HTML elements.
 
-### About Page Mockup - Mobile Version
-![About Page Mockup - Mobile Version](./assets/media/wireframes/about-page-mockup-mobile.png)
+## Design
 
-### Contact Page Mockup - Desktop Version
-![Contact Page Mockup - Desktop Version](./assets/media/wireframes/contact-page-mockup-desktop.png)
+### __Colour Scheme__
+The initial color scheme was derived using the tool from the [coolors]("https://coolors.co/") website.
 
-### Contact Page Mockup - Tabelt Version
-![Contact Page Mockup - Tabelt Version](./assets/media/wireframes/contact-page-mockup-tablet.png)
+The initial colours chosen were:
+- #5E9FFF (Cornflower blue) - Used as the colour for icons, the site logo and text emphasis.
+- #565254 (Davy's gray) - Used as the color for partitions
+- #A6BA78 (Olivine) - Used for the submit button on the contact form
+- #E2E2E2 (Platinum) - Used for the background colour for the website
+- #EF6F6C (Light Coral) - Used as the background colour for call-to-action buttons.
 
-### Contact Page Mockup - Mobile Version
-![Contact Page Mockup - Mobile Version](./assets/media/wireframes/contact-page-mockup-mobile.png)
+According to accessibility guidelines (for users with colour blindness), the contrast ratio between foreground and background should be at least 7:1. Because of this, some of the colours needed to be changed.
 
-### Resources Page Mockup - Desktop Version
-![Resources Page Mockup - Desktop Version](./assets/media/wireframes/resources-page-mockup-desktop.png)
+The revided colour scheme is as follows:
 
-### Resources Page Mockup - Tabelt Version
-![Resources Page Mockup - Tabelt Version](./assets/media/wireframes/resources-page-mockup-tablet.png)
+- 
 
-### Resources Page Mockup - Mobile Version
-![Resources Page Mockup - Mobile Version](./assets/media/wireframes/resources-page-mockup-mobile.png)
+
+### __Typography__
+
+### __Imagery__
+
+### __Wireframes__
+
+  ### Landing Page Mockup - Desktop Version
+  ![Landing Page Mockup - Desktop Version](./assets/media/wireframes/landing-page-mockup-desktop.png)
+
+  ### Landing Page Mockup - Tabelt Version
+  ![Landing Page Mockup - Tabelt Version](./assets/media/wireframes/landing-page-mockup-tablet.png)
+
+  ### Landing Page Mockup - Mobile Version
+  ![Landing Page Mockup - Mobile Version](./assets/media/wireframes/landing-page-mockup-mobile.png)
+
+  ### About Page Mockup - Desktop Version
+  ![About Page Mockup - Desktop Version](./assets/media/wireframes/about-page-mockup-desktop.png)
+
+  ### About Page Mockup - Tabelt Version
+  ![About Page Mockup - Tabelt Version](./assets/media/wireframes/about-page-mockup-tablet.png)
+
+  ### About Page Mockup - Mobile Version
+  ![About Page Mockup - Mobile Version](./assets/media/wireframes/about-page-mockup-mobile.png)
+
+  ### Contact Page Mockup - Desktop Version
+  ![Contact Page Mockup - Desktop Version](./assets/media/wireframes/contact-page-mockup-desktop.png)
+
+  ### Contact Page Mockup - Tabelt Version
+  ![Contact Page Mockup - Tabelt Version](./assets/media/wireframes/contact-page-mockup-tablet.png)
+
+  ### Contact Page Mockup - Mobile Version
+  ![Contact Page Mockup - Mobile Version](./assets/media/wireframes/contact-page-mockup-mobile.png)
+
+  ### Resources Page Mockup - Desktop Version
+  ![Resources Page Mockup - Desktop Version](./assets/media/wireframes/resources-page-mockup-desktop.png)
+
+  ### Resources Page Mockup - Tabelt Version
+  ![Resources Page Mockup - Tabelt Version](./assets/media/wireframes/resources-page-mockup-tablet.png)
+
+  ### Resources Page Mockup - Mobile Version
+  ![Resources Page Mockup - Mobile Version](./assets/media/wireframes/resources-page-mockup-mobile.png)
 
 
 
 ## Features 
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 ### Existing Features
 
@@ -143,18 +177,21 @@ In this section, you should go over the different parts of your project, and des
 
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer section includes links to the relevant social media sites for MAster Maths. The links will open to a new tab to allow easy navigation for the user.
+  - The footer is valuable to the user as it encourages them to keep connected via social media.
+  - The footer also includes an anchor allowing the user to quickly move to the top of the page. This is exceptionally valuable to the user if visiting the Resources or About page which can be quite long on mobile.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](./assets/media/features/footer-desktop.jpg)
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
+  - On smaller screens, the space between the items decreases but the layout does not change.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+![Footer](./assets/media/features/footer-mobile.jpg)
 
 ### Features Left to Implement
 
-- Another feature idea
+- On extremely small screens, it may be a better design for the website name be changed to a Logo just like the favicon on the left hand side, while the right hand side changes into a hamburger menu. Then the hamburger menu is tapped, the navigation menu is shown.
+
+- An alternative layout for the header on extremely small screens may be for the website name to stay the same while the navigation links are replaced by a circle button; which, when tapped, will reveal a navigation menu which pushes the rest of the pages content down with a smooth scroll.
 
 ## Testing 
 
