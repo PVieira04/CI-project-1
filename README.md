@@ -48,7 +48,7 @@ In this section, you should go over the different parts of your project, and des
 
 ### Existing Features
 
-- __Header and Navigation Bar__
+#### __Header and Navigation Bar__
 
   - Featured on all six pages, the fully responsive header and navigation bar includes links to the Home page, About page, Contact page and Resources page; and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
@@ -57,7 +57,7 @@ In this section, you should go over the different parts of your project, and des
 ![Nav Bar - Desktop](./assets/media/features/navbar-feature.jpg)
 ![Nav Bar - Mobile](./assets/media/features/navbar-responsive-feature.jpg)
 
-- __The Landing Page__
+#### __The Landing Page__
 
   - The landing page includes three main sections.
   - The first section includes a photo of the tutor along with some basic information which together take up a third of the page's width on desktop, and a large tagline filling the rest of the page's width. Below the tagline, there is a call to action button.
@@ -76,25 +76,33 @@ In this section, you should go over the different parts of your project, and des
 
   - Below the first section are two more sections which is dedicated to users that are already convinced by the tutor's teaching skills or are returning to the website seeking resources for their children. The layout of these two sections change minimally on smaller screens.
 
-![Landing Page - Section Two and Three - Desktop](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
-![Landing Page - Section Two and Three - Mobile](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page - Section Two and Three - Desktop](./assets/media/features/landing-page-section-two-three-desktop.jpg)
+![Landing Page - Section Two and Three - Mobile](./assets/media/features/landing-page-section-two-three-mobile.png)
 
-- __The About Page__
+#### __The About Page__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - The about page is split into three sections.
+  - The first section is a quote about education from the philosopher Confucius. The idea is to set the tone for the page and give the user an idea of the tutor's principles in teaching. For a parent who has yet to work with the tutor, this should provide some value to the user and entice them further into working with the tutor.
+  - On smaller screens, the name "Confucius" appears in the middle of the screen for better readability.
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![About Page - Section One - Desktop](./assets/media/features/about-page-section-one-desktop.jpg)
+![About Page - Section One - Mobile](./assets/media/features/about-page-section-one-mobile.jpg)
 
-- __The Resources Page__
+  - The next section on the about page provides an outline of the tutor's story and details how the tutor will ensure the best outcome for their students. It can be difficult for a parent to trust someone else to teach their child and so this provides value in setting expectations regarding exactly what service the tutor does and does not provice. Parents who do not like the approach do not move forward, whereas parents who do will scroll further and attempt to book a callback.
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+![![About Page - Section Two - Desktop]()
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+  - The last section allows the user to find out whether they live in an area appropriate for the tutor to travel to. This is a further filter so that the tutor can ensure they can work with the ideal client.
+  - At the bottom of this section is a call to action button directing the user to the contact page. This is exactly where the user wants to go once they have been convinced of the tutor's expertise and professionalism.
+  - This section is fully responsive but the layout does not change on smaller screens.
 
-- __The Contact Page__
+![About Page - Section Three - Desktop](./assets/media/features/about-page-section-three-desktop.jpg)
 
+![About Page - Section Three - Mobile](./assets/media/features/about-page-section-three-mobile.jpg)
+
+#### __The Contact Page__
+
+  - 
   - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
   - This section will be updated as these times change to keep the user up to date. 
 
@@ -106,6 +114,13 @@ In this section, you should go over the different parts of your project, and des
   - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
 
 ![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+
+- __The Resources Page__
+
+  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
+  - This section will be updated as these times change to keep the user up to date. 
+
+![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
 
 - __The 404 Page__
 
