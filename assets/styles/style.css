@@ -238,7 +238,7 @@ i {
 
 #about-travel {
     margin: 50px 5px 100px;
-    height: 900px;
+    height: 1000px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -599,7 +599,7 @@ input:focus, textarea:focus {
 
 @media only screen and (max-width : 419px) {
     #about-travel {
-        height: 700px;
+        height: 866px;
     }
 }
 
