@@ -27,15 +27,23 @@ The initial colours chosen were:
 - #A6BA78 (Olivine) - Used for the submit button on the contact form
 - #565254 (Davy's gray) - Used as the color for partitions
 
-According to accessibility guidelines (for users with colour blindness), the contrast ratio between foreground and background should be at least 7:1. Because of this, some of the colours needed to be changed.
+According to accessibility guidelines (for users with colour blindness), the contrast ratio between foreground and background should be at least 7:1 for small text. Because of this, some of the colours needed to be changed.
 
-The revided colour scheme is as follows:
+The revised colour scheme is as follows:
 
 - #E2E2E2 (Platinum) - Used for the background colour for the website
 - #0000F4 (Blue) - Used as the colour for icons, the site logo and text emphasis.
 - #EF6F6C (Light Coral) - Used as the background colour for call-to-action buttons.
-- #A6BA78 (Olivine) - Used for the submit button on the contact form
-- #4A4547 (Davy's gray) - Used as the color for partitions and placeholder text
+- #A6BA78 (Olivine) - Used for the submit button on the contact form.
+- #4A4547 (Davy's gray) - Used as the color for partitions and placeholder text.
+- #000000 (Black) - Used for general text.
+
+These are the results of the [contrast checker]("https://webaim.org/resources/contrastchecker/"):
+
+![Blue on Platinum Background](./assets/media/contrast/contrast-check-blue-platinum.jpg)
+![Black on Olivine Background](./assets/media/contrast/contrast-check-black-olivine.jpg)
+![Black on Light Coral Background](./assets/media/contrast/contrast-check-black-coral.jpg)
+![Davy's Gray on Platinum Background](./assets/media/contrast/contrast-check-gray-platinum.jpg)
 
 ### __Typography__
 
