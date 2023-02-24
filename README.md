@@ -119,9 +119,14 @@ The revised colour scheme is as follows:
 These are the results of the [contrast checker](https://webaim.org/resources/contrastchecker/):
 
 ![Blue on Platinum Background](./assets/media/contrast/contrast-check-blue-platinum.jpg)
-![Black on Olivine Background](./assets/media/contrast/contrast-check-black-olivine.jpg)
-![Black on Light Coral Background](./assets/media/contrast/contrast-check-black-coral.jpg)
-![Davy's Gray on Platinum Background](./assets/media/contrast/contrast-check-gray-platinum.jpg)
+
+#### Other Checks on Used Combinations
+
+[Black on Olivine Background](./assets/media/contrast/contrast-check-black-olivine.jpg)
+
+[Black on Light Coral Background](./assets/media/contrast/contrast-check-black-coral.jpg)
+
+[Davy's Gray on Platinum Background](./assets/media/contrast/contrast-check-gray-platinum.jpg)
 
 ### __Typography__
 
@@ -152,41 +157,35 @@ Screenshots were taken of various websites for the resources section. This gives
 
 ### __Wireframes__
 
-  ### Landing Page Mockup - Desktop Version
+  ### Landing Page Mockups
   ![Landing Page Mockup - Desktop Version](./assets/media/wireframes/landing-page-mockup-desktop.png)
 
-  ### Landing Page Mockup - Tabelt Version
-  ![Landing Page Mockup - Tabelt Version](./assets/media/wireframes/landing-page-mockup-tablet.png)
+  [Landing Page Mockup - Tabelt Version](./assets/media/wireframes/landing-page-mockup-tablet.png)
 
-  ### Landing Page Mockup - Mobile Version
-  ![Landing Page Mockup - Mobile Version](./assets/media/wireframes/landing-page-mockup-mobile.png)
+  [Landing Page Mockup - Mobile Version](./assets/media/wireframes/landing-page-mockup-mobile.png)
 
-  ### About Page Mockup - Desktop Version
+  ### About Page Mockups
   ![About Page Mockup - Desktop Version](./assets/media/wireframes/about-page-mockup-desktop.png)
 
-  ### About Page Mockup - Tabelt Version
-  ![About Page Mockup - Tabelt Version](./assets/media/wireframes/about-page-mockup-tablet.png)
+  [About Page Mockup - Tabelt Version](./assets/media/wireframes/about-page-mockup-tablet.png)
 
-  ### About Page Mockup - Mobile Version
-  ![About Page Mockup - Mobile Version](./assets/media/wireframes/about-page-mockup-mobile.png)
+  [About Page Mockup - Mobile Version](./assets/media/wireframes/about-page-mockup-mobile.png)
 
-  ### Contact Page Mockup - Desktop Version
+  ### Contact Page Mockups
+
   ![Contact Page Mockup - Desktop Version](./assets/media/wireframes/contact-page-mockup-desktop.png)
 
-  ### Contact Page Mockup - Tabelt Version
-  ![Contact Page Mockup - Tabelt Version](./assets/media/wireframes/contact-page-mockup-tablet.png)
+  [Contact Page Mockup - Tabelt Version](./assets/media/wireframes/contact-page-mockup-tablet.png)
 
-  ### Contact Page Mockup - Mobile Version
-  ![Contact Page Mockup - Mobile Version](./assets/media/wireframes/contact-page-mockup-mobile.png)
+  [Contact Page Mockup - Mobile Version](./assets/media/wireframes/contact-page-mockup-mobile.png)
 
-  ### Resources Page Mockup - Desktop Version
+  ### Resources Page Mockups
+
   ![Resources Page Mockup - Desktop Version](./assets/media/wireframes/resources-page-mockup-desktop.png)
 
-  ### Resources Page Mockup - Tabelt Version
-  ![Resources Page Mockup - Tabelt Version](./assets/media/wireframes/resources-page-mockup-tablet.png)
+  [Resources Page Mockup - Tabelt Version](./assets/media/wireframes/resources-page-mockup-tablet.png)
 
-  ### Resources Page Mockup - Mobile Version
-  ![Resources Page Mockup - Mobile Version](./assets/media/wireframes/resources-page-mockup-mobile.png)
+  [Resources Page Mockup - Mobile Version](./assets/media/wireframes/resources-page-mockup-mobile.png)
 
 ## Features 
 
@@ -212,16 +211,17 @@ Screenshots were taken of various websites for the resources section. This gives
 
   - On devices like tablets which have smaller screens, the layout of this first section changes. Instead, the tagline is placed first, due to its importance, and then the tutor and their information is placed below.
 
-![Landing Page - Section One - Tablet](./assets/media/features/landing-page-section-one-tablet.jpg)
+[Landing Page - Section One - Tablet](./assets/media/features/landing-page-section-one-tablet.jpg)
 
   - On even smaller screens like mobile phones, the layout changes further. Below the tagline, the tutor's photo appears first and then the tutor's information.
 
-![Landing Page - Section One - Mobile](./assets/media/features/landing-page-section-one-mobile.png)
+[Landing Page - Section One - Mobile](./assets/media/features/landing-page-section-one-mobile.png)
 
   - Below the first section are two more sections which is dedicated to users that are already convinced by the tutor's teaching skills or are returning to the website seeking resources for their children. The layout of these two sections change minimally on smaller screens.
 
 ![Landing Page - Section Two and Three - Desktop](./assets/media/features/landing-page-section-two-three-desktop.jpg)
-![Landing Page - Section Two and Three - Mobile](./assets/media/features/landing-page-section-two-three-mobile.png)
+
+[Landing Page - Section Two and Three - Mobile](./assets/media/features/landing-page-section-two-three-mobile.png)
 
 #### __The About Page__
 
@@ -230,7 +230,7 @@ Screenshots were taken of various websites for the resources section. This gives
   - On smaller screens, the name "Confucius" appears in the middle of the screen for better readability.
 
 ![About Page - Section One - Desktop](./assets/media/features/about-page-section-one-desktop.jpg)
-![About Page - Section One - Mobile](./assets/media/features/about-page-section-one-mobile.jpg)
+[About Page - Section One - Mobile](./assets/media/features/about-page-section-one-mobile.jpg)
 
   - The next section on the about page provides an outline of the tutor's story and details how the tutor will ensure the best outcome for their students. It can be difficult for a parent to trust someone else to teach their child and so this provides value in setting expectations regarding exactly what services the tutor does and does not provice. Parents who do not like the approach do not move forward, whereas parents who do will scroll further and attempt to book a callback.
 
@@ -242,7 +242,7 @@ Screenshots were taken of various websites for the resources section. This gives
 
 ![About Page - Section Three - Desktop](./assets/media/features/about-page-section-three-desktop.png)
 
-![About Page - Section Three - Mobile](./assets/media/features/about-page-section-three-mobile.jpg)
+[About Page - Section Three - Mobile](./assets/media/features/about-page-section-three-mobile.jpg)
 
 #### __The Contact Page__
 
@@ -255,7 +255,7 @@ Screenshots were taken of various websites for the resources section. This gives
 
   - While being responsive, the form also chanages layout on smaller screens. The left side which asks for essential information is placed on top, while the textbox is placed beneath. This is to allow the user to still see the placeholder text on smaller screens so it is clear what they should write there.
 
-![Contact Page - Mobile](./assets/media/features/contact-page-mobile.png)
+[Contact Page - Mobile](./assets/media/features/contact-page-mobile.png)
 
 #### __The Success Page__
 
@@ -276,7 +276,7 @@ Screenshots were taken of various websites for the resources section. This gives
 
   - While being responsive, the resources page also changes layout on smaller screens. The screenshot image of the website is shown below the title of the resource, and the description is shown below. This is done to give better readability to the user.
 
-![Resources Page - Mobile](./assets/media/features/resources-section-mobile.png)
+[Resources Page - Mobile](./assets/media/features/resources-section-mobile.png)
 
 #### __The 404 Page__
 
