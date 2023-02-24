@@ -376,6 +376,24 @@ Screenshots were taken of various websites for the resources section. This gives
 
 ### Browser Testing
 
+#### Chrome
+
+#### Edge
+
+#### Safari
+
+#### Firefox
+
+#### Opera
+
+#### Android (Tablet and Mobile)
+
+#### Chrome (Android)
+
+#### Safari (iOS)
+
+#### Samsung Internet (Android)
+
 ### Device Testing
 
 ### Lighthouse Report
