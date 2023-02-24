@@ -419,6 +419,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
 - The links in the head of my html files for the favicons were taken from [favicon.io](https://favicon.io/favicon-generator/).
 - The link in the head of my html files which allow me to use Font Awesome is from a [CDN](https://cdnjs.com/libraries/font-awesome).
+- Thank you to [Deque Universtiy](https://dequeuniversity.com/rules/axe/4.4/link-name?utm_source=lighthouse&utm_medium=devtools) for helping me understand how to use the aria-label atribute for external links.
 
 ### Media
 
