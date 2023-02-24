@@ -197,8 +197,8 @@ Screenshots were taken of various websites for the resources section. This gives
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
   - On smaller screens, the navigation bar will change in layout to present the navigation links below the website logo.
 
-![Nav Bar - Desktop](./assets/media/features/navbar-feature.jpg)
-![Nav Bar - Mobile](./assets/media/features/navbar-responsive-feature.jpg)
+![Nav Bar - Desktop](./assets/media/features/navbar-feature.png)
+![Nav Bar - Mobile](./assets/media/features/navbar-responsive-feature.png)
 
 #### __The Landing Page__
 
@@ -207,11 +207,11 @@ Screenshots were taken of various websites for the resources section. This gives
   - Regarding the tagline, the word "better" is highlighted in blue in order to catch the user's attention and invoke a good feeling for the user, since "better" is a positive word.
   - The call to action button is pink which should catch the user's attention next, inviting them to navigate to the about section. 
 
-![Landing Page - Section One - Desktop](./assets/media/features/landing-page-section-one-desktop.jpg)
+![Landing Page - Section One - Desktop](./assets/media/features/landing-page-section-one-desktop.png)
 
   - On devices like tablets which have smaller screens, the layout of this first section changes. Instead, the tagline is placed first, due to its importance, and then the tutor and their information is placed below.
 
-[Landing Page - Section One - Tablet](./assets/media/features/landing-page-section-one-tablet.jpg)
+[Landing Page - Section One - Tablet](./assets/media/features/landing-page-section-one-tablet.png)
 
   - On even smaller screens like mobile phones, the layout changes further. Below the tagline, the tutor's photo appears first and then the tutor's information.
 
@@ -219,7 +219,7 @@ Screenshots were taken of various websites for the resources section. This gives
 
   - Below the first section are two more sections which is dedicated to users that are already convinced by the tutor's teaching skills or are returning to the website seeking resources for their children. The layout of these two sections change minimally on smaller screens.
 
-![Landing Page - Section Two and Three - Desktop](./assets/media/features/landing-page-section-two-three-desktop.jpg)
+![Landing Page - Section Two and Three - Desktop](./assets/media/features/landing-page-section-two-three-desktop.png)
 
 [Landing Page - Section Two and Three - Mobile](./assets/media/features/landing-page-section-two-three-mobile.png)
 
@@ -229,12 +229,12 @@ Screenshots were taken of various websites for the resources section. This gives
   - The first section is a quote about education from the philosopher Confucius. The idea is to set the tone for the page and give the user an idea of the tutor's principles in teaching. For a parent who has yet to work with the tutor, this should provide some value to the user and entice them further into working with the tutor.
   - On smaller screens, the name "Confucius" appears in the middle of the screen for better readability.
 
-![About Page - Section One - Desktop](./assets/media/features/about-page-section-one-desktop.jpg)
-[About Page - Section One - Mobile](./assets/media/features/about-page-section-one-mobile.jpg)
+![About Page - Section One - Desktop](./assets/media/features/about-page-section-one-desktop.png)
+[About Page - Section One - Mobile](./assets/media/features/about-page-section-one-mobile.png)
 
   - The next section on the about page provides an outline of the tutor's story and details how the tutor will ensure the best outcome for their students. It can be difficult for a parent to trust someone else to teach their child and so this provides value in setting expectations regarding exactly what services the tutor does and does not provice. Parents who do not like the approach do not move forward, whereas parents who do will scroll further and attempt to book a callback.
 
-![About Page - Section Two - Desktop](./assets/media/features/about-page-section-two-desktop.jpg)
+![About Page - Section Two - Desktop](./assets/media/features/about-page-section-two-desktop.png)
 
   - The last section allows the user to find out whether they live in an area appropriate for the tutor to travel to. This is a further filter so that the tutor can ensure they can work with the ideal client.
   - At the bottom of this section is a call to action button directing the user to the contact page. This is exactly where the user wants to go once they have been convinced of the tutor's expertise and professionalism.
@@ -242,7 +242,7 @@ Screenshots were taken of various websites for the resources section. This gives
 
 ![About Page - Section Three - Desktop](./assets/media/features/about-page-section-three-desktop.png)
 
-[About Page - Section Three - Mobile](./assets/media/features/about-page-section-three-mobile.jpg)
+[About Page - Section Three - Mobile](./assets/media/features/about-page-section-three-mobile.png)
 
 #### __The Contact Page__
 
@@ -251,7 +251,7 @@ Screenshots were taken of various websites for the resources section. This gives
   - The form is split into two parts, left and right on desktop. The left hand side contains required fields asking for essential information the tutor needs to call the parent back, while the right side contains an optional textbox for the parent to write a custom message.
   - The form provides value to the parent because by this point they want this tutor to teach their child. Becasue of this, they would want to give as much information as necessary to the tutor so they can do their job to the best of their ability. Filling out the form gives the parent more confidence in the tutor's abilities.
 
-![Contact Page - Desktop](./assets/media/features/contact-page-desktop.jpg)
+![Contact Page - Desktop](./assets/media/features/contact-page-desktop.png)
 
   - While being responsive, the form also chanages layout on smaller screens. The left side which asks for essential information is placed on top, while the textbox is placed beneath. This is to allow the user to still see the placeholder text on smaller screens so it is clear what they should write there.
 
@@ -263,7 +263,7 @@ Screenshots were taken of various websites for the resources section. This gives
   - Following the success message, there is a call to action section allowing the user to be shown the way to the resources page. This provides further value to the user because some parents may want some extra work for their children to do while they wait to secure a tutoring session.
   - If the user does not wish to go to the resources section, they are also given the option to navigate to the landing page. This will allow the user to see the website tagline and tutor's basic information, and further reinforce their decision in selected this tutor.
 
-![Success Page - Desktop](./assets/media/features/success-page-desktop.jpg)
+![Success Page - Desktop](./assets/media/features/success-page-desktop.png)
 
 #### __The Resources Page__
 
