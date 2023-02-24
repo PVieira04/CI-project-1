@@ -138,6 +138,10 @@ The typography idea was taken from [this website](https://www.fontpairings.com/)
 
 In order to adhere to accessibility guidelines for font size, the website is designed so that any font size does not go lower than 16px.
 
+All images have alt text.
+
+Any a tags that link to the current page have been deleted and replaced with p tags.
+
 ### __Imagery__
 
 Imagery on this website was kept minimal. The only picture on the landing page is a photo of the tutor. The idea is for this to make the image stand out on the home page and be more memorable.
