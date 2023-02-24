@@ -402,9 +402,10 @@ Manual Testing was further done on other browsers. These browsers were chosen be
 ![Initial Lighthouse Report](./assets/media/lighthouse/lighthouse-report-initial.png)
 
 #### Actions
-1. Added aria-label to external links in footer
-2. Converted image in index.html to webp format
-3. Added meta descriptions to all html pages
+1. Added aria-label to external links in footer.
+2. Converted image in index.html to webp format.
+3. Added meta descriptions to all html pages.
+4. Replaced Fontawesome CDN with manual installation of Fontawesome and deleted uneccessary styling rules.
 
 ### Unfixed Bugs
 
