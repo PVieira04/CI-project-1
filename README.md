@@ -189,15 +189,15 @@ Screenshots were taken of various websites for the resources section. This gives
 ![About Page - Section One - Desktop](./assets/media/features/about-page-section-one-desktop.jpg)
 ![About Page - Section One - Mobile](./assets/media/features/about-page-section-one-mobile.jpg)
 
-  - The next section on the about page provides an outline of the tutor's story and details how the tutor will ensure the best outcome for their students. It can be difficult for a parent to trust someone else to teach their child and so this provides value in setting expectations regarding exactly what service the tutor does and does not provice. Parents who do not like the approach do not move forward, whereas parents who do will scroll further and attempt to book a callback.
+  - The next section on the about page provides an outline of the tutor's story and details how the tutor will ensure the best outcome for their students. It can be difficult for a parent to trust someone else to teach their child and so this provides value in setting expectations regarding exactly what services the tutor does and does not provice. Parents who do not like the approach do not move forward, whereas parents who do will scroll further and attempt to book a callback.
 
-![![About Page - Section Two - Desktop]()
+![About Page - Section Two - Desktop](./assets/media/features/about-page-section-two-desktop.jpg)
 
   - The last section allows the user to find out whether they live in an area appropriate for the tutor to travel to. This is a further filter so that the tutor can ensure they can work with the ideal client.
   - At the bottom of this section is a call to action button directing the user to the contact page. This is exactly where the user wants to go once they have been convinced of the tutor's expertise and professionalism.
   - This section is fully responsive but the layout does not change on smaller screens.
 
-![About Page - Section Three - Desktop](./assets/media/features/about-page-section-three-desktop.jpg)
+![About Page - Section Three - Desktop](./assets/media/features/about-page-section-three-desktop.png)
 
 ![About Page - Section Three - Mobile](./assets/media/features/about-page-section-three-mobile.jpg)
 
@@ -208,11 +208,11 @@ Screenshots were taken of various websites for the resources section. This gives
   - The form is split into two parts, left and right on desktop. The left hand side contains required fields asking for essential information the tutor needs to call the parent back, while the right side contains an optional textbox for the parent to write a custom message.
   - The form provides value to the parent because by this point they want this tutor to teach their child. Becasue of this, they would want to give as much information as necessary to the tutor so they can do their job to the best of their ability. Filling out the form gives the parent more confidence in the tutor's abilities.
 
-![Contact Page - Desktop]()
+![Contact Page - Desktop](./assets/media/features/contact-page-desktop.jpg)
 
   - While being responsive, the form also chanages layout on smaller screens. The left side which asks for essential information is placed on top, while the textbox is placed beneath. This is to allow the user to still see the placeholder text on smaller screens so it is clear what they should write there.
 
-![Contact Page - Mobile]()
+![Contact Page - Mobile](./assets/media/features/contact-page-mobile.png)
 
 #### __The Success Page__
 
@@ -240,7 +240,7 @@ Screenshots were taken of various websites for the resources section. This gives
   - This page will load for the user in the unlikely event that there are broken links on the website or if a user were to type in a nonexistent subdirectory into the web address box.
   - This provides value to the user by directing them to the landing page of the website so that they can achieve their goal for visiting.
 
-![404 Page](./assets/media/features/404-page.jpg)
+![404 Page](./assets/media/features/404-page-desktop.png)
 
 #### __The Footer__ 
 
@@ -248,11 +248,11 @@ Screenshots were taken of various websites for the resources section. This gives
   - The footer is valuable to the user as it encourages them to keep connected via social media.
   - The footer also includes an anchor allowing the user to quickly move to the top of the page. This is exceptionally valuable to the user if visiting the Resources or About page which can be quite long on mobile.
 
-![Footer](./assets/media/features/footer-desktop.jpg)
+![Footer](./assets/media/features/footer-desktop.png)
 
   - On smaller screens, the space between the items decreases but the layout does not change.
 
-![Footer](./assets/media/features/footer-mobile.jpg)
+![Footer](./assets/media/features/footer-mobile.png)
 
 ### Features Left to Implement
 
