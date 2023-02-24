@@ -37,6 +37,10 @@ h1, h2, h3 {
     font-family: 'Montserrat', sans-serif;
 }
 
+p {
+    font-size: medium;
+}
+
 /* Styling for Navigation Bar */
 
 header {
@@ -226,12 +230,39 @@ i {
 /* Styling for Section 2 of about.html (process) */
 
 #about-process {
-    margin: 50px 5px 100px;
+    max-width: 1000px;
+    margin: 50px auto 100px;
     text-align: center;
 }
 
 #about-process h2 {
     margin-bottom: 30px;
+}
+
+#about-process p {
+    text-align: left;
+    padding: 0 5px;
+}
+
+#about-process p span{
+    color: var(--logo-emphasis);
+}
+
+#about-process ol {
+    text-align: left;
+    list-style: decimal outside;
+    padding-left: 40px;
+}
+
+#about-process .tutor-quote {
+    font-family: 'montserrat', sans-serif;
+    text-align: center;
+    font-size: x-large;
+}
+
+#about-process .tutor-quote span {
+    color: var(--logo-emphasis);
+    font-family: 'montserrat', sans-serif;
 }
 
 /* Styling for Section 3 of about.html (travel) */
