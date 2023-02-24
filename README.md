@@ -399,6 +399,8 @@ Manual Testing was further done on other browsers. These browsers were chosen be
 
 ### Lighthouse Report
 
+![Initial Lighthouse Report](./assets/media/lighthouse/lighthouse-report-initial.png)
+
 ### Unfixed Bugs
 
 No unfixed bugs.
