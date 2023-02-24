@@ -5,6 +5,9 @@
 ## [Contents](#contents)
 
 * [User Experience (UX)](#user-experience-ux)
+  * [Site Owner Goals](#site-owner-goals)
+  * [New User Goals](#new-user-goals)
+  * [Returning User Goals](#returning-user-goals)
   * [User Story - New Customer](#user-story---new-customer)
   * [User Story - Returning Customer](#user-story---returning-customer)
 * [Technology](#technology)
@@ -29,6 +32,10 @@
 * [Testing](#testing)
   * [Validator Testing](#validator-testing)
   * [Manual Testing](#manual-testing)
+  * [User Testing](#user-testing)
+  * [Browser Testing](#browser-testing)
+  * [Device Testing](#device-testing)
+  * [Lighthouse Report](#lighthouse-report)
   * [Unfixed Bugs](#unfixed-bugs)
 * [Deployment](#deployment)
 * [Credits](#credits)
@@ -38,6 +45,12 @@
 ## User Experience (UX)
 
 Master Math is a site that exposes users to the existence of a mathematics home tutor in London, UK. The site will be targeted toward parents who wish to employ the services of a home tutor to help improve their child's mathematics. Master Math will be useful to parents because it will outline the tutor's unique method of teaching, show them how to go about employing the tutor's services, and provide information on where to find the best resources for studying.
+
+### Site Owner Goals
+
+### New User Goals
+
+### Returning User Goals
 
 ### User Story - New Customer
 
@@ -328,6 +341,14 @@ Screenshots were taken of various websites for the resources section. This gives
   - Social Media links work as expected.
   - Layout stays the same between desktop and mobile mode.
   - On smaller screens, space between elements is reduced with no change to icon dimensions or text size.
+
+### User Testing
+
+### Browser Testing
+
+### Device Testing
+
+### Lighthouse Report
 
 ### Unfixed Bugs
 
