@@ -88,7 +88,7 @@ These are the results of the [contrast checker](https://webaim.org/resources/con
 
 The fonts for this project were:
 
-- Monserrat - Used for headings and button text.
+- Montserrat - Used for headings and button text.
 - Noto Serif - Used for paragraph text and other non-header text.
 
 Both fonts were obtained through Google Fonts.
