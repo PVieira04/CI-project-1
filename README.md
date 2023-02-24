@@ -1,6 +1,6 @@
 # Master Math
 
-The live website can be accessed via this [link](https://pvieira04.github.io/CI-project-1/)
+[This project](https://pvieira04.github.io/CI-project-1/) is now live on Github Pages. Deployment details below.
 
 ## [Contents](#contents)
 
@@ -335,20 +335,18 @@ No unfixed bugs.
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
-
 The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab .
   - Under the "Code and automation" section, click on "Pages"
   - Under "Build and Deployment", select the option "Deploy from a branch" for "Source", and for "Branch", select "main".
 
-The live link can be found here - https://pvieira04.github.io/CI-project-1/
+[This is the live website](https://pvieira04.github.io/CI-project-1/)
 
 ## Credits 
 
 ### Content 
 
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
 - The links in the head of my html files for the favicons were taken from [favicon.io](https://favicon.io/favicon-generator/).
 - The link in the head of my html files which allow me to use Font Awesome is from a [CDN](https://cdnjs.com/libraries/font-awesome).
 
