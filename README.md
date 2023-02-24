@@ -118,15 +118,15 @@ The revised colour scheme is as follows:
 
 These are the results of the [contrast checker](https://webaim.org/resources/contrastchecker/):
 
-![Blue on Platinum Background](./assets/media/contrast/contrast-check-blue-platinum.jpg)
+![Blue on Platinum Background](./assets/media/contrast/contrast-check-blue-platinum.png)
 
 #### Other Checks on Used Combinations
 
-[Black on Olivine Background](./assets/media/contrast/contrast-check-black-olivine.jpg)
+[Black on Olivine Background](./assets/media/contrast/contrast-check-black-olivine.png)
 
-[Black on Light Coral Background](./assets/media/contrast/contrast-check-black-coral.jpg)
+[Black on Light Coral Background](./assets/media/contrast/contrast-check-black-coral.png)
 
-[Davy's Gray on Platinum Background](./assets/media/contrast/contrast-check-gray-platinum.jpg)
+[Davy's Gray on Platinum Background](./assets/media/contrast/contrast-check-gray-platinum.png)
 
 ### __Typography__
 
