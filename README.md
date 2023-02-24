@@ -47,10 +47,26 @@
 Master Math is a site that exposes users to the existence of a mathematics home tutor in London, UK. The site will be targeted toward parents who wish to employ the services of a home tutor to help improve their child's mathematics. Master Math will be useful to parents because it will outline the tutor's unique method of teaching, show them how to go about employing the tutor's services, and provide information on where to find the best resources for studying.
 
 ### Site Owner Goals
+- Convince parents of the tutor's expertise
+- Encourage users to buy into the tutor’s method
+- Funnel users towards the contact section to request a callback
+- Get users on the phone to discuss pricing
 
 ### New User Goals
+A first time user may want to :
+- know price
+- know whether tutor teaches online or at home
+- know whether tutor can service them
+- know how reporting works and having contact with the tutor
+- know what the tutor looks like
+- know about the tutor’s qualifications / experience
+- know about previous students
+- know how the tutor will teach their child
 
 ### Returning User Goals
+Returning users may want to:
+- find resources for their child
+- remind themselves of the tutor's teaching method
 
 ### User Story - New Customer
 
