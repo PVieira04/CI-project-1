@@ -401,6 +401,11 @@ Manual Testing was further done on other browsers. These browsers were chosen be
 
 ![Initial Lighthouse Report](./assets/media/lighthouse/lighthouse-report-initial.png)
 
+#### Actions
+1. Added aria-label to external links in footer
+2. Converted image in index.html to webp format
+3. Added meta descriptions to all html pages
+
 ### Unfixed Bugs
 
 No unfixed bugs.
