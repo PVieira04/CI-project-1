@@ -375,6 +375,7 @@ Screenshots were taken of various websites for the resources section. This gives
 ### User Testing
 
 ### Browser Testing
+Manual Testing was further done on other browsers. These browsers were chosen becasue, as found by [statcounter](https://gs.statcounter.com/browser-market-share), they are the most popular browsers in the world.
 
 #### Chrome
 
