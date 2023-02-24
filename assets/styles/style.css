@@ -71,7 +71,7 @@ nav a:hover, nav p:hover{
     text-decoration: underline;
 }
 
-#current-page {
+.current-page {
     color: var(--logo-emphasis);
 }
 
