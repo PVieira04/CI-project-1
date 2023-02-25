@@ -374,6 +374,20 @@ Screenshots were taken of various websites for the resources section. This gives
 
 ### User Testing
 
+I asked a real user to open my website on dektop. They used a mouse to navigate and this person has no accessibility requirements. This is how it went.
+
+- User opens the Master Maths website and reads the tagline.
+- User then reads the tutor information section and scrolls down.
+- User reads the heading for sections two and three of the Landing Page and then scrolls back up.
+- They click on the about link in the navigation bar and read the quote.
+- They laugh and nod their head.
+- User scrolls down and reads about half of the about-process section.
+- User scrolls down further to the about-travel section and comments on the map of serviceable areas - "Oh is that where you can travel to?"
+- User clicks on the "Check Availability" call-to-action button.
+- User sees the contact form and then navigates to resources via the navigation bar.
+- They click on the image expecting it to open the website(they commented on it) and it opens in a new tab.
+- The user closes the new tab and closes the Master Maths tab.
+
 ### Browser Testing
 Manual Testing was further done on other browsers. These browsers were chosen becasue, as found by [statcounter](https://gs.statcounter.com/browser-market-share), they are the most popular browsers in the world.
 
