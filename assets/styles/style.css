@@ -55,9 +55,12 @@ header {
     transition: transform 0.3s;
     padding: 5px;
     font-size: 1.5em;
+    border-radius: 5px;
+    z-index: -1;
 }
 
 .skip-nav:focus {
+    z-index: 1;
     transform: translateY(16%);
 }
 
@@ -85,6 +88,7 @@ nav div a, nav div p {
     margin: 0 5px;
     font-size: 1.1em;
     padding: 2px 7px;
+    border-radius: 5px;
 }
 
 nav div a:hover {
@@ -95,7 +99,6 @@ nav div a:hover {
 .current-page {
     cursor: default;
     border: 2px solid var(--logo-emphasis);
-    border-radius: 5px;
     color: var(--logo-emphasis);
 }
 
@@ -225,6 +228,11 @@ footer div{
     align-items: center;
     justify-content: space-evenly;
     margin: 10px 0;
+}
+
+footer a {
+    border-radius: 5px;
+    padding: 5px;
 }
 
 i {
@@ -529,6 +537,25 @@ label {
 #error h2 span {
     font-family: 'Montserrat', sans-serif;
     color: var(--logo-emphasis);
+}
+
+/* Accessibility Styling */
+
+a:focus {
+    outline: 5px dashed var(--call-to-action);
+}
+
+input:focus, select:focus, textarea:focus {
+    background-color: #FFF;
+}
+
+#submit:focus {
+    background-color: var(--submit);
+    outline: 5px dashed var(--call-to-action);
+}
+
+a:active {
+    outline: none;
 }
 
 /* Media Queries */
