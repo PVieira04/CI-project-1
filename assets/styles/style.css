@@ -67,9 +67,13 @@ nav a, nav p {
     font-size: 1.1em;
 }
 
-nav a:hover, nav p:hover{
+nav a:hover {
     text-underline-offset: 6px;
     text-decoration: underline;
+}
+
+nav p {
+    cursor: default;
 }
 
 .current-page {
