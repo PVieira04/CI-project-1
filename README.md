@@ -242,6 +242,8 @@ If a user clicks on submit but a field has not been appropriately filled out, us
 
 In order to comply with accessibility guidelines (1.4.1 Use of Colour), the current page in the navigation bar was changed so that the current page no longer only changes colour to blue, but also has a border around it to indicate which page the user is on.
 
+Accessibility guideline (2.4.1 Bypass Blocks), the navigation bar was restructured and a header placed above it which contained a link to skip navigation.
+
 ### __Imagery__
 
 Imagery on this website was kept minimal. The only picture on the landing page is a photo of the tutor. The idea is for this to make the image stand out on the home page and be more memorable.
@@ -564,6 +566,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 - Thank you to the [Sonnytech Academy YouTube channel](https://www.youtube.com/watch?v=fzxpb3bVGeE) for showing me how to add Font Awesome to my project offline.
 - Thank you to [elsevier.com](https://www.elsevier.com/en-gb) for their [summary report](https://romeo.elsevier.com/accessibility_checklist/downloads/Summary_of_accessibility_requirements_21_Feb_2014.pdf) of accessibility guidelines. I applied their suggestions and implemented them in this project.
 - Thank you to Gian Wild for their [article on sitepoint.com](https://www.sitepoint.com/15-rules-making-accessible-links/). Their accessibility suggestions were fascinating and I applied some of them in this project.
+- Thank you to Paul Ryan for writing their article on [how to create a "Skip to content" button at css-tricks.com](https://css-tricks.com/how-to-create-a-skip-to-content-link/#maincontent). I learnt a lot from this article and I implemented the feature in a similar way.
 
 ### Media
 
