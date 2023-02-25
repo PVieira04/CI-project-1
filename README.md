@@ -481,11 +481,11 @@ I asked a real user to open my website on dektop. They used a mouse to navigate 
 Manual Testing was further done on other browsers. These browsers were chosen becasue, as found by [statcounter](https://gs.statcounter.com/browser-market-share), they are the most popular browsers in the world.
 
 #### Desktop Browsers
-- Chrome
-- Edge
+- Chrome - Developed using this browser. No issues detected.
+- Edge - No issues detected.
 - Safari
-- Firefox
-- Opera
+- Firefox - Submit input on contact form says "Submit Query" instead of just "Submit". Some spacing is missing in the contact page and on the resources page.
+- Opera - No issues detected.
 
 #### Tablet and Mobile Browsers
 
