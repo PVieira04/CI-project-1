@@ -25,6 +25,7 @@ html {
 }
 
 body {
+    font-size: 100%;
     height: 100vh;
 }
 
@@ -38,7 +39,7 @@ h1, h2, h3 {
 }
 
 p {
-    font-size: medium;
+    font-size: 1em;
 }
 
 /* Styling for Navigation Bar */
@@ -51,7 +52,7 @@ header {
 }
 
 .logo {
-    font-size: xxx-large;
+    font-size: 3em;
     color: var(--logo-emphasis);
 }
 
@@ -63,7 +64,7 @@ nav {
 
 nav a, nav p {
     margin: 0 10px;
-    font-size: large;
+    font-size: 1.1em;
 }
 
 nav a:hover, nav p:hover{
@@ -84,7 +85,7 @@ hr {
 
 .heading {
     text-align: center;
-    font-size: xxx-large;
+    font-size: 2.5em;
 }
 
 /* styling for Section 1 of index.html (landing page) */
@@ -119,7 +120,7 @@ hr {
 }
 
 .tutor-info ul li{
-    font-size: x-large;
+    font-size: 1.5em;
     list-style: circle inside;
     padding: 5px;
 }
@@ -144,7 +145,7 @@ hr {
 
 .tagline {
     text-align: center;
-    font-size: xxx-large;
+    font-size: 3em;
 }
 
 .tagline span {
@@ -156,7 +157,7 @@ hr {
     background-color: var(--call-to-action);
     margin: 0 auto;
     padding: 15px;
-    font-size: x-large;
+    font-size: 1.5em;
     font-family: 'Montserrat', sans-serif;
     border: 2px solid black;
     border-radius: 7px;
@@ -204,7 +205,7 @@ footer div{
 }
 
 i {
-    font-size: xx-large;
+    font-size: 2em;
     color: var(--logo-emphasis);
 }
 
@@ -220,13 +221,13 @@ i {
 }
 
 .quote blockquote {
-    font-size: xx-large;
+    font-size: 2em;
     padding: 50px 0 100px;
 }
 
 .quote figcaption {
     margin-left: 500px;
-    font-size: larger;
+    font-size: 1.2em;
 }
 
 /* Styling for Section 2 of about.html (process) */
@@ -259,7 +260,7 @@ i {
 #about-process .tutor-quote {
     font-family: 'montserrat', sans-serif;
     text-align: center;
-    font-size: x-large;
+    font-size: 1.5em;
 }
 
 #about-process .tutor-quote span {
@@ -297,7 +298,7 @@ i {
 }
 
 #resources-intro p, #resources-gcse div p, #resources-alevel div p {
-    font-size: larger;
+    font-size: 1.2em;
     text-align: center;
 }
 
@@ -357,7 +358,7 @@ i {
 }
 
 #contact-form p {
-    font-size: larger;
+    font-size: 1.2em;
 }
 
 /* Styling for the contact form */
@@ -440,7 +441,7 @@ form > input {
     padding: 5px 10px;
     border-radius: 5px;
     background-color: var(--submit);
-    font-size: larger;
+    font-size: 1.2em;
     font-family: 'montserrat', sans-serif;
     font-weight: 600;
     margin-left: 25px;
@@ -465,7 +466,7 @@ input:focus, textarea:focus, select:focus {
 #success div p {
     text-align: center;
     margin: 25px 0;
-    font-size: larger;
+    font-size: 1.2em;
 }
 
 #success div {
@@ -490,12 +491,7 @@ input:focus, textarea:focus, select:focus {
 }
 
 #error h2 {
-    font-size: xx-large;
-    text-align: center;
-}
-
-#error h2 {
-    font-size: large;
+    font-size: 1.5em;
     text-align: center;
 }
 
@@ -539,7 +535,7 @@ input:focus, textarea:focus, select:focus {
 
 @media only screen and (max-width : 319px) {
     nav a, nav p {
-        font-size: medium;
+        font-size: 1em;
     }
 }
 
@@ -603,7 +599,7 @@ input:focus, textarea:focus, select:focus {
     }
 
     .action-button {
-        font-size: larger;
+        font-size: 1.2em;
     }
 
     .logo {
@@ -611,7 +607,7 @@ input:focus, textarea:focus, select:focus {
     }
 
     .tagline, .heading {
-        font-size: xx-large;
+        font-size: 2.5em;
     }
 
     .tutor-info ul li {
