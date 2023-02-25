@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+/* Thank you to Thomas Wharton, a fellow CI student who
+reminded me of this idea to store colours as variables
+in case I want to change colour themes. */
+
 :root {
     --background: #E2E2E2;
     --logo-emphasis: #0000F4;
@@ -24,6 +28,9 @@ html {
     scroll-behavior: smooth;
 }
 
+/* Thank you to @smashtheshell on Youtube for giving the idea
+on how to make a sticky footer. Full citation in credits. */
+
 body {
     font-size: 100%;
     height: 100vh;
@@ -42,12 +49,21 @@ p {
     font-size: 1em;
 }
 
+.heading {
+    text-align: center;
+    font-size: 2.5em;
+}
+
 /* Styling for Header */
 
 header {
     display: flex;
     justify-content: center;
 }
+
+/* The idea behind using position:absolute, transform:translateY 
+and transition:transform came from Paul Ryan, full citation 
+in credits of README */
 
 .skip-nav {
     position: absolute;
@@ -91,6 +107,10 @@ nav div a, nav div p {
     border-radius: 5px;
 }
 
+/* mozilla.org helped me in revealing the existence of
+the text-underline-offset style rule. full citation in
+credits of README. */
+
 nav div a:hover {
     text-underline-offset: 6px;
     text-decoration: underline;
@@ -109,11 +129,6 @@ hr {
     margin: auto;
 }
 
-.heading {
-    text-align: center;
-    font-size: 2.5em;
-}
-
 /* styling for Section 1 of index.html (landing page) */
 
 #home-landing {
@@ -122,7 +137,6 @@ hr {
     margin-top: 10px;
     margin-bottom: 10px;
     box-sizing: border-box;
-    padding: 0 0.5%;
 }
 
 .home-landing-left {
@@ -191,18 +205,9 @@ hr {
     text-align: center;
 }
 
-/* Styling for Section 2 of index.html (contact) */
+/* Styling for Section 2 and 3 of index.html (contact and resources) */
 
-#home-callback {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 400px;
-}
-
-/* Styling for Section 3 of index.html (resources) */
-
-#home-resources {
+#home-callback, #home-resources {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -318,6 +323,164 @@ i {
     object-fit: cover;
 }
 
+/* Styling for contact.html */
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+#contact-form {
+    min-height: 400px;
+    margin: 25px 0;
+}
+
+#contact-form p {
+    margin: 0 20px;
+}
+
+#contact-form p {
+    font-size: 1.2em;
+}
+
+/* Styling for the Contact Form */
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 90vw;
+    max-width: 900px;
+    margin-right: 27px;
+}
+
+.main-form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+/* Left side of Contact Form */
+
+.form-left-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 260px;
+    width: 100%;
+    margin: 0 20px;
+}
+
+.form-left-side input {
+    border: 2px solid #565254 ;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+}
+
+.form-left-side div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-left-side div select {
+    border: 2px solid #565254 ;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+}
+
+#school-year, #exam-board {
+    margin-left: -7px;
+    margin-right: 7px;
+}
+
+#contact-time, #level-studying {
+    margin-right: -7px;
+    margin-left: 7px;
+}
+
+/* Right side of Contact Form */
+
+.form-right-side {
+    width: 100%;
+}
+
+textarea {
+    border: 2px solid #565254 ;
+    border-radius: 5px;
+    width: 100%;
+    height: 245px;
+    padding: 5px;
+    margin-bottom: -5px;
+    margin-right: 20px;
+}
+
+/* Submit Button */
+
+form > input {
+    border: 2px solid #565254;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: var(--submit);
+    font-size: 1.2em;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 600;
+    margin-left: 25px;
+}
+
+/* Contact Page pseudo classes */
+
+select:required {
+    color: var(--placeholder);
+}
+
+input:focus, textarea:focus, select:focus {
+    outline: none;
+}
+
+/* The following style for "::placeholder" was taken from the W3 Schools website and adapted. */
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: var(--placeholder);
+    opacity: 1; /* Firefox */
+}
+
+label {
+    position: absolute;
+    left: -99999px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+/* Styling for success.html */
+
+#success div p {
+    text-align: center;
+    margin: 25px 0;
+    font-size: 1.2em;
+}
+
+#success div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#success div h2 {
+    margin-top: 30px;
+    text-align: center;
+}
+
 /* Styling for Section 1 of resources.html */
 
 #resources-intro, #resources-gcse, #resources-alevel {
@@ -369,157 +532,7 @@ i {
     object-fit: cover;
 }
 
-/* Styling for Contact page*/
-
-#contact-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-}
-
-#contact-form {
-    min-height: 400px;
-    margin: 25px 0;
-}
-
-#contact-form p {
-    margin: 0 20px;
-}
-
-#contact-form p {
-    font-size: 1.2em;
-}
-
-/* Styling for the contact form */
-
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    width: 90vw;
-    max-width: 900px;
-    margin-right: 27px;
-}
-
-.main-form {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    margin-bottom: 25px;
-}
-
-.form-left-side {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    height: 260px;
-    width: 100%;
-    margin: 0 20px;
-}
-
-.form-left-side input {
-    border: 2px solid #565254 ;
-    border-radius: 5px;
-    padding: 5px;
-    width: 100%;
-}
-
-.form-left-side div {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.form-left-side div select {
-    border: 2px solid #565254 ;
-    border-radius: 5px;
-    padding: 5px;
-    width: 100%;
-}
-
-#school-year, #exam-board {
-    margin-left: -7px;
-    margin-right: 7px;
-}
-
-#contact-time, #level-studying {
-    margin-right: -7px;
-    margin-left: 7px;
-}
-
-.form-right-side {
-    width: 100%;
-}
-
-textarea {
-    border: 2px solid #565254 ;
-    border-radius: 5px;
-    width: 100%;
-    height: 245px;
-    padding: 5px;
-    margin-bottom: -5px;
-    margin-right: 20px;
-}
-
-form > input {
-    border: 2px solid #565254;
-    padding: 5px 10px;
-    border-radius: 5px;
-    background-color: var(--submit);
-    font-size: 1.2em;
-    font-family: 'montserrat', sans-serif;
-    font-weight: 600;
-    margin-left: 25px;
-}
-
-select:required {
-    color: var(--placeholder);
-}
-
-input:focus, textarea:focus, select:focus {
-    outline: none;
-}
-
-/* The following style for "::placeholder" was taken from the W3 Schools website and adapted. */
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: var(--placeholder);
-    opacity: 1; /* Firefox */
-}
-
-label {
-    position: absolute;
-    left: -99999px;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-}
-
-/* Styling for Success Page*/
-
-#success div p {
-    text-align: center;
-    margin: 25px 0;
-    font-size: 1.2em;
-}
-
-#success div {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-#success div h2 {
-    margin-top: 30px;
-    text-align: center;
-}
-
-/* Styling for 404 Page */
+/* Styling for 404.html */
 
 #error {
     display: flex;
@@ -560,7 +573,7 @@ a:active {
 
 /* Media Queries */
 
-/* Media Queries for navbar */
+/* Media Queries for Navigation Bar */
 
 @media only screen and (max-width : 809px) {
     nav {
@@ -729,6 +742,14 @@ a:active {
     }
 }
 
+/* Media Queries for success.html */
+
+@media only screen and (max-width : 419px) {
+    #success .action-button {
+        margin-bottom: 30px;
+    }
+}
+
 /* Media Queries for resources.html */
 
 @media only screen and (max-width : 930px) {
@@ -738,14 +759,6 @@ a:active {
     }
 
     #resources-gcse h2, #resources-alevel h2 {
-        margin-bottom: 30px;
-    }
-}
-
-/* Media Queries for success.html */
-
-@media only screen and (max-width : 419px) {
-    #success .action-button {
         margin-bottom: 30px;
     }
 }

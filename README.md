@@ -583,6 +583,10 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 - Thank you to [elsevier.com](https://www.elsevier.com/en-gb) for their [summary report](https://romeo.elsevier.com/accessibility_checklist/downloads/Summary_of_accessibility_requirements_21_Feb_2014.pdf) of accessibility guidelines. I applied their suggestions and implemented them in this project.
 - Thank you to Gian Wild for their [article on sitepoint.com](https://www.sitepoint.com/15-rules-making-accessible-links/). Their accessibility suggestions were fascinating and I applied some of them in this project.
 - Thank you to Paul Ryan for writing their article on [how to create a "Skip to content" button at css-tricks.com](https://css-tricks.com/how-to-create-a-skip-to-content-link/#maincontent). I learnt a lot from this article and I implemented the feature in a similar way.
+- Thank you to mozilla.org for writing [this article on text underline offset](https://developer.mozilla.org/en-US/docs/Web/CSS/text-underline-offset). I implemented this feature into my navigation bar.
+- Thank you to Thomas Wharton, a fellow CI student who reminded me of this idea to store colours as variables in case I want to change colour themes.
+- Thank you to smashtheshell on YouTube for creating a video on [how to create a sticky footer](https://www.youtube.com/@smashtheshell). The video was very easy to follow and worked like a charm!
+
 
 ### Media
 
