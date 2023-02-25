@@ -556,9 +556,9 @@ Resulting Investigation:
 - Across desktop renders of all pages, the First Contentful Paint and Largest Contentful Paint are at 0.5 seconds, whereas mobile renders of all pages have a First Contentful Paint of 1.7 and a Largest Contentful Paint of 1.7 or higher.
 - Unable to find a reason why mobile renders are slower across the board.
 
-### Unfixed Bugs
+### Known Issues
 
-No unfixed bugs.
+Firefox browser has some layout changes compared to all other browsers that I tested. I do not know how to fix this.
 
 ## Deployment
 
