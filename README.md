@@ -26,15 +26,14 @@
   * [Imagery](#imagery)
   * [Wireframes](#wireframes)
 * [Features](#features)
-  * [Existing Features](#existing-features)
-    * [Header and Navigation Bar](#header-and-navigation-bar)
-    * [The Landing Page](#the-landing-page)
-    * [The About Page](#the-about-page)
-    * [The Contact Page](#the-contact-page)
-    * [The Success Page](#the-success-page)
-    * [The Resources Page](#the-resources-page)
-    * [The 404 Page](#the-404-page)
-    * [The Footer](#the-footer)
+  * [Header and Navigation Bar](#header-and-navigation-bar)
+  * [The Landing Page](#the-landing-page)
+  * [The About Page](#the-about-page)
+  * [The Contact Page](#the-contact-page)
+  * [The Success Page](#the-success-page)
+  * [The Resources Page](#the-resources-page)
+  * [The 404 Page](#the-404-page)
+  * [The Footer](#the-footer)
   * [Features Left to Implement](#features-left-to-implement)
 * [Testing](#testing)
   * [Validator Testing](#validator-testing)
@@ -259,11 +258,9 @@ Screenshots were taken of various websites for the resources section. This gives
 
   [Resources Page Mockup - Mobile Version](./assets/media/wireframes/resources-page-mockup-mobile.png)
 
-## Features 
+## Features
 
-### Existing Features
-
-#### __Header and Navigation Bar__
+### Header and Navigation Bar
 
   - Featured on all six pages, the fully responsive header and navigation bar includes links to the Home page, About page, Contact page and Resources page; and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
@@ -272,7 +269,7 @@ Screenshots were taken of various websites for the resources section. This gives
 ![Nav Bar - Desktop](./assets/media/features/navbar-feature.png)
 ![Nav Bar - Mobile](./assets/media/features/navbar-responsive-feature.png)
 
-#### __The Landing Page__
+### The Landing Page
 
   - The landing page includes three main sections.
   - The first section includes a photo of the tutor along with some basic information which together take up a third of the page's width on desktop, and a large tagline filling the rest of the page's width. Below the tagline, there is a call to action button.
@@ -295,7 +292,7 @@ Screenshots were taken of various websites for the resources section. This gives
 
 [Landing Page - Section Two and Three - Mobile](./assets/media/features/landing-page-section-two-three-mobile.png)
 
-#### __The About Page__
+### The About Page
 
   - The about page is split into three sections.
   - The first section is a quote about education from the philosopher Confucius. The idea is to set the tone for the page and give the user an idea of the tutor's principles in teaching. For a parent who has yet to work with the tutor, this should provide some value to the user and entice them further into working with the tutor.
@@ -316,7 +313,7 @@ Screenshots were taken of various websites for the resources section. This gives
 
 [About Page - Section Three - Mobile](./assets/media/features/about-page-section-three-mobile.png)
 
-#### __The Contact Page__
+### The Contact Page
 
   - The contact page begins by congratulating the user in finding their way to the contact page while the tutor still has availability. This is to create a sense of scarcity; with the idea being that tomorrow, the tutor's schedule may be all filled out. 
   - The text below the congratulations message also reminds the user what the process is to securing a callback and promts the user to fill out the following form.
@@ -329,7 +326,7 @@ Screenshots were taken of various websites for the resources section. This gives
 
 [Contact Page - Mobile](./assets/media/features/contact-page-mobile.png)
 
-#### __The Success Page__
+### The Success Page
 
   - On submitting the contact form, the user will be directed to a page telling the user that their message has been sent successfully. This provides value to the user becasue a user may become anxious that something has gone awry if they are not provided a confirmation message; it comforts the user.
   - Following the success message, there is a call to action section allowing the user to be shown the way to the resources page. This provides further value to the user because some parents may want some extra work for their children to do while they wait to secure a tutoring session.
@@ -337,7 +334,7 @@ Screenshots were taken of various websites for the resources section. This gives
 
 ![Success Page - Desktop](./assets/media/features/success-page-desktop.png)
 
-#### __The Resources Page__
+### The Resources Page
 
   - The Resources Page begins with a short introduction telling the user what this page is about.
   - The main section below the welcome message is split into two parts, GCSE and A-Level Maths.
@@ -350,14 +347,14 @@ Screenshots were taken of various websites for the resources section. This gives
 
 [Resources Page - Mobile](./assets/media/features/resources-section-mobile.png)
 
-#### __The 404 Page__
+### The 404 Page
 
   - This page will load for the user in the unlikely event that there are broken links on the website or if a user were to type in a nonexistent subdirectory into the web address box.
   - This provides value to the user by directing them to the landing page of the website so that they can achieve their goal for visiting.
 
 ![404 Page](./assets/media/features/404-page-desktop.png)
 
-#### __The Footer__ 
+### The Footer
 
   - The footer section includes links to the relevant social media sites for MAster Maths. The links will open to a new tab to allow easy navigation for the user.
   - The footer is valuable to the user as it encourages them to keep connected via social media.
@@ -394,7 +391,6 @@ Screenshots were taken of various websites for the resources section. This gives
     - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpvieira04.github.io%2FCI-project-1%2F404.html).
 - CSS
   - No errors were found on my code when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fpvieira04.github.io%2FCI-project-1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css).
-  - One error and 86 warnings were given for the CDN Font Aweosme Library. This does not affect the functionality of my code.
 
 ### Manual Testing
 
@@ -542,7 +538,6 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
 - The links in the head of my html files for the favicons were taken from [favicon.io](https://favicon.io/favicon-generator/).
-- The link in the head of my html files which allow me to use Font Awesome is from a [CDN](https://cdnjs.com/libraries/font-awesome).
 - Thank you to [Deque Universtiy](https://dequeuniversity.com/rules/axe/4.4/link-name?utm_source=lighthouse&utm_medium=devtools) for helping me understand how to use the aria-label atribute for external links.
 - Thank you to [this stack overflow thread](https://stackoverflow.com/questions/46163065/github-pages-website-favicon-not-showing) for helping me understand the problem with my favicons.
 - Thank you to the [Love Running Example Project]() for helping with my README structure.
