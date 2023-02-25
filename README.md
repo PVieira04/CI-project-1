@@ -417,10 +417,15 @@ Screenshots were taken of various websites for the resources section. This gives
 
 ### Manual Testing
 
-- Header and Navigation Bar
+- Header
+  - "Skip to content" link works perfectly on every page.
+  - Easily targetable using the keyboard, as intended.
+  - Unable to target any other way, also as intended.
+
+- Navigation Bar
   - All links work as expected.
   - Navigation bar is responsive.
-  - Header always appears at the top of the page.
+  - Always appears at the top of the page.
 
 - Landing Page
   - Fully responsive.
@@ -462,6 +467,15 @@ Screenshots were taken of various websites for the resources section. This gives
   - Social Media links work as expected.
   - Layout stays the same between desktop and mobile mode.
   - On smaller screens, space between elements is reduced with no change to icon dimensions or text size.
+
+- Keyboard-only Users
+  - All navigation, buttons, anchors and input fields can be fully scrolled through by pressing the tab key or shift+tab.
+  - All elements the user is able to focus can be interacted with by pressing neter.
+  - Fully functional and working as intended.
+
+- Screen-reader Users
+  - Test carried out using NVDA. 
+  - All links when tabbed through have accurate descriptions.
 
 ### User Testing
 
