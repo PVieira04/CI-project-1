@@ -1,6 +1,10 @@
 # MasterMaths
 
-[This project](https://pvieira04.github.io/CI-project-1/) is now live on Github Pages. Deployment details below.
+[This project](https://pvieira04.github.io/CI-project-1/) is now live on Github Pages.
+
+MasterMaths is a site that exposes users to the existence of a mathematics home tutor in London, UK. The site will be targeted toward parents who wish to employ the services of a home tutor to help improve their child's mathematics. MasterMaths will be useful to parents because it will outline the tutor's unique method of teaching, show them how to go about employing the tutor's services, and provide information on where to find the best resources for studying.
+
+![Responsiveness Showcase via amiresponsive.co.uk](./assets/media/features/am-i-responsive.png)
 
 ## [Contents](#contents)
 
@@ -49,8 +53,6 @@
   * [Media](#media)
 
 ## User Experience (UX)
-
-MasterMaths is a site that exposes users to the existence of a mathematics home tutor in London, UK. The site will be targeted toward parents who wish to employ the services of a home tutor to help improve their child's mathematics. MasterMaths will be useful to parents because it will outline the tutor's unique method of teaching, show them how to go about employing the tutor's services, and provide information on where to find the best resources for studying.
 
 ### Site Owner Goals
 - Convince parents of the tutor's expertise
