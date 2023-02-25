@@ -63,8 +63,9 @@ nav {
 }
 
 nav a, nav p {
-    margin: 0 10px;
+    margin: 0 5px;
     font-size: 1.1em;
+    padding: 2px 7px;
 }
 
 nav a:hover {
@@ -72,11 +73,10 @@ nav a:hover {
     text-decoration: underline;
 }
 
-nav p {
-    cursor: default;
-}
-
 .current-page {
+    cursor: default;
+    border: 2px solid var(--logo-emphasis);
+    border-radius: 5px;
     color: var(--logo-emphasis);
 }
 
