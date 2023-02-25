@@ -10,6 +10,13 @@
   * [Returning User Goals](#returning-user-goals)
   * [User Story - New Customer](#user-story---new-customer)
   * [User Story - Returning Customer](#user-story---returning-customer)
+* [Planning](#planning)
+  * [Strategy](#strategy)
+  * [Scope](#scope)
+  * [Structure](#structure)
+  * [Skeleton](#skeleton)
+  * [Surface](#surface)
+  * [Review with Mentor](#review-with-mentor)
 * [Technology](#technology)
   * [Languages](#languages)
 * [Design](#design)
@@ -85,6 +92,71 @@ Returning users may want to:
 - A returning user will navigate to my website for the purpose of finding extra resources for their child. 
 - They know their child has trouble in remembering definitions in GCSE mathematics and so they will be happy to find that one of my recommended resources is Corbett Maths, a website that provices flashcards as one of their resources. 
 - The user will read the tutor's description for Corbett Maths and be glad they found it. They will tap on the image and navigate to Corbett Maths.
+
+## Planning
+In this section, I outline the initial planning stages for this project.
+
+### Strategy
+
+The following is a list of potential features for the website and each one is given an importance and a viability rating. This is to decide on the most worthwhile features. Each one is also given a difficulty rating but this is investigated in the Scope Plane.
+
+---
+| **Opportunity / Problem** | **Importance** | **Viability / Feasibility** | **Difficulty** |
+|-----------------------------|:-:|:-:|:-:|
+| Showcase Personal Details   | 5 | 5 | 1 |
+| Convince Users of Expertise | 5 | 5 | 2 |
+| Links to Resources          | 3 | 5 | 1 |
+| Testimonials                | 5 | 2 | 3 |
+| Callback Form               | 5 | 5 | 2 |
+| Callback Form Function      | 2 | 1 | 5 |
+| Instructional Videos        | 3 | 4 | 3 |
+| Map of Serviceable Areas    | 5 | 5 | 1 |
+---
+
+Resulting from the Strategy Plane, all features can go ahead with the exception of the callback form function. This feature requires other technologies aside from HTML and CSS and will therefore not be graded.
+
+### Scope
+
+Taking difficulty into account, my Minimum Viable Product(MVP) can be released without the need to consider a section for Testimonials and Instructional Videos.
+
+The following features are my scope for this project:
+- Landing Page which showcases the tutor's personal details
+- About section which convinces users of the tutor's expertise
+- Section which links to recommended resources
+- Contact form
+- Section telling the user which areas the tutor can travel to
+
+### Structure
+
+The website should take a new user on a journey, starting with a landing page and ending with contacting the tutor:
+
+1. User arrives on website Landing Page.
+2. User sees an enticing tagline, a call-to-action button, the tutor's photo and some basic information about them.
+3. When the user scrolls down, the header stays at the top of the page and contains navigation links to connect the user to other parts of the page.
+4. User can scroll down to the about section where they can see the tutor's story, how they became an expert and what their process is.
+5. User can scroll down further and see a map of serviceable areas.
+6. User can scroll further to the contact section and send a callback form.
+7. User can then scroll to the end of the page where they can see the resources section and eventually the footer.
+
+### Skeleton
+
+[This was my original wireframe](./assets/media/wireframes/initial-wireframe.jpg). For some reason I had left out the resources section but that should have been inserted between the contact form and the footer.
+
+### Surface
+
+My idea for the surface is to have a consistent colour theme across all pages. Something like blue on white will give lots of contrast and depending on the blue colour used, is very appealing to my eyes.
+
+For images, I know I want to have a photo of the tutor on the Landing Page and a map of serviceable areas. I also want to have screenshots of any resources I recommend. This will provide variety to the user so they stay engaged.
+
+I want to use a different colour for elements I want the user to see first, or take special attention of.
+
+As for the font, I know I want to have 2 complementing fonts. One for headers and emphasis, and another for general text.
+
+Final design implementation can be found in the [design section](#design) of this README.
+
+### Review with Mentor
+
+Following a review of my planning with my mentor, I decided it was best to have multiple pages in my webstie. The revised structure of my project is outlined in the [wireframes section](#wireframes) of this README. The scope of the project was kept the same following the meeting.
 
 ## Technology
 
