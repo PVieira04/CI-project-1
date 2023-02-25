@@ -445,11 +445,11 @@ form > input {
     margin-left: 25px;
 }
 
-select:required:invalid {
+select:required {
     color: var(--placeholder);
 }
 
-input:focus, textarea:focus {
+input:focus, textarea:focus, select:focus {
     outline: none;
 }
 
