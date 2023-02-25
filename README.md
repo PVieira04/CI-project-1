@@ -1,4 +1,4 @@
-# Master Math
+# MasterMaths
 
 [This project](https://pvieira04.github.io/CI-project-1/) is now live on Github Pages. Deployment details below.
 
@@ -50,7 +50,7 @@
 
 ## User Experience (UX)
 
-Master Math is a site that exposes users to the existence of a mathematics home tutor in London, UK. The site will be targeted toward parents who wish to employ the services of a home tutor to help improve their child's mathematics. Master Math will be useful to parents because it will outline the tutor's unique method of teaching, show them how to go about employing the tutor's services, and provide information on where to find the best resources for studying.
+MasterMaths is a site that exposes users to the existence of a mathematics home tutor in London, UK. The site will be targeted toward parents who wish to employ the services of a home tutor to help improve their child's mathematics. MasterMaths will be useful to parents because it will outline the tutor's unique method of teaching, show them how to go about employing the tutor's services, and provide information on where to find the best resources for studying.
 
 ### Site Owner Goals
 - Convince parents of the tutor's expertise
@@ -356,7 +356,7 @@ Screenshots were taken of various websites for the resources section. This gives
 
 ### The Footer
 
-  - The footer section includes links to the relevant social media sites for MAster Maths. The links will open to a new tab to allow easy navigation for the user.
+  - The footer section includes links to the relevant social media sites for MasterMaths. The links will open to a new tab to allow easy navigation for the user.
   - The footer is valuable to the user as it encourages them to keep connected via social media.
   - The footer also includes an anchor allowing the user to quickly move to the top of the page. This is exceptionally valuable to the user if visiting the Resources or About page which can be quite long on mobile.
 
@@ -444,7 +444,7 @@ Screenshots were taken of various websites for the resources section. This gives
 
 I asked a real user to open my website on dektop. They used a mouse to navigate and this person has no accessibility requirements. This is how it went.
 
-- User opens the Master Maths website and reads the tagline.
+- User opens the MasterMaths website and reads the tagline.
 - User then reads the tutor information section and scrolls down.
 - User reads the heading for sections two and three of the Landing Page and then scrolls back up.
 - They click on the about link in the navigation bar and read the quote.
@@ -454,7 +454,7 @@ I asked a real user to open my website on dektop. They used a mouse to navigate 
 - User clicks on the "Check Availability" call-to-action button.
 - User sees the contact form and then navigates to resources via the navigation bar.
 - They click on the image expecting it to open the website(they commented on it) and it opens in a new tab.
-- The user closes the new tab and closes the Master Maths tab.
+- The user closes the new tab and closes the MasterMaths tab.
 
 ### Browser Testing
 Manual Testing was further done on other browsers. These browsers were chosen becasue, as found by [statcounter](https://gs.statcounter.com/browser-market-share), they are the most popular browsers in the world.
