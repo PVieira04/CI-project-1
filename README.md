@@ -30,7 +30,8 @@ MasterMaths is a site that exposes users to the existence of a mathematics home 
   * [Imagery](#imagery)
   * [Wireframes](#wireframes)
 * [Features](#features)
-  * [Header and Navigation Bar](#header-and-navigation-bar)
+  * [Header](#header)
+  * [Navigation Bar](#navigation-bar)
   * [The Landing Page](#the-landing-page)
   * [The About Page](#the-about-page)
   * [The Contact Page](#the-contact-page)
@@ -290,7 +291,14 @@ Screenshots were taken of various websites for the resources section. This gives
 
 ## Features
 
-### Header and Navigation Bar
+### Header
+  - The header features a "skip-to-content" anchor tag which is made exclusively for keyboard-only users. 
+  - This will allow a keyboard only user skip over the navigation links and get to the real content of the site. 
+  - This is especially useful for a returning visitor who knows what content they want to get to.
+
+![Skip to Content Feature](./assets/media/features/skip-to-content-feature.png)
+
+### Navigation Bar
 
   - Featured on all six pages, the fully responsive header and navigation bar includes links to the Home page, About page, Contact page and Resources page; and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
