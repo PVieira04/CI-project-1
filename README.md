@@ -391,25 +391,32 @@ I asked a real user to open my website on dektop. They used a mouse to navigate 
 ### Browser Testing
 Manual Testing was further done on other browsers. These browsers were chosen becasue, as found by [statcounter](https://gs.statcounter.com/browser-market-share), they are the most popular browsers in the world.
 
-#### Chrome
+#### Desktop Browsers
+- Chrome
+- Edge
+- Safari
+- Firefox
+- Opera
 
-#### Edge
+#### Tablet and Mobile Browsers
 
-#### Safari
+The tests for the following browsers can be found in the [device testing](#device-testing) section:
 
-#### Firefox
-
-#### Opera
-
-#### Android (Tablet and Mobile)
-
-#### Chrome (Android)
-
-#### Safari (iOS)
-
-#### Samsung Internet (Android)
+- Android (Tablet and Mobile)
+- Chrome (Android)
+- Safari (iOS)
+- Samsung Internet (Android)
 
 ### Device Testing
+
+While the device toolbar in Chrome Developer Tools was used throughout the development process, further manual tests were carried out on various physical devices visiting the [live website](https://pvieira04.github.io/CI-project-1).
+
+- One Plus 6 - Chrome
+  - No issues. Behaves as intended.
+- Google Pixel - Chrome
+- Galaxy Flip - Chrome
+- Galaxy Flip - Samsung Internet
+- 
 
 ### Lighthouse Report
 
