@@ -410,6 +410,8 @@ Screenshots were taken of various websites for the resources section. This gives
 
 - An alternative layout for the header on extremely small screens may be for the website name to stay the same while the navigation links are replaced by a circle button; which, when tapped, will reveal a navigation menu which pushes the rest of the pages content down with a smooth scroll.
 
+- While the scope was fully achieve during this project, a way to expand upon it could be to implement the features I cast aside during the Scope Phase of my planning. I could have another page for reviews / testimonials, and I could have another page on personal resources, such as featuring videos I have created myself where I explain how to do a maths exam question.
+
 ## Testing 
 
 ### Validator Testing 
