@@ -305,6 +305,7 @@ i {
     box-sizing: border-box;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin: 0 10px;
 }
 
 #resources-intro {
@@ -315,7 +316,7 @@ i {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 5px 20px;
+    margin: 5px 10px;
 }
 
 #resources-gcse h2, #resources-alevel h2 {
