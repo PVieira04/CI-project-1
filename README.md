@@ -441,7 +441,7 @@ All actions were derived from addressing the opportunites outlined in the lighth
 
 ![Final Lighthouse Report - Landing Page Desktop](./assets/media/lighthouse/lighthouse-report-after.png)
 
-Under the Diagnostics section in the Lighthouse report, a warning was given to do with caching. The warning was called "Serve static assets with an efficient cache policy". After doing my research, it seems that since I am using Github Pages to deploy this project, I am unable to change the cache time which is always set to 600 seconds. Thus, this is one issue I am unable to address unless I change my deployment process.
+Under the Diagnostics section in the Lighthouse report, a warning was given to do with caching. The warning was called "Serve static assets with an efficient cache policy". After doing my research, it seems that since I am using Github Pages to deploy this project, I am unable to change the cache time which is [always set to 600 seconds](https://webapps.stackexchange.com/questions/119286/caching-assets-in-website-served-from-github-pages#comment143669_119294). Thus, this is one issue I am unable to address unless I change my deployment process.
 
 Across all HTML pages, mobile rendering of the Lighthouse tool results in an equal or lower score for performance when compared to mobile.
 
