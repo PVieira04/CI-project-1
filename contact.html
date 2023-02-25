@@ -35,13 +35,13 @@
                 <div class="main-form">
                     <!-- Left side of the form contains the essential information. On smaller screens, this is displayed at the top of the page, below the welcome message. -->
                     <div class="form-left-side">
-                        <input type="text" placeholder="Given Name" required>
-                        <input type="text" placeholder="Family Name" required>
-                        <input type="text" placeholder="Student's Name" required>
-                        <input type="email" placeholder="Your E-mail Address" required>
-                        <input type="tel" id="phone" name="phone" pattern="[0-9]{11}" placeholder="Your UK Mobile Number" required>
+                        <label for="given-name">Enter your Given Name</label><input type="text" id="given-name" placeholder="Your Given Name" required>
+                        <label for="family-name">Enter your Family Name</label><input type="text" id="family-name" placeholder="Your Family Name" required>
+                        <label for="student-name">Enter the Student's Name</label><input type="text" id="student-name" placeholder="The Student's Name" required>
+                        <label for="email">Enter your email address</label><input type="email" id="email" placeholder="Your E-mail Address" required>
+                        <label for="phone">Enter your UK mobile number</label><input type="tel" id="phone" name="phone" pattern="[0-9]{11}" placeholder="Your UK Mobile Number" required>
                         <div class="form-inline">
-                            <select name="school-year" id="school-year" required>
+                            <label for="school-year">Select the student's school year</label><select name="school-year" id="school-year" required>
                                 <option value="" disabled selected>Student's School Year</option>
                                 <option value="9">Year 9</option>
                                 <option value="10">Year 10</option>
@@ -49,7 +49,21 @@
                                 <option value="12">Year 12</option>
                                 <option value="13">Year 13</option>
                             </select>
-                            <select name="contact-time" id="contact-time" required>
+                            <label for="level-studying">Select which level the student is studying</label><select name="level-studying" id="level-studying" required>
+                                <option value="" disabled selected>Level of Study</option>
+                                <option value="gcse">GCSE</option>
+                                <option value="alevel">A Level</option>
+                            </select>
+                        </div>
+                        <div class="form-inline">
+                            <label for="exam-board">Select the student's exam board</label><select name="exam-board" id="exam-board" required>
+                                <option value="" disabled selected>Exam Board</option>
+                                <option value="aqa">AQA</option>
+                                <option value="edexcel">Edexcel</option>
+                                <option value="ocr">OCR</option>
+                                <option value="eduqas">Eduqas</option>
+                            </select>
+                            <label for="contact-time">Select the best time for a callback</label><select name="contact-time" id="contact-time" required>
                                 <option value="" disabled selected>Time for Callback</option>
                                 <option value="9am">Between 9am and 10am</option>
                                 <option value="10am">Between 10am and 11am</option>
@@ -61,27 +75,13 @@
                                 <option value="4pm">Between 4pm and 5pm</option>
                             </select>
                         </div>
-                        <div class="form-inline">
-                            <select name="level-studying" id="level-studying" required>
-                                <option value="" disabled selected>Level of Study</option>
-                                <option value="gcse">GCSE</option>
-                                <option value="alevel">A Level</option>
-                            </select>
-                            <select name="exam-board" id="exam-board" required>
-                                <option value="" disabled selected>Exam Board</option>
-                                <option value="aqa">AQA</option>
-                                <option value="edexcel">Edexcel</option>
-                                <option value="ocr">OCR</option>
-                                <option value="eduqas">Eduqas</option>
-                            </select>
-                        </div>
                     </div>
                     <!-- Right side of the form contains a text area. On smaller screens this is shown below the "essential information" part of the form. -->
                     <div class="form-right-side">
-                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message here."></textarea>
+                        <label for="message">Here you can send me an optional message</label><textarea name="message" id="message" cols="30" rows="10" placeholder="Your message here."></textarea>
                     </div>
                 </div>
-                <input type="submit">
+                <label for="submit">This buttom submits the form</label><input type="submit" id="submit">
             </form>
         </section>
     </main>
