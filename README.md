@@ -234,6 +234,14 @@ img tags are used appropriately to show meaningful content while icons are coded
 
 The page is completely keyboard accessible and users can navigate through different pages of the website.
 
+Regarding the contact formk, fields all have an associated label element which is correctly set up using the "for" attribute and the "id" attribute of all fields.
+
+Labels on forms all have sufficiently descriptive text written exclusively for screen readers. Typical users will not know the label tag exists as it has been sent off the page.
+
+If a user clicks on submit but a field has not been appropriately filled out, user is automatically directed to the problem field.
+
+Form submissions are confirmed.
+
 ### __Imagery__
 
 Imagery on this website was kept minimal. The only picture on the landing page is a photo of the tutor. The idea is for this to make the image stand out on the home page and be more memorable.
