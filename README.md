@@ -475,6 +475,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 - Thank you to [this stack overflow thread](https://stackoverflow.com/questions/46163065/github-pages-website-favicon-not-showing) for helping me understand the problem with my favicons.
 - Thank you to the [Love Running Example Project]() for helping with my README structure.
 - Thank you to [Chrome Developers](https://developer.chrome.com/docs/lighthouse/seo/meta-description/?utm_source=lighthouse&utm_medium=devtools) for helping me understand how to insert meta descriptions in my html.
+- Thank you to the [Sonnytech Academy YouTube channel](https://www.youtube.com/watch?v=fzxpb3bVGeE) for showing me how to add Font Awesome to my project offline.
 
 ### Media
 
