@@ -30,8 +30,8 @@ MasterMaths is a site that exposes users to the existence of a mathematics home 
   * [Imagery](#imagery)
   * [Wireframes](#wireframes)
 * [Features](#features)
-  * [Header](#header)
-  * [Navigation Bar](#navigation-bar)
+  * [The Header](#the-header)
+  * [The Navigation Bar](#the-navigation-bar)
   * [The Landing Page](#the-landing-page)
   * [The About Page](#the-about-page)
   * [The Contact Page](#the-contact-page)
@@ -47,7 +47,8 @@ MasterMaths is a site that exposes users to the existence of a mathematics home 
   * [Browser Testing](#browser-testing)
   * [Device Testing](#device-testing)
   * [Lighthouse Report](#lighthouse-report)
-  * [Unfixed Bugs](#unfixed-bugs)
+  * [Fixed Issues](#fixed-issues)
+  * [Known Issues](#known-issues)
 * [Deployment](#deployment)
 * [Credits](#credits)
   * [Content](#content)
@@ -291,14 +292,14 @@ Screenshots were taken of various websites for the resources section. This gives
 
 ## Features
 
-### Header
+### The Header
   - The header features a "skip-to-content" anchor tag which is made exclusively for keyboard-only users. 
   - This will allow a keyboard only user skip over the navigation links and get to the real content of the site. 
   - This is especially useful for a returning visitor who knows what content they want to get to.
 
 ![Skip to Content Feature](./assets/media/features/skip-to-content-feature.png)
 
-### Navigation Bar
+### The Navigation Bar
 
   - Featured on all six pages, the fully responsive header and navigation bar includes links to the Home page, About page, Contact page and Resources page; and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
@@ -567,6 +568,8 @@ Resulting Investigation:
 - The problem with this hypothesis is that the about page has an the same CLS value on mobile and desktop renders of the tool (0.042).
 - Across desktop renders of all pages, the First Contentful Paint and Largest Contentful Paint are at 0.5 seconds, whereas mobile renders of all pages have a First Contentful Paint of 1.7 and a Largest Contentful Paint of 1.7 or higher.
 - Unable to find a reason why mobile renders are slower across the board.
+
+### Fixed Issues
 
 ### Known Issues
 
