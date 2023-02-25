@@ -234,15 +234,17 @@ img tags are used appropriately to show meaningful content while icons are coded
 
 The page is completely keyboard accessible and users can navigate through different pages of the website.
 
-Regarding the contact formk, fields all have an associated label element which is correctly set up using the "for" attribute and the "id" attribute of all fields.
+Accessibility guideline 1.3.1 ([Info and Relationships](https://www.w3.org/TR/WCAG21/#info-and-relationships)) - Regarding the contact form, fields all have an associated label element which is correctly set up using the "for" attribute and the "id" attribute of all fields.
 
 Labels on forms all have sufficiently descriptive text written exclusively for screen readers. Typical users will not know the label tag exists as it has been sent off the page.
 
 If a user clicks on submit but a field has not been appropriately filled out, user is automatically directed to the problem field, and form submissions are confirmed.
 
-In order to comply with accessibility guidelines (1.4.1 Use of Colour), the current page in the navigation bar was changed so that the current page no longer only changes colour to blue, but also has a border around it to indicate which page the user is on.
+Accessibility guideline 1.4.1 ([Use of Colour](https://www.w3.org/TR/WCAG21/#use-of-color)) - The .current-page in the navigation bar was changed so that the current page no longer only changes colour to blue, but also has a border around it to indicate which page the user is on.
 
-Accessibility guideline (2.4.1 Bypass Blocks), the navigation bar was restructured and a header placed above it which contained a link to skip navigation.
+Accessibility guideline 2.4.1 ([Bypass Blocks](https://www.w3.org/TR/WCAG21/#bypass-blocks)) - The navigation bar was restructured and a header placed above it which contained a link to skip navigation. This was then sent of the page using CSS and can only be targeted using tab or shift+tab on the keyboard.
+
+Accessibility guideline 2.4.7 ([Focus Visible](https://www.w3.org/TR/WCAG21/#focus-visible)) - Styling of focused elements is consistent throughout the website. All a tags and submit buttons have a thick dashed light coral border(#EF6F6C) when focused, while input, select and textarea fields have a background that turns white.
 
 ### __Imagery__
 
