@@ -212,11 +212,27 @@ The typography idea was taken from [this website](https://www.fontpairings.com/)
 
 ### __Accessibility__
 
-In order to adhere to accessibility guidelines for font size, the website is designed so that any font size does not go lower than 16px.
+In order to adhere to accessibility guidelines for font size, the website is designed so that any font size does not go lower than 16px. Font sizes were changed in order to adhere to further accessibility guidelines. The body tag was given a font size rule of 100% and most other font size style rules were given a value in terms of em.
 
-All images have alt text.
+All external social media links in the footer open in a new tab and also warn the user this happens via an aria-label.
 
-Any a tags that link to the current page have been deleted and replaced with p tags.
+All images have alt text telling the user what the image is.
+
+All external image links have appropriate alt text which can tell the user a new tab will open if clicked and say which website will be opened.
+
+Any a tags that link to the current page have been deleted and replaced with p tags, apart from the website logo.
+
+Text and background colour have a minimum of 7:1 contrast ratio to cater for all colour blindness.
+
+All HTML and CSS is valid as shown in the validator testing seciton and across all HTML pages, there are no duplicate IDs.
+
+Correct HTML markup is used throughout the project and content is in a logical order. Page elements also receive keyboard focus in a logical order and the HTML structure is the same on every page.
+
+Every page had an appropriate title and the language of the page is specified.
+
+img tags are used appropriately to show meaningful content while icons are coded in CSS.
+
+The page is completely keyboard accessible and users can navigate through different pages of the website.
 
 ### __Imagery__
 
@@ -538,6 +554,8 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 - Thank you to the [Love Running Example Project]() for helping with my README structure.
 - Thank you to [Chrome Developers](https://developer.chrome.com/docs/lighthouse/seo/meta-description/?utm_source=lighthouse&utm_medium=devtools) for helping me understand how to insert meta descriptions in my html.
 - Thank you to the [Sonnytech Academy YouTube channel](https://www.youtube.com/watch?v=fzxpb3bVGeE) for showing me how to add Font Awesome to my project offline.
+- Thank you to [elsevier.com](https://www.elsevier.com/en-gb) for their [summary report](https://romeo.elsevier.com/accessibility_checklist/downloads/Summary_of_accessibility_requirements_21_Feb_2014.pdf) of accessibility guidelines. I applied their suggestions and implemented them in this project.
+- Thank you to Gian Wild for their [article on sitepoint.com](https://www.sitepoint.com/15-rules-making-accessible-links/). Their accessibility suggestions were fascinating and I applied some of them in this project.
 
 ### Media
 
