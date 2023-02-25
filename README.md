@@ -238,9 +238,9 @@ Regarding the contact formk, fields all have an associated label element which i
 
 Labels on forms all have sufficiently descriptive text written exclusively for screen readers. Typical users will not know the label tag exists as it has been sent off the page.
 
-If a user clicks on submit but a field has not been appropriately filled out, user is automatically directed to the problem field.
+If a user clicks on submit but a field has not been appropriately filled out, user is automatically directed to the problem field, and form submissions are confirmed.
 
-Form submissions are confirmed.
+In order to comply with accessibility guidelines (1.4.1 Use of Colour), the current page in the navigation bar was changed so that the current page no longer only changes colour to blue, but also has a border around it to indicate which page the user is on.
 
 ### __Imagery__
 
