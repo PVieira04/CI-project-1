@@ -399,13 +399,36 @@ Manual Testing was further done on other browsers. These browsers were chosen be
 
 ### Lighthouse Report
 
+#### Initial Report
+
 ![Initial Lighthouse Report](./assets/media/lighthouse/lighthouse-report-initial.png)
 
 #### Actions
-1. Added aria-label to external links in footer.
-2. Converted image in index.html to webp format.
-3. Added meta descriptions to all html pages.
-4. Replaced Fontawesome CDN with manual installation of Fontawesome and deleted uneccessary styling rules.
+
+All actions were derived from addressing the opportunites outlined in the lighthouse report.
+
+1. Added aria-label to external links in footer (Accessibility).
+2. Converted image in index.html to webp format (Performance).
+3. Added meta descriptions to all html pages (SEO).
+4. Replaced Fontawesome CDN with manual installation of Fontawesome and deleted uneccessary styling rules (Performance).
+5. Converted images in resouces.html to webp format and changed resolution appropriately (Performance).
+   * Between the before and after shown below, the performance score stayed the same but the Cumulative Layout Shift changed by 0.004.
+   * [Resources Mobile Before](./assets/media/lighthouse/lighthouse-report-resources-mobile-before.png)
+   * [Resources Mobile After](./assets/media/lighthouse/lighthouse-report-resources-mobile-after.png)
+
+#### Results
+
+![Final Lighthouse Report - Landing Page Desktop](./assets/media/lighthouse/lighthouse-report-after.png)
+
+Under the Diagnostics section in the Lighthouse report, a warning was given to do with caching. The warning was called "Serve static assets with an efficient cache policy". After doing my research, it seems that since I am using Github Pages to deploy this project, I am unable to change the cache time which is always set to 600 seconds. Thus, this is one issue I am unable to address unless I change my deployment process.
+
+Across all HTML pages, mobile rendering of the Lighthouse tool results in an equal or lower score for performance when compared to mobile.
+
+Resulting Investigation:
+- Cumulative Layout Shift(CLS) is either the same or higher on mobile when compared to desktop. This could affect the Performance score.
+- The problem with this hypothesis is that the about page has an the same CLS value on mobile and desktop renders of the tool (0.042).
+- Across desktop renders of all pages, the First Contentful Paint and Largest Contentful Paint are at 0.5 seconds, whereas mobile renders of all pages have a First Contentful Paint of 1.7 and a Largest Contentful Paint of 1.7 or higher.
+- Unable to find a reason why mobile renders are slower across the board.
 
 ### Unfixed Bugs
 
