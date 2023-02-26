@@ -280,7 +280,9 @@ i {
 
 #about-process p {
     text-align: left;
+    font-size: 1.2em;
     padding: 0 5px;
+    margin: 0 5px;
 }
 
 #about-process p span{
@@ -291,6 +293,7 @@ i {
     text-align: left;
     list-style: decimal outside;
     padding-left: 40px;
+    font-size: 1.1em;
 }
 
 #about-process .tutor-quote {
@@ -314,6 +317,11 @@ i {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+}
+
+#about-travel p {
+    font-size: 1.2em;
+    margin: 0 5px;
 }
 
 #about-travel div img {
