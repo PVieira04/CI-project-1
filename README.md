@@ -510,31 +510,56 @@ I asked a real user to open my website on dektop. They used a mouse to navigate 
 Manual Testing was further done on other browsers. These browsers were chosen becasue, as found by [statcounter](https://gs.statcounter.com/browser-market-share), they are the most popular browsers in the world.
 
 #### Desktop Browsers
-- Chrome - Developed using this browser. No issues detected.
-- Edge - No issues detected.
+- Chrome
+  - Developed using this browser. No issues detected.
+- Edge
+  - No issues detected.
 - Safari
-- Firefox - Submit input on contact form says "Submit Query" instead of just "Submit". Some spacing is missing in the contact page and on the resources page.
-- Opera - No issues detected.
+  - Issue detected on Landing Page - .tutor-pic takes up more than 50% of the screen width and squashes .tutor-info. Significantly different to Chrome, Edge and Firefox.
+  - Extra unwanted styling added to select fields in contact form.
+- Firefox
+  - Submit input on contact form says "Submit Query" instead of just "Submit". Some spacing is missing in the contact page and on the resources page.
+- Opera
+  - No issues detected.
 
 #### Tablet and Mobile Browsers
 
-The tests for the following browsers can be found in the [device testing](#device-testing) section:
+The tests for the following browsers can be found in the [device testing](#device-testing) section.
 
-- Android (Tablet and Mobile)
+The following are the most popular browsers for tablet and mobile:
+
+- Android (Tablet and Mobile) - Browser now out of circulation and has not been added to any recent android devices. Unable to find a device to test.
 - Chrome (Android)
-- Safari (iOS)
-- Samsung Internet (Android)
+- Safari (iOS Mobile)
+- Safari (iOS Tablet)
+- Samsung Internet (Amdroid Mobile)
 
 ### Device Testing
 
 While the device toolbar in Chrome Developer Tools was used throughout the development process, further manual tests were carried out on various physical devices visiting the [live website](https://pvieira04.github.io/CI-project-1).
 
+Android Devices
+
 - One Plus 6 - Chrome
-  - No issues. Behaves as intended.
-- Google Pixel - Chrome
-- Galaxy Flip - Chrome
-- Galaxy Flip - Samsung Internet
-- 
+  - No issues, behaves as intended.
+- Google Pixel 7 - Chrome
+  - No issues, behaves as intended.
+- Galaxy A33 5G - Samsung Internet
+  - No issues, behaves as intended.
+- Galaxy Tab A8 - Samsung Internet
+  - Layout of contact.html in portrait mode has the two main sections of the form side by side.
+  - I ideally would want them to be orientated just like in mobile mode.
+
+iOS Devices (all using Safari Browser for iOS)
+
+- iPhone 13 mini
+  - No issues detected
+- iPhone 14 Pro
+  - No issues detected
+- iPad (10th gen)
+  - Same issues as on Safari on Mac
+  - In tablet mode, .tutor-pic takes up more than 50% of the screen width
+  - Extra styling added to select fields
 
 ### Lighthouse Report
 
