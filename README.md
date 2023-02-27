@@ -521,6 +521,7 @@ Manual Testing was further done on other browsers. These browsers were chosen be
 - Firefox
   - Submit input on contact form says "Submit Query" instead of just "Submit". (FIXED)
   - Some spacing is missing in the contact page and on the resources page.
+  - Shows outline on png used as background image for select field.
 - Opera
   - No issues detected.
 
