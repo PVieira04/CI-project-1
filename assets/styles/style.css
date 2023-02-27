@@ -59,6 +59,10 @@ p {
     font-size: 1em;
 }
 
+br {
+    height: 1.2em;
+}
+
 .heading {
     text-align: center;
     font-size: 2.5em;
