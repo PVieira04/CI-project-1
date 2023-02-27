@@ -407,6 +407,14 @@ form {
     border-radius: 5px;
     padding: 5px;
     width: 100%;
+    background: url(../media/icons/arrow-down-circle-svgrepo-com.png) no-repeat;
+    background-position: calc(100% - 5px);
+    background-size: contain;
+}
+
+.form-left-side div select:focus {
+    background-image: none;
+    background-color: #FFF;
 }
 
 #school-year, #exam-board {
@@ -568,7 +576,12 @@ a:focus {
     outline: 5px dashed var(--call-to-action);
 }
 
-input:focus, select:focus, textarea:focus {
+input:focus, textarea:focus {
+    background-color: #FFF;
+}
+
+select:focus {
+    background-image: none;
     background-color: #FFF;
 }
 
