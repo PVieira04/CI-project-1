@@ -426,7 +426,7 @@ form {
     border-radius: 5px;
     padding: 5px;
     width: 100%;
-    background: url(../media/icons/arrow-down-circle-svgrepo-com.png) no-repeat;
+    background: url(../media/icons/arrow-down-circle.png) no-repeat;
     background-position: calc(100% - 5px);
     background-size: contain;
 }

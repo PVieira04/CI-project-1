@@ -629,6 +629,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 - Thank you to Thomas Wharton, a fellow CI student who reminded me of this idea to store colours as variables in case I want to change colour themes.
 - Thank you to smashtheshell on YouTube for creating a video on [how to create a sticky footer](https://www.youtube.com/@smashtheshell). The video was very easy to follow and worked like a charm!
 - Thank you to [this article](https://stackoverflow.com/questions/7638677/how-can-i-remove-the-gloss-on-a-select-element-in-safari-on-mac) on Stack Overflow for helping me understand the -webkit-appearance style rule to fix one of my issues with Safari Browser.
+- Thank you to [svgrepo](https://www.svgrepo.com/) for allowing me to use their open-licenced icon for the contact page drop down arrow.
 
 
 ### Media
