@@ -650,8 +650,8 @@ a:active {
 
     nav div div a, nav div div p {
         font-size: 5vw;
-        margin: 0;
-        padding: 0 5px;
+        margin: 0 3px;
+        padding: 0 3px;
     }
 }
 
@@ -713,7 +713,8 @@ a:active {
     }
 
     .tutor-pic {
-        height: 580px;
+        max-height: 580px;
+        min-width: 250px;
     }
 
     .home-landing-right .action-button {
