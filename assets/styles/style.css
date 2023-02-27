@@ -401,6 +401,7 @@ form {
 }
 
 .form-left-side div select {
+    appearance: none;
     border: 2px solid #565254 ;
     border-radius: 5px;
     padding: 5px;
