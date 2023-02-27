@@ -515,11 +515,12 @@ Manual Testing was further done on other browsers. These browsers were chosen be
 - Edge
   - No issues detected.
 - Safari
-  - Issue detected on Landing Page - .tutor-pic takes up more than 50% of the screen width and squashes .tutor-info. Significantly different to Chrome, Edge and Firefox.
-  - Extra unwanted styling added to select fields in contact form.
-  - Footer always appears at the bottom of the viewport. Should only appear at the bottom of the page.
+  - Issue detected on Landing Page - .tutor-pic takes up more than 50% of the screen width and squashes .tutor-info. Significantly different to Chrome, Edge and Firefox. (FIXED)
+  - Extra unwanted styling added to select fields in contact form. (FIXED)
+  - Footer always appears at the bottom of the viewport. Should only appear at the bottom of the page. (FIXED)
 - Firefox
-  - Submit input on contact form says "Submit Query" instead of just "Submit". Some spacing is missing in the contact page and on the resources page.
+  - Submit input on contact form says "Submit Query" instead of just "Submit". (FIXED)
+  - Some spacing is missing in the contact page and on the resources page.
 - Opera
   - No issues detected.
 
