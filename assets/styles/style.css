@@ -156,10 +156,12 @@ hr {
     margin-top: 10px;
     margin-bottom: 10px;
     box-sizing: border-box;
+    width: 100%;
 }
 
 .home-landing-left {
     width: 33%;
+    max-width: 650px;
 }
 
 .tutor-pic {
@@ -200,6 +202,7 @@ hr {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    margin: 0 auto;
 }
 
 .tagline {
@@ -676,6 +679,7 @@ a:active {
         align-items: center;
         width: 100%;
         margin-top: 10px;
+        max-width: none;
     }
 
     .vl {
