@@ -520,8 +520,8 @@ Manual Testing was further done on other browsers. These browsers were chosen be
   - Footer always appears at the bottom of the viewport. Should only appear at the bottom of the page. (FIXED)
 - Firefox
   - Submit input on contact form says "Submit Query" instead of just "Submit". (FIXED)
-  - Some spacing is missing in the contact page and on the resources page.
-  - Shows outline on png used as background image for select field.
+  - Some spacing is missing in the contact page and on the resources page. (FIXED)
+  - Shows outline on png used as background image for select field. (FIXED)
 - Opera
   - No issues detected.
 
@@ -551,7 +551,7 @@ Android Devices
   - No issues, behaves as intended.
 - Galaxy Tab A8 - Samsung Internet
   - Layout of contact.html in portrait mode has the two main sections of the form side by side.
-  - I ideally would want them to be orientated just like in mobile mode.
+  - I ideally would want them to be orientated just like in mobile mode; small issue.
 
 iOS Devices (all using Safari Browser for iOS)
 
@@ -563,6 +563,7 @@ iOS Devices (all using Safari Browser for iOS)
   - Same issues as on Safari on Mac
   - In tablet mode, .tutor-pic takes up more than 50% of the screen width
   - Extra styling added to select fields
+  - All these issues now fixed.
 
 ### Lighthouse Report
 
