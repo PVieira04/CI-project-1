@@ -628,6 +628,10 @@ a:active {
         flex-direction: column;
     }
 
+    .logo {
+        margin-left: 0;
+    }
+
     nav div div {
         margin: 20px 0;
     }
