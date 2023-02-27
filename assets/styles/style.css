@@ -703,7 +703,7 @@ a:active {
     }
 }
 
-@media only screen and (max-width : 809px) {
+@media only screen and (max-width : 887px) {
     .home-landing-left {
         flex-direction: column;
     }
@@ -800,7 +800,7 @@ a:active {
 
 /* Media Queries for resources.html */
 
-@media only screen and (max-width : 930px) {
+@media only screen and (max-width : 1042px) {
     #resources-gcse div, #resources-alevel div {
         flex-direction: column;
         margin-bottom: 40px;
