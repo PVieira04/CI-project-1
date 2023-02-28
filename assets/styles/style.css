@@ -193,11 +193,18 @@ hr {
     font-size: 1.5em;
     list-style: circle inside;
     padding: 5px;
+    margin-left: -18px;
 }
 
 .vl {
     height: inherit;
     background-color: var(--placeholder);
+    width: 2px;
+}
+
+.vl-hidden {
+    height: inherit;
+    background-color: var(--background);
     width: 2px;
 }
 
@@ -708,7 +715,7 @@ a:active {
         width: 100%;
         margin-top: 10px;
         max-width: none;
-        font-size: calc(1em + 0.3vw);
+        font-size: calc(1em + 0.28vw);
     }
 
     .vl {
@@ -720,6 +727,11 @@ a:active {
         max-width: 400px;
     }
 
+    .tutor-info ul li {
+        margin-left: 0;
+        
+    }
+
     .hr-for-mobile {
         display: block;
     }
@@ -728,6 +740,10 @@ a:active {
 @media only screen and (max-width : 887px) {
     .home-landing-left {
         flex-direction: column;
+        font-size: 1.5em;
+    }
+
+    .tutor-info ul li {
         font-size: 1em;
     }
 
