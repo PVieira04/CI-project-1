@@ -1,6 +1,6 @@
 # MasterMaths
 
-[This project](https://pvieira04.github.io/CI-project-1/) is now live on Github Pages.
+[This project](https://pvieira04.github.io/mastermaths/) is now live on Github Pages.
 
 MasterMaths is a site that exposes users to the existence of a mathematics home tutor in London, UK. The site will be targeted toward parents who wish to employ the services of a home tutor to help improve their child's mathematics. MasterMaths will be useful to parents because it will outline the tutor's unique method of teaching, show them how to go about employing the tutor's services, and provide information on where to find the best resources for studying.
 
@@ -26,7 +26,7 @@ MasterMaths is a site that exposes users to the existence of a mathematics home 
 * [Design](#design)
   * [Colour Scheme](#colour-scheme)
   * [Typography](#typography)
-  * [Accessibility](#Accessibility)
+  * [Accessibility](#accessibility)
   * [Imagery](#imagery)
   * [Wireframes](#wireframes)
 * [Features](#features)
@@ -418,15 +418,15 @@ Screenshots were taken of various websites for the resources section. This gives
 ### Validator Testing 
 
 - HTML
-  - [index.html](index.html) - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpvieira04.github.io%2FCI-project-1%2F).
-  - [about.html](about.html) - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpvieira04.githubio%2FCI-project-1%2Fabout.html).
-  - [contact.html](contact.html) - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpvieira04.githubio%2FCI-project-1%2Fcontact.html).
-  - [success.html](success.html) - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpvieira04.githubio%2FCI-project-1%2Fsuccess.html).
-  - [resources.html](resources.html) - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpvieira04.githubio%2FCI-project-1%2Fresources.html).
-  - [404.html](404.html) - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpvieira04.github.io%2FCI-project-1%2F404.html).
+  - [index.html](index.html) - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpvieira04.github.io%2Fmastermaths%2F).
+  - [about.html](about.html) - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpvieira04.github.io%2Fmastermaths%2Fabout.html).
+  - [contact.html](contact.html) - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpvieira04.github.io%2Fmastermaths%2Fcontact.html).
+  - [success.html](success.html) - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpvieira04.github.io%2Fmastermaths%2Fsuccess.html).
+  - [resources.html](resources.html) - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpvieira04.github.io%2Fmastermaths%2Fresources.html).
+  - [404.html](404.html) - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpvieira04.github.io%2Fmastermaths%2F404.html).
 
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fpvieira04.github.io%2FCI-project-1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css).
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fpvieira04.github.io%2Fmastermaths%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css).
 
 ### Manual Testing
 
@@ -539,7 +539,7 @@ The following are the most popular browsers for tablet and mobile:
 
 ### Device Testing
 
-While the device toolbar in Chrome Developer Tools was used throughout the development process, further manual tests were carried out on various physical devices visiting the [live website](https://pvieira04.github.io/CI-project-1).
+While the device toolbar in Chrome Developer Tools was used throughout the development process, further manual tests were carried out on various physical devices visiting the [live website](https://pvieira04.github.io/mastermaths).
 
 Android Devices
 
@@ -611,7 +611,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
   - Under the "Code and automation" section, click on "Pages"
   - Under "Build and Deployment", select the option "Deploy from a branch" for "Source", and for "Branch", select "main".
 
-[This is the live website](https://pvieira04.github.io/CI-project-1/)
+[This is the live website](https://pvieira04.github.io/mastermaths/)
 
 ## Credits 
 
