@@ -106,8 +106,11 @@ nav div {
     align-items: center;
 }
 
+.logo-con {
+    margin: 8px 0 8px 5vw;
+}
+
 .logo {
-    margin-left: 5vw;
     margin-right: auto;
     font-size: 3em;
     color: var(--logo-emphasis);
@@ -121,7 +124,7 @@ nav div div {
 
 nav div div a, nav div div p {
     margin: 0 5px;
-    font-size: 1.1em;
+    font-size: 1.2em;
     padding: 2px 7px;
     border-radius: 5px;
 }
@@ -133,6 +136,10 @@ credits of README. */
 nav div div a:hover {
     text-underline-offset: 6px;
     text-decoration: underline;
+}
+
+.logo-con a:hover {
+    text-decoration: none;
 }
 
 .current-page {
@@ -623,14 +630,15 @@ a:active {
 
 /* Media Queries for Navigation Bar */
 
-@media only screen and (max-width : 809px) {
+@media only screen and (max-width : 949px) {
     nav div {
         display: flex;
         flex-direction: column;
     }
 
-    .logo {
+    .logo-con {
         margin-left: 0;
+        margin-bottom: 0;
     }
 
     nav div div {
