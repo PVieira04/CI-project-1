@@ -208,39 +208,39 @@ The typography idea was taken from [this website](https://www.fontpairings.com/)
 
 ### __Accessibility__
 
-In order to adhere to accessibility guidelines for font size, the website is designed so that any font size does not go lower than 16px. Font sizes were changed in order to adhere to further accessibility guidelines. The body tag was given a font size rule of 100% and most other font size style rules were given a value in terms of em.
+[Non-text Content 1.1.1](https://www.w3.org/TR/WCAG21/#non-text-content) - img tags are used appropriately to show meaningful content while icons are coded in CSS. Images also have appropriate alt text, and also warn the user if it is a link which opens in a new tab.
 
-All external social media links in the footer open in a new tab and also warn the user this happens via an aria-label.
+[Info and Relationships 1.3.1](https://www.w3.org/TR/WCAG21/#info-and-relationships) - Semantic markup is used appropriately. Regarding the contact form, fields all have an associated label element which is correctly set up using the "for" attribute and the "id" attribute of all fields.
 
-All images have alt text telling the user what the image is.
+[Use of Colour 1.4.1](https://www.w3.org/TR/WCAG21/#use-of-color) - The .current-page in the navigation bar was changed so that the current page no longer only changes colour to blue, but also has a border around it to indicate which page the user is on.
 
-All external image links have appropriate alt text which can tell the user a new tab will open if clicked and say which website will be opened.
+[Contrast (Enhanced) 1.4.6](https://www.w3.org/TR/WCAG21/#contrast-enhanced) - Text and background colour have a minimum of 7:1 contrast ratio to cater for all colour blindness.
 
-Any a tags that link to the current page have been deleted and replaced with p tags, apart from the website logo.
+[Visual Representation 1.4.8](https://www.w3.org/TR/WCAG21/#visual-presentation) - 
 
-Text and background colour have a minimum of 7:1 contrast ratio to cater for all colour blindness.
+[Reflow 1.4.10](https://www.w3.org/TR/WCAG21/#reflow) - Media queries are used to ensure that there is no loss of contnet or functionality when content is shown at a width of 320px.
 
-All HTML and CSS is valid as shown in the validator testing seciton and across all HTML pages, there are no duplicate IDs.
+[Keyboard (No Exception) 2.1.3](https://www.w3.org/TR/WCAG21/#keyboard-no-exception) - The page is completely keyboard accessible and users can navigate through different pages of the website.
 
-Correct HTML markup is used throughout the project and content is in a logical order. Page elements also receive keyboard focus in a logical order and the HTML structure is the same on every page.
+[Bypass Blocks 2.4.1](https://www.w3.org/TR/WCAG21/#bypass-blocks) - The navigation bar was restructured and a header placed above it which contained a link to skip navigation. This was then sent of the page using CSS and can only be targeted using tab or shift+tab on the keyboard.
 
-Every page had an appropriate title and the language of the page is specified.
+[Page Titled 2.4.2](https://www.w3.org/TR/WCAG21/#page-titled) - Every page has an appropriate title.
 
-img tags are used appropriately to show meaningful content while icons are coded in CSS.
+[Headings and Labels 2.4.6](https://www.w3.org/TR/WCAG21/#headings-and-labels) - Labels on forms all have sufficiently descriptive text written exclusively for screen readers. Typical users will not know the label tag exists as it has been sent off the page. Instead, typical users will be able to see appropriately written placeholder text which informs the user what kind of information they should enter.
 
-The page is completely keyboard accessible and users can navigate through different pages of the website.
+[Focus Visible 2.4.7](https://www.w3.org/TR/WCAG21/#focus-visible) - Styling of focused elements is consistent throughout the website. All a tags and submit buttons have a thick dashed light coral border(#EF6F6C) when focused, while input, select and textarea fields have a background that turns white.
 
-Accessibility guideline 1.3.1 ([Info and Relationships](https://www.w3.org/TR/WCAG21/#info-and-relationships)) - Regarding the contact form, fields all have an associated label element which is correctly set up using the "for" attribute and the "id" attribute of all fields.
+[Language of Page 3.1.1](https://www.w3.org/TR/WCAG21/#language-of-page) - The language of every page is specified as English.
 
-Labels on forms all have sufficiently descriptive text written exclusively for screen readers. Typical users will not know the label tag exists as it has been sent off the page.
+[Error Preveniton (All) 3.3.6](https://www.w3.org/TR/WCAG21/#error-prevention-all) - If a user clicks on submit but a field has not been appropriately filled out, user is automatically directed to the problem field, and form submissions are confirmed by the user being sent to the success page.
 
-If a user clicks on submit but a field has not been appropriately filled out, user is automatically directed to the problem field, and form submissions are confirmed.
+[Parsing 4.1.1](https://www.w3.org/TR/WCAG21/#parsing) - All HTML and CSS is valid as shown in the validator testing seciton and across all HTML pages. There are also no duplicate IDs.
 
-Accessibility guideline 1.4.1 ([Use of Colour](https://www.w3.org/TR/WCAG21/#use-of-color)) - The .current-page in the navigation bar was changed so that the current page no longer only changes colour to blue, but also has a border around it to indicate which page the user is on.
+[Name, Role, Value 4.1.2](https://www.w3.org/TR/WCAG21/#name-role-value) - All external social media links in the footer open in a new tab and also warn the user this happens via an aria-label.
 
-Accessibility guideline 2.4.1 ([Bypass Blocks](https://www.w3.org/TR/WCAG21/#bypass-blocks)) - The navigation bar was restructured and a header placed above it which contained a link to skip navigation. This was then sent of the page using CSS and can only be targeted using tab or shift+tab on the keyboard.
+In order to adhere to accessibility guidelines for font size, the website is designed so that any font size does not go lower than 16px. Font sizes were changed in order to adhere to further accessibility guidelines. The body tag was given a font size rule of 100% and most other font size style rules were given a value in terms of em. The idea behind this is that the user can increase the text size of the page and sizes will scale correctly.
 
-Accessibility guideline 2.4.7 ([Focus Visible](https://www.w3.org/TR/WCAG21/#focus-visible)) - Styling of focused elements is consistent throughout the website. All a tags and submit buttons have a thick dashed light coral border(#EF6F6C) when focused, while input, select and textarea fields have a background that turns white.
+Any a tags that link to the current page have been deleted and replaced with p tags, apart from the website logo. This will allow screen readers to skip over this text as it is unneccesary for the user to click on it as they are already on that page.
 
 ### __Imagery__
 
