@@ -93,6 +93,16 @@ This file contains all the different tests performed on the site. It also detail
   - Test carried out using NVDA. 
   - All links when tabbed through have accurate descriptions.
 
+## Screen Reader Testing
+
+- I downloaded the free NVDA screen reader to test my deployed website on.
+- Whenever the page is refreshed, the screen reader will automatically read through all of the discernable content on the page.
+- It successfully reads through all written content such as headings lists, paragraphs and links.
+- Additionally it also reads out the alt text of my images and aria-labels of my social media link in the footer.
+- This has shown me that someone who uses a screen reader will be able to travel through my website without issue.
+- However, there are some things I can optimise. Sometimes when line breaks are used, they are read out by the screen reader, such as with my tagline. This doesn't affect the funcitonality of my site but it is not ideal.
+- I can fix this by deleting the excessive line breaks and add padding to the tagline.
+
 ## User Testing
 
 I asked a real user to open my website on dektop. They used a mouse to navigate and this person has no accessibility requirements. This is how it went.
@@ -215,5 +225,7 @@ Another safari issue was that my landing page in tablet mode treated .home-landi
 Safari also adds an extra gloss style to the form select fields. I fixed this by getting rid of all styling for the select field and then adding my own background image to it so an arrow still appears, making it more obvious to the user that it is a select field.
 
 At one point, my favicons were not working. This was because I was using absolute filepathing (having copied the code directly from the attributed website in the credits of my README) so it was showing on the local side but not on the deployed side. The simple fix was just adding a "." to the beginning of the filepath.
+
+During my testing using a screen reader, I discovered that on the landing page, it reads out the .home-landing-left section first but I want the user to first know about the tagline in .home-landing-right. To fix this, I restructured my HTML so that .home-landing-right came first and then changed the relevant flexbox settings in my CSS.
 
 ## Known Issues
