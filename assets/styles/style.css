@@ -630,7 +630,7 @@ label {
 
 /* Accessibility Styling */
 
-a:focus {
+a:focus-visible {
     outline: 5px dashed var(--call-to-action);
 }
 
