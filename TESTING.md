@@ -8,8 +8,13 @@ This file contains all the different tests performed on the site. It also detail
 * [Manual Testing](#manual-testing)
 * [User Testing](#user-testing)
 * [Browser Testing](#browser-testing)
+  * [Desktop Browsers](#desktop-browsers)
+  * [Tablet and Mobile Browsers](#tablet-and-mobile-browsers)
 * [Device Testing](#device-testing)
 * [Lighthouse Report](#lighthouse-report)
+  * [Initial Report](#initial-report)
+  * [Actions](#actions)
+  * [Results](#results)
 * [Fixed Issues](#fixed-issues)
 * [Known Issues](#known-issues)
 
@@ -168,7 +173,7 @@ iOS Devices (all using Safari Browser for iOS)
 
 ### Initial Report
 
-![Initial Lighthouse Report](./assets/media/lighthouse/lighthouse-report-initial.png)
+![Initial Lighthouse Report](https://github.com/PVieira04/mastermaths/blob/main/assets/media/lighthouse/lighthouse-report-initial.png)
 
 ### Actions
 
@@ -180,12 +185,12 @@ All actions were derived from addressing the opportunites outlined in the lighth
 4. Replaced Fontawesome CDN with manual installation of Fontawesome and deleted uneccessary styling rules (Performance).
 5. Converted images in resouces.html to webp format and changed resolution appropriately (Performance).
    * Between the before and after shown below, the performance score stayed the same but the Cumulative Layout Shift changed by 0.004.
-   * [Resources Mobile Before](./assets/media/lighthouse/lighthouse-report-resources-mobile-before.png)
-   * [Resources Mobile After](./assets/media/lighthouse/lighthouse-report-resources-mobile-after.png)
+   * [Resources Mobile Before](https://github.com/PVieira04/mastermaths/blob/main/assets/media/lighthouse/lighthouse-report-resources-mobile-before.png)
+   * [Resources Mobile After](https://github.com/PVieira04/mastermaths/blob/main/assets/media/lighthouse/lighthouse-report-resources-mobile-after.png)
 
 ### Results
 
-![Final Lighthouse Report - Landing Page Desktop](./assets/media/lighthouse/lighthouse-report-after.png)
+![Final Lighthouse Report - Landing Page Desktop](https://github.com/PVieira04/mastermaths/blob/main/assets/media/lighthouse/lighthouse-report-after.png)
 
 Under the Diagnostics section in the Lighthouse report, a warning was given to do with caching. The warning was called "Serve static assets with an efficient cache policy". After doing my research, it seems that since I am using Github Pages to deploy this project, I am unable to change the cache time which is [always set to 600 seconds](https://webapps.stackexchange.com/questions/119286/caching-assets-in-website-served-from-github-pages#comment143669_119294). Thus, this is one issue I am unable to address unless I change my deployment process.
 
