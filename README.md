@@ -9,7 +9,7 @@ MasterMaths is a site that exposes users to the existence of a mathematics home 
 ## [Contents](#contents)
 
 * [User Experience (UX)](#user-experience-ux)
-  * [Site Owner Goals](#site-owner-goals)
+  * [Key Project Goals](#key-project-goals)
   * [New User Goals](#new-user-goals)
   * [Returning User Goals](#returning-user-goals)
   * [User Story - New Customer](#user-story---new-customer)
@@ -48,11 +48,11 @@ MasterMaths is a site that exposes users to the existence of a mathematics home 
 
 ## User Experience (UX)
 
-### Site Owner Goals
-- Convince parents of the tutor's expertise
-- Encourage users to buy into the tutor’s method
-- Funnel users towards the contact section to request a callback
-- Get users on the phone to discuss pricing
+### Key Project Goals
+1. Entice parents' curiosity to find out more about the tutor
+2. Convince parents to buy into the tutor’s method
+3. Funnel suitable users towards the contact section to request a callback
+4. Get users on the phone to discuss payment and booking a session
 
 ### New User Goals
 A first time user may want to :
@@ -295,6 +295,7 @@ Screenshots were taken of various websites for the resources section. This gives
 
   - Featured on all six pages, the fully responsive header and navigation bar includes links to the Home page, About page, Contact page and Resources page; and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - This section is mostly geared towards a user that knows where they are going and exactly which page they want to navigate to.
   - On smaller screens, the navigation bar will change in layout to present the navigation links below the website logo.
 
 ![Nav Bar - Desktop](https://github.com/PVieira04/mastermaths/blob/main/assets/media/features/navbar-feature.png)
@@ -304,16 +305,22 @@ Screenshots were taken of various websites for the resources section. This gives
 
   - The landing page includes three main sections.
   - The first section includes a photo of the tutor along with some basic information which together take up a third of the page's width on desktop, and a large tagline filling the rest of the page's width. Below the tagline, there is a call to action button.
-  - Regarding the tagline, the word "better" is highlighted in blue in order to catch the user's attention and invoke a good feeling for the user, since "better" is a positive word.
-  - The call to action button is pink which should catch the user's attention next, inviting them to navigate to the about section. 
+  - The tagline takes up most of the screen's width because I want a parent to see the tagline first. The idea behind the wording is I want them to become curious on what the tutor thinks is the "right" way to tutor.
+  - Regarding the tagline, the word "better" is highlighted in blue in order to catch the user's attention and invoke a good feeling for them, since "better" is a positive word.
+  - The call to action button is pink which should catch the user's attention next, inviting them to navigate to the about section.
+  - The picture of the tutor should come across as friendly so as to be welcoming to the user.
+  - The tutor information section below the picture should give the user some idea of why they are qualified to teach the user's child, and tell them that the tutor is a travel-to-you home tutor.
+  - This sets the expectation with the user early so if they want only an online tutor, that user has been successfully filtered out.
 
 ![Landing Page - Section One - Desktop](https://github.com/PVieira04/mastermaths/blob/main/assets/media/features/landing-page-section-one-desktop.png)
 
   - On devices like tablets which have smaller screens, the layout of this first section changes. Instead, the tagline is placed first, due to its importance, and then the tutor and their information is placed below.
+  - Done to reduce cramping on the screen.
 
 [Landing Page - Section One - Tablet](https://github.com/PVieira04/mastermaths/blob/main/assets/media/features/landing-page-section-one-tablet.png)
 
   - On even smaller screens like mobile phones, the layout changes further. Below the tagline, the tutor's photo appears first and then the tutor's information.
+  - Also done to reduce cramping of content on the screen.
 
 [Landing Page - Section One - Mobile](https://github.com/PVieira04/mastermaths/blob/main/assets/media/features/landing-page-section-one-mobile.png)
 
@@ -332,13 +339,14 @@ Screenshots were taken of various websites for the resources section. This gives
 ![About Page - Section One - Desktop](https://github.com/PVieira04/mastermaths/blob/main/assets/media/features/about-page-section-one-desktop.png)
 [About Page - Section One - Mobile](https://github.com/PVieira04/mastermaths/blob/main/assets/media/features/about-page-section-one-mobile.png)
 
-  - The next section on the about page provides an outline of the tutor's story and details how the tutor will ensure the best outcome for their students. It can be difficult for a parent to trust someone else to teach their child and so this provides value in setting expectations regarding exactly what services the tutor does and does not provice. Parents who do not like the approach do not move forward, whereas parents who do will scroll further and attempt to book a callback.
+  - The next section on the about page provides an outline of the tutor's story and details how the tutor will ensure the best outcome for their students. It can be difficult for a parent to trust someone else to teach their child and so this provides value in setting expectations regarding exactly what services the tutor does and does not provide. 
+  - Parents who do not like the approach do not move forward, whereas parents who do will scroll further and attempt to book a callback. More users that have been successfully filtered out.
 
 ![About Page - Section Two - Desktop](https://github.com/PVieira04/mastermaths/blob/main/assets/media/features/about-page-section-two-desktop.png)
 
   - The last section allows the user to find out whether they live in an area appropriate for the tutor to travel to. This is a further filter so that the tutor can ensure they can work with the ideal client.
   - At the bottom of this section is a call to action button directing the user to the contact page. This is exactly where the user wants to go once they have been convinced of the tutor's expertise and professionalism.
-  - This section is fully responsive but the layout does not change on smaller screens.
+  - This section is fully responsive with the layout remaining the same on smaller screens.
 
 ![About Page - Section Three - Desktop](https://github.com/PVieira04/mastermaths/blob/main/assets/media/features/about-page-section-three-desktop.png)
 
@@ -359,15 +367,16 @@ Screenshots were taken of various websites for the resources section. This gives
 
 ### The Success Page
 
-  - On submitting the contact form, the user will be directed to a page telling the user that their message has been sent successfully. This provides value to the user becasue a user may become anxious that something has gone awry if they are not provided a confirmation message; it comforts the user.
+  - On submitting the contact form, the user will be directed to a page telling the user that their message has been sent successfully. This provides value to the user becasue theyh may become anxious that something has gone awry if they are not provided a confirmation message; it comforts the user.
   - Following the success message, there is a call to action section allowing the user to be shown the way to the resources page. This provides further value to the user because some parents may want some extra work for their children to do while they wait to secure a tutoring session.
-  - If the user does not wish to go to the resources section, they are also given the option to navigate to the landing page. This will allow the user to see the website tagline and tutor's basic information, and further reinforce their decision in selected this tutor.
+  - If the user does not wish to go to the resources section, they are also given the option to navigate to the landing page. This will allow the user to see the website tagline and tutor's basic information, and further reinforce their decision in selecting this tutor.
 
 ![Success Page - Desktop](https://github.com/PVieira04/mastermaths/blob/main/assets/media/features/success-page-desktop.png)
 
 ### The Resources Page
 
   - The Resources Page begins with a short introduction telling the user what this page is about.
+  - It also tells the user about how to access the resource, essential information if the method is not already intuitive to them.
   - The main section below the welcome message is split into two parts, GCSE and A-Level Maths.
   - Both parts are styled the same with a screenshot on the left hand side and on the right, a brief description of the website's resources and the tutor's recommendation in how to use it.
   - This provides great value to the user becasue there is a great variety in reasons to use each resource which can cater for a variety of needs.
