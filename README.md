@@ -220,6 +220,8 @@ The typography idea was taken from [this website](https://www.fontpairings.com/)
 
 [Reflow 1.4.10](https://www.w3.org/TR/WCAG21/#reflow) - Media queries are used to ensure that there is no loss of contnet or functionality when content is shown at a width of 320px.
 
+[Text Spacing 1.4.12](https://www.w3.org/TR/WCAG21/#text-spacing) - em units used in font sizes in order to allow no loss of content or functionality when user changes paragraph spacing, text line height, word spacing and letter spacing.
+
 [Keyboard (No Exception) 2.1.3](https://www.w3.org/TR/WCAG21/#keyboard-no-exception) - The page is completely keyboard accessible and users can navigate through different pages of the website.
 
 [Bypass Blocks 2.4.1](https://www.w3.org/TR/WCAG21/#bypass-blocks) - The navigation bar was restructured and a header placed above it which contained a link to skip navigation. This was then sent of the page using CSS and can only be targeted using tab or shift+tab on the keyboard.
@@ -237,8 +239,6 @@ The typography idea was taken from [this website](https://www.fontpairings.com/)
 [Parsing 4.1.1](https://www.w3.org/TR/WCAG21/#parsing) - All HTML and CSS is valid as shown in the validator testing seciton and across all HTML pages. There are also no duplicate IDs.
 
 [Name, Role, Value 4.1.2](https://www.w3.org/TR/WCAG21/#name-role-value) - All external social media links in the footer open in a new tab and also warn the user this happens via an aria-label.
-
-In order to adhere to accessibility guidelines for font size, the website is designed so that any font size does not go lower than 16px. Font sizes were changed in order to adhere to further accessibility guidelines. The body tag was given a font size rule of 100% and most other font size style rules were given a value in terms of em. The idea behind this is that the user can increase the text size of the page and sizes will scale correctly.
 
 Any a tags that link to the current page have been deleted and replaced with p tags, apart from the website logo. This will allow screen readers to skip over this text as it is unneccesary for the user to click on it as they are already on that page.
 
