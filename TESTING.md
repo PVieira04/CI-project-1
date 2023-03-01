@@ -204,6 +204,16 @@ Resulting Investigation:
 
 ## Fixed Issues
 
-## Known Issues
+Firefox browser had a different layout that on other browsers. The cause of this is that Firefox treats "br" tags differently to other browsers so the spacing between some elements was a bit off. I instead changed the affected sections to have appropriate margins instead.
 
-Firefox browser has some layout changes compared to all other browsers that I tested. I do not know how to fix this.
+Firefow also showed a difference with the submit input text. In my HTML, I did not specify a value attribute for it so it defaults to the default text. On firefox, that is "Submit Query" rather than just "Submit" which shows on all other browsers. After adding the value attribute, the issue was fixed.
+
+Safari browser had various differences when compared to all other desktop browsers I tested. The way I handled this was by using flexbox on the body of my html and giving my footer a style of mrgin-top: auto. Before I used the sticky footer method but it seems safari doesn't support that method.
+
+Another safari issue was that my landing page in tablet mode treated .home-landing-left strangely and the layout was not what I wanted. I fixed this by giving a flex property to each element inside and specifying a max-width for .tutor-pic.
+
+Safari also adds an extra gloss style to the form select fields. I fixed this by getting rid of all styling for the select field and then adding my own background image to it so an arrow still appears, making it more obvious to the user that it is a select field.
+
+At one point, my favicons were not working. This was because I was using absolute filepathing (having copied the code directly from the attributed website in the credits of my README) so it was showing on the local side but not on the deployed side. The simple fix was just adding a "." to the beginning of the filepath.
+
+## Known Issues
