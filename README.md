@@ -216,7 +216,7 @@ The typography idea was taken from [this website](https://www.fontpairings.com/)
 
 [Contrast (Enhanced) 1.4.6](https://www.w3.org/TR/WCAG21/#contrast-enhanced) - Text and background colour have a minimum of 7:1 contrast ratio to cater for all colour blindness.
 
-[Visual Representation 1.4.8](https://www.w3.org/TR/WCAG21/#visual-presentation) - 
+[Visual Representation 1.4.8](https://www.w3.org/TR/WCAG21/#visual-presentation) - No block of text throughout the site is set to justified. Width is set to a maximum for all bocks of text to ensure number of characters is at a maximum of 80. Line spacing changed to adhere to requirements. Text can be resized with no need for horizontal scroll.
 
 [Reflow 1.4.10](https://www.w3.org/TR/WCAG21/#reflow) - Media queries are used to ensure that there is no loss of contnet or functionality when content is shown at a width of 320px.
 
