@@ -4,7 +4,7 @@
 
 MasterMaths is a site that exposes users to the existence of a mathematics home tutor in London, UK. The site will be targeted toward parents who wish to employ the services of a home tutor to help improve their child's mathematics. MasterMaths will be useful to parents because it will outline the tutor's unique method of teaching, show them how to go about employing the tutor's services, and provide information on where to find the best resources for studying.
 
-![Responsiveness Showcase via amiresponsive.co.uk](./assets/media/features/am-i-responsive.png)
+![Responsiveness Showcase via amiresponsive.co.uk](https://github.com/PVieira04/mastermaths/blob/main/assets/media/features/am-i-responsive.png)
 
 ## [Contents](#contents)
 
@@ -135,7 +135,7 @@ The website should take a new user on a journey, starting with a landing page an
 
 ### Skeleton
 
-[This was my original wireframe](./assets/media/wireframes/initial-wireframe.jpg). For some reason I had left out the resources section but that should have been inserted between the contact form and the footer.
+[This was my original wireframe](https://github.com/PVieira04/mastermaths/blob/main/assets/media/wireframes/initial-wireframe.png). For some reason I had left out the resources section but that should have been inserted between the contact form and the footer.
 
 ### Surface
 
@@ -185,7 +185,7 @@ The revised colour scheme is as follows:
 
 These are the results of the [contrast checker](https://webaim.org/resources/contrastchecker/):
 
-![Blue on Platinum Background](./assets/media/contrast/contrast-check-blue-platinum.png)
+![Blue on Platinum Background](https://github.com/PVieira04/mastermaths/blob/main/assets/media/contrast/contrast-check-blue-platinum.png)
 
 #### Other Checks on Used Combinations
 
@@ -253,34 +253,34 @@ Screenshots were taken of various websites for the resources section. This gives
 ### __Wireframes__
 
   ### Landing Page Mockups
-  ![Landing Page Mockup - Desktop Version](./assets/media/wireframes/landing-page-mockup-desktop.png)
+  ![Landing Page Mockup - Desktop Version](https://github.com/PVieira04/mastermaths/blob/main/assets/media/wireframes/landing-page-mockup-desktop.png)
 
-  [Landing Page Mockup - Tabelt Version](./assets/media/wireframes/landing-page-mockup-tablet.png)
+  [Landing Page Mockup - Tabelt Version](https://github.com/PVieira04/mastermaths/blob/main/assets/media/wireframes/landing-page-mockup-tablet.png)
 
-  [Landing Page Mockup - Mobile Version](./assets/media/wireframes/landing-page-mockup-mobile.png)
+  [Landing Page Mockup - Mobile Version](https://github.com/PVieira04/mastermaths/blob/main/assets/media/wireframes/landing-page-mockup-mobile.png)
 
   ### About Page Mockups
-  ![About Page Mockup - Desktop Version](./assets/media/wireframes/about-page-mockup-desktop.png)
+  ![About Page Mockup - Desktop Version](https://github.com/PVieira04/mastermaths/blob/main/assets/media/wireframes/about-page-mockup-desktop.png)
 
-  [About Page Mockup - Tabelt Version](./assets/media/wireframes/about-page-mockup-tablet.png)
+  [About Page Mockup - Tabelt Version](https://github.com/PVieira04/mastermaths/blob/main/assets/media/wireframes/about-page-mockup-tablet.png)
 
-  [About Page Mockup - Mobile Version](./assets/media/wireframes/about-page-mockup-mobile.png)
+  [About Page Mockup - Mobile Version](https://github.com/PVieira04/mastermaths/blob/main/assets/media/wireframes/about-page-mockup-mobile.png)
 
   ### Contact Page Mockups
 
-  ![Contact Page Mockup - Desktop Version](./assets/media/wireframes/contact-page-mockup-desktop.png)
+  ![Contact Page Mockup - Desktop Version](https://github.com/PVieira04/mastermaths/blob/main/assets/media/wireframes/contact-page-mockup-desktop.png)
 
-  [Contact Page Mockup - Tabelt Version](./assets/media/wireframes/contact-page-mockup-tablet.png)
+  [Contact Page Mockup - Tabelt Version](https://github.com/PVieira04/mastermaths/blob/main/assets/media/wireframes/contact-page-mockup-tablet.png)
 
-  [Contact Page Mockup - Mobile Version](./assets/media/wireframes/contact-page-mockup-mobile.png)
+  [Contact Page Mockup - Mobile Version](https://github.com/PVieira04/mastermaths/blob/main/assets/media/wireframes/contact-page-mockup-mobile.png)
 
   ### Resources Page Mockups
 
-  ![Resources Page Mockup - Desktop Version](./assets/media/wireframes/resources-page-mockup-desktop.png)
+  ![Resources Page Mockup - Desktop Version](https://github.com/PVieira04/mastermaths/blob/main/assets/media/wireframes/resources-page-mockup-desktop.png)
 
-  [Resources Page Mockup - Tabelt Version](./assets/media/wireframes/resources-page-mockup-tablet.png)
+  [Resources Page Mockup - Tabelt Version](https://github.com/PVieira04/mastermaths/blob/main/assets/media/wireframes/resources-page-mockup-tablet.png)
 
-  [Resources Page Mockup - Mobile Version](./assets/media/wireframes/resources-page-mockup-mobile.png)
+  [Resources Page Mockup - Mobile Version](https://github.com/PVieira04/mastermaths/blob/main/assets/media/wireframes/resources-page-mockup-mobile.png)
 
 ## Features
 
@@ -289,7 +289,7 @@ Screenshots were taken of various websites for the resources section. This gives
   - This will allow a keyboard only user skip over the navigation links and get to the real content of the site. 
   - This is especially useful for a returning visitor who knows what content they want to get to.
 
-![Skip to Content Feature](./assets/media/features/skip-to-content-feature.png)
+![Skip to Content Feature](https://github.com/PVieira04/mastermaths/blob/main/assets/media/features/skip-to-content-feature.png)
 
 ### The Navigation Bar
 
@@ -297,8 +297,8 @@ Screenshots were taken of various websites for the resources section. This gives
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
   - On smaller screens, the navigation bar will change in layout to present the navigation links below the website logo.
 
-![Nav Bar - Desktop](./assets/media/features/navbar-feature.png)
-![Nav Bar - Mobile](./assets/media/features/navbar-responsive-feature.png)
+![Nav Bar - Desktop](https://github.com/PVieira04/mastermaths/blob/main/assets/media/features/navbar-feature.png)
+![Nav Bar - Mobile](https://github.com/PVieira04/mastermaths/blob/main/assets/media/features/navbar-responsive-feature.png)
 
 ### The Landing Page
 
@@ -307,21 +307,21 @@ Screenshots were taken of various websites for the resources section. This gives
   - Regarding the tagline, the word "better" is highlighted in blue in order to catch the user's attention and invoke a good feeling for the user, since "better" is a positive word.
   - The call to action button is pink which should catch the user's attention next, inviting them to navigate to the about section. 
 
-![Landing Page - Section One - Desktop](./assets/media/features/landing-page-section-one-desktop.png)
+![Landing Page - Section One - Desktop](https://github.com/PVieira04/mastermaths/blob/main/assets/media/features/landing-page-section-one-desktop.png)
 
   - On devices like tablets which have smaller screens, the layout of this first section changes. Instead, the tagline is placed first, due to its importance, and then the tutor and their information is placed below.
 
-[Landing Page - Section One - Tablet](./assets/media/features/landing-page-section-one-tablet.png)
+[Landing Page - Section One - Tablet](https://github.com/PVieira04/mastermaths/blob/main/assets/media/features/landing-page-section-one-tablet.png)
 
   - On even smaller screens like mobile phones, the layout changes further. Below the tagline, the tutor's photo appears first and then the tutor's information.
 
-[Landing Page - Section One - Mobile](./assets/media/features/landing-page-section-one-mobile.png)
+[Landing Page - Section One - Mobile](https://github.com/PVieira04/mastermaths/blob/main/assets/media/features/landing-page-section-one-mobile.png)
 
   - Below the first section are two more sections which is dedicated to users that are already convinced by the tutor's teaching skills or are returning to the website seeking resources for their children. The layout of these two sections change minimally on smaller screens.
 
-![Landing Page - Section Two and Three - Desktop](./assets/media/features/landing-page-section-two-three-desktop.png)
+![Landing Page - Section Two and Three - Desktop](https://github.com/PVieira04/mastermaths/blob/main/assets/media/features/landing-page-section-two-three-desktop.png)
 
-[Landing Page - Section Two and Three - Mobile](./assets/media/features/landing-page-section-two-three-mobile.png)
+[Landing Page - Section Two and Three - Mobile](https://github.com/PVieira04/mastermaths/blob/main/assets/media/features/landing-page-section-two-three-mobile.png)
 
 ### The About Page
 
@@ -329,20 +329,20 @@ Screenshots were taken of various websites for the resources section. This gives
   - The first section is a quote about education from the philosopher Confucius. The idea is to set the tone for the page and give the user an idea of the tutor's principles in teaching. For a parent who has yet to work with the tutor, this should provide some value to the user and entice them further into working with the tutor.
   - On smaller screens, the name "Confucius" appears in the middle of the screen for better readability.
 
-![About Page - Section One - Desktop](./assets/media/features/about-page-section-one-desktop.png)
-[About Page - Section One - Mobile](./assets/media/features/about-page-section-one-mobile.png)
+![About Page - Section One - Desktop](https://github.com/PVieira04/mastermaths/blob/main/assets/media/features/about-page-section-one-desktop.png)
+[About Page - Section One - Mobile](https://github.com/PVieira04/mastermaths/blob/main/assets/media/features/about-page-section-one-mobile.png)
 
   - The next section on the about page provides an outline of the tutor's story and details how the tutor will ensure the best outcome for their students. It can be difficult for a parent to trust someone else to teach their child and so this provides value in setting expectations regarding exactly what services the tutor does and does not provice. Parents who do not like the approach do not move forward, whereas parents who do will scroll further and attempt to book a callback.
 
-![About Page - Section Two - Desktop](./assets/media/features/about-page-section-two-desktop.png)
+![About Page - Section Two - Desktop](https://github.com/PVieira04/mastermaths/blob/main/assets/media/features/about-page-section-two-desktop.png)
 
   - The last section allows the user to find out whether they live in an area appropriate for the tutor to travel to. This is a further filter so that the tutor can ensure they can work with the ideal client.
   - At the bottom of this section is a call to action button directing the user to the contact page. This is exactly where the user wants to go once they have been convinced of the tutor's expertise and professionalism.
   - This section is fully responsive but the layout does not change on smaller screens.
 
-![About Page - Section Three - Desktop](./assets/media/features/about-page-section-three-desktop.png)
+![About Page - Section Three - Desktop](https://github.com/PVieira04/mastermaths/blob/main/assets/media/features/about-page-section-three-desktop.png)
 
-[About Page - Section Three - Mobile](./assets/media/features/about-page-section-three-mobile.png)
+[About Page - Section Three - Mobile](https://github.com/PVieira04/mastermaths/blob/main/assets/media/features/about-page-section-three-mobile.png)
 
 ### The Contact Page
 
@@ -351,11 +351,11 @@ Screenshots were taken of various websites for the resources section. This gives
   - The form is split into two parts, left and right on desktop. The left hand side contains required fields asking for essential information the tutor needs to call the parent back, while the right side contains an optional textbox for the parent to write a custom message.
   - The form provides value to the parent because by this point they want this tutor to teach their child. Becasue of this, they would want to give as much information as necessary to the tutor so they can do their job to the best of their ability. Filling out the form gives the parent more confidence in the tutor's abilities.
 
-![Contact Page - Desktop](./assets/media/features/contact-page-desktop.png)
+![Contact Page - Desktop](https://github.com/PVieira04/mastermaths/blob/main/assets/media/features/contact-page-desktop.png)
 
   - While being responsive, the form also chanages layout on smaller screens. The left side which asks for essential information is placed on top, while the textbox is placed beneath. This is to allow the user to still see the placeholder text on smaller screens so it is clear what they should write there.
 
-[Contact Page - Mobile](./assets/media/features/contact-page-mobile.png)
+[Contact Page - Mobile](https://github.com/PVieira04/mastermaths/blob/main/assets/media/features/contact-page-mobile.png)
 
 ### The Success Page
 
@@ -363,7 +363,7 @@ Screenshots were taken of various websites for the resources section. This gives
   - Following the success message, there is a call to action section allowing the user to be shown the way to the resources page. This provides further value to the user because some parents may want some extra work for their children to do while they wait to secure a tutoring session.
   - If the user does not wish to go to the resources section, they are also given the option to navigate to the landing page. This will allow the user to see the website tagline and tutor's basic information, and further reinforce their decision in selected this tutor.
 
-![Success Page - Desktop](./assets/media/features/success-page-desktop.png)
+![Success Page - Desktop](https://github.com/PVieira04/mastermaths/blob/main/assets/media/features/success-page-desktop.png)
 
 ### The Resources Page
 
@@ -372,18 +372,18 @@ Screenshots were taken of various websites for the resources section. This gives
   - Both parts are styled the same with a screenshot on the left hand side and on the right, a brief description of the website's resources and the tutor's recommendation in how to use it.
   - This provides great value to the user becasue there is a great variety in reasons to use each resource which can cater for a variety of needs.
 
-![Resources Page - Desktop](./assets/media/features/resources-section-desktop.png)
+![Resources Page - Desktop](https://github.com/PVieira04/mastermaths/blob/main/assets/media/features/resources-section-desktop.png)
 
   - While being responsive, the resources page also changes layout on smaller screens. The screenshot image of the website is shown below the title of the resource, and the description is shown below. This is done to give better readability to the user.
 
-[Resources Page - Mobile](./assets/media/features/resources-section-mobile.png)
+[Resources Page - Mobile](https://github.com/PVieira04/mastermaths/blob/main/assets/media/features/resources-section-mobile.png)
 
 ### The 404 Page
 
   - This page will load for the user in the unlikely event that there are broken links on the website or if a user were to type in a nonexistent subdirectory into the web address box.
   - This provides value to the user by directing them to the landing page of the website so that they can achieve their goal for visiting.
 
-![404 Page](./assets/media/features/404-page-desktop.png)
+![404 Page](https://github.com/PVieira04/mastermaths/blob/main/assets/media/features/404-page-desktop.png)
 
 ### The Footer
 
@@ -391,11 +391,11 @@ Screenshots were taken of various websites for the resources section. This gives
   - The footer is valuable to the user as it encourages them to keep connected via social media.
   - The footer also includes an anchor allowing the user to quickly move to the top of the page. This is exceptionally valuable to the user if visiting the Resources or About page which can be quite long on mobile.
 
-![Footer](./assets/media/features/footer-desktop.png)
+![Footer](https://github.com/PVieira04/mastermaths/blob/main/assets/media/features/footer-desktop.png)
 
   - On smaller screens, the space between the items decreases but the layout does not change.
 
-![Footer](./assets/media/features/footer-mobile.png)
+![Footer](https://github.com/PVieira04/mastermaths/blob/main/assets/media/features/footer-mobile.png)
 
 ### Features Left to Implement
 
