@@ -305,7 +305,7 @@ i {
 /* Styling for Section 2 of about.html (process) */
 
 #about-process {
-    max-width: 1000px;
+    max-width: 770px;
     margin: 30px auto;
     text-align: center;
 }
@@ -319,6 +319,7 @@ i {
     font-size: 1.2em;
     padding: 0 5px;
     margin: 0 5px;
+    line-height: 1.8em;
 }
 
 #about-process p span{
@@ -328,8 +329,9 @@ i {
 #about-process ol {
     text-align: left;
     list-style: decimal outside;
-    padding-left: 40px;
+    padding-left: 50px;
     font-size: 1.1em;
+    line-height: 1.65;
 }
 
 #about-process .tutor-quote {
@@ -351,6 +353,8 @@ i {
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 770px;
+    line-height: 1.8em;
 }
 
 #about-travel p {
@@ -383,6 +387,8 @@ i {
 #contact-form p {
     margin: 0 20px;
     margin-bottom: 40px;
+    max-width: 770px;
+    line-height: 1.8em;
 }
 
 #contact-form p {
@@ -547,9 +553,14 @@ label {
     margin: 25px 0;
 }
 
+#resources-intro {
+    max-width: 770px;
+}
+
 #resources-intro p, #resources-gcse div p, #resources-alevel div p {
     font-size: 1.2em;
     text-align: center;
+    line-height: 1.8em;
 }
 
 #resources-intro p {
