@@ -407,7 +407,7 @@ Screenshots were taken of various websites for the resources section. This gives
 
 ## Testing 
 
-Pleaser refer to the [TESTING.md](./TESTING.md) file.
+Pleaser refer to the [TESTING.md](https://github.com/PVieira04/mastermaths/blob/main/TESTING.md) file.
 
 ## Deployment
 
