@@ -6,6 +6,8 @@ This file contains all the different tests performed on the site. It also detail
 
 * [Validator Testing](#validator-testing)
 * [Manual Testing](#manual-testing)
+  * [Keyboard-only Testing](#keyboard-only-testing)
+  * [Screen Reader Testing](#screen-reader-testing)
 * [User Testing](#user-testing)
 * [Browser Testing](#browser-testing)
   * [Desktop Browsers](#desktop-browsers)
@@ -84,16 +86,14 @@ This file contains all the different tests performed on the site. It also detail
   - Layout stays the same between desktop and mobile mode.
   - On smaller screens, space between elements is reduced with no change to icon dimensions or text size.
 
-- Keyboard-only Users
-  - All navigation, buttons, anchors and input fields can be fully scrolled through by pressing the tab key or shift+tab.
-  - All elements the user is able to focus can be interacted with by pressing neter.
-  - Fully functional and working as intended.
+### Keyboard-only Testing
 
-- Screen-reader Users
-  - Test carried out using NVDA. 
-  - All links when tabbed through have accurate descriptions.
+- I want my website to be fully functional for those users that can only use a keyboard.
+- As such I did manual testing to see if I could use the tab and shift+tab inputs along with the enter button in order to navigate my site.
+- Test was successfuly carried out and no issues were detected.
+- Able to fully navigate and reach all pages of the site using only the keyboard.
 
-## Screen Reader Testing
+### Screen Reader Testing
 
 - I downloaded the free NVDA screen reader to test my deployed website on.
 - Whenever the page is refreshed, the screen reader will automatically read through all of the discernable content on the page.
