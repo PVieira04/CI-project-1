@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-/* Thank you to Thomas Wharton, a fellow CI student who
-reminded me of this idea to store colours as variables
-in case I want to change colour themes. */
-
 :root {
     --background: #E2E2E2;
     --logo-emphasis: #0000F4;
@@ -47,7 +43,6 @@ main {
 }
 
 section {
-    box-sizing: border-box;
     padding: 0 0.5%;
 }
 
@@ -319,7 +314,6 @@ i {
     font-size: 1.2em;
     padding: 0 5px;
     margin: 0 5px;
-    line-height: 1.8em;
 }
 
 #about-process p span{
@@ -331,7 +325,6 @@ i {
     list-style: decimal outside;
     padding-left: 50px;
     font-size: 1.1em;
-    line-height: 1.65;
 }
 
 #about-process .tutor-quote {
@@ -354,7 +347,6 @@ i {
     flex-direction: column;
     align-items: center;
     max-width: 770px;
-    line-height: 1.8em;
 }
 
 #about-travel p {
@@ -388,7 +380,6 @@ i {
     margin: 0 20px;
     margin-bottom: 40px;
     max-width: 770px;
-    line-height: 1.8em;
 }
 
 #contact-form p {
@@ -560,11 +551,9 @@ label {
 #resources-intro p, #resources-gcse div p, #resources-alevel div p {
     font-size: 1.2em;
     text-align: center;
-    line-height: 1.8em;
 }
 
 #resources-intro p {
-    box-sizing: border-box;
     padding-top: 20px;
     padding-bottom: 20px;
     margin: 0 10px;
