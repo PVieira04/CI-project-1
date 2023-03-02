@@ -352,6 +352,7 @@ Screenshots were taken of various websites for the resources section. This gives
 ![About Page - Section Two - Desktop](https://github.com/PVieira04/mastermaths/blob/main/assets/media/features/about-page-section-two-desktop.png)
 
   - The last section allows the user to find out whether they live in an area appropriate for the tutor to travel to. This is a further filter so that the tutor can ensure they can work with the ideal client.
+  - This map shows the area which someone could travel to in 30 minutes or less using public transport from a certain location. This feature ties into the target audience for the site.
   - At the bottom of this section is a call to action button directing the user to the contact page. This is exactly where the user wants to go once they have been convinced of the tutor's expertise and professionalism.
   - This section is fully responsive with the layout remaining the same on smaller screens.
 
