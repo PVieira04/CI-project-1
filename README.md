@@ -10,8 +10,9 @@ MasterMaths is a site that exposes users to the existence of a mathematics home 
 
 * [User Experience (UX)](#user-experience-ux)
   * [Key Project Goals](#key-project-goals)
-  * [New User Goals](#new-user-goals)
-  * [Returning User Goals](#returning-user-goals)
+  * [Target Audience](#target-audience)
+    * [New User Goals](#new-user-goals)
+    * [Returning User Goals](#returning-user-goals)
   * [User Story - New Customer](#user-story---new-customer)
   * [User Story - Returning Customer](#user-story---returning-customer)
 * [Planning](#planning)
