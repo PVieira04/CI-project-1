@@ -59,7 +59,7 @@ This file contains all the different tests performed on the site. It also detail
 
 - Contact Page
   - Fully responsive.
-  - Has a maximum width and then responsively adjusts width until the madeia query for tablets triggers.
+  - Has a maximum width and then responsively adjusts width until the media query for tablets triggers.
   - In tablet mode, the first part of the form is displayed on top and the textbox is displayed beneath.
   - The submit button works as intended. The user is only directed to the success page until all required fields have been adequately filled out.
 
@@ -71,7 +71,7 @@ This file contains all the different tests performed on the site. It also detail
 - Resources Page
   - Fully responsive.
   - Layout changes between desktop and mobile modes for the GCSE and A Level sections.
-  - In Desktop mode, the images are on the left hand side while the description of the site is on the right.
+  - In Desktop mode, the images are on the left-hand side while the description of the site is on the right.
   - In mobile mode, this changes so that the image appears above its description.
 
 - 404 Page
@@ -89,23 +89,23 @@ This file contains all the different tests performed on the site. It also detail
 ### Keyboard-only Testing
 
 - I want my website to be fully functional for those users that can only use a keyboard.
-- As such I did manual testing to see if I could use the tab and shift+tab inputs along with the enter button in order to navigate my site.
-- Test was successfuly carried out and no issues were detected.
+- As such I did manual testing to see if I could use the tab and shift+tab inputs along with the enter key in order to navigate my site.
+- Test was successfully carried out and no issues were detected.
 - Able to fully navigate and reach all pages of the site using only the keyboard.
 
 ### Screen Reader Testing
 
 - I downloaded the free NVDA screen reader to test my deployed website on.
-- Whenever the page is refreshed, the screen reader will automatically read through all of the discernable content on the page.
+- Whenever the page is refreshed, the screen reader will automatically read through all of the discernible content on the page.
 - It successfully reads through all written content such as headings lists, paragraphs and links.
 - Additionally it also reads out the alt text of my images and aria-labels of my social media link in the footer.
 - This has shown me that someone who uses a screen reader will be able to travel through my website without issue.
-- However, there are some things I can optimise. Sometimes when line breaks are used, they are read out by the screen reader, such as with my tagline. This doesn't affect the funcitonality of my site but it is not ideal.
+- However, there are some things I can optimise. Sometimes when line breaks are used, they are read out by the screen reader, such as with my tagline. This doesn't affect the functionality of my site but it is not ideal.
 - I can fix this by deleting the excessive line breaks and add padding to the tagline.
 
 ## User Testing
 
-I asked a real user to open my website on dektop. They used a mouse to navigate and this person has no accessibility requirements. This is how it went.
+I asked a real user to open my website on desktop. They used a mouse to navigate and this person has no accessibility requirements. This is how it went.
 
 - User opens the MasterMaths website and reads the tagline.
 - User then reads the tutor information section and scrolls down.
@@ -122,7 +122,7 @@ I asked a real user to open my website on dektop. They used a mouse to navigate 
 Watching my tester go through my site was beneficial as it showed me how the average user will be taken through my site. However, it did not give me an idea of any changes I need to make for the site.
 
 ## Browser Testing
-Manual Testing was further done on other browsers. These browsers were chosen becasue, as found by [statcounter](https://gs.statcounter.com/browser-market-share), they are the most popular browsers in the world.
+Manual Testing was further done on other browsers. These browsers were chosen because, as found by [statcounter](https://gs.statcounter.com/browser-market-share), they are the most popular browsers in the world.
 
 ### Desktop Browsers
 - Chrome
@@ -133,11 +133,11 @@ Manual Testing was further done on other browsers. These browsers were chosen be
   - Issue detected on Landing Page - .tutor-pic takes up more than 50% of the screen width and squashes .tutor-info. Significantly different to Chrome, Edge and Firefox. (FIXED)
   - Extra unwanted styling added to select fields in contact form. (FIXED)
   - Footer always appears at the bottom of the viewport. Should only appear at the bottom of the page. (FIXED)
-  - a tags should have rounded borders. On safari they do not.
+  - "a" elements should have rounded borders. On Safari they do not ([Known Issue](#known-issues)).
 - Firefox
   - Submit input on contact form says "Submit Query" instead of just "Submit". (FIXED)
   - Some spacing is missing in the contact page and on the resources page. (FIXED)
-  - Shows outline on png used as background image for select field. (FIXED)
+  - Shows outline on png files used as background image for select field. (FIXED)
 - Opera
   - No issues detected.
 
@@ -151,7 +151,7 @@ The following are the most popular browsers for tablet and mobile:
 - Chrome (Android)
 - Safari (iOS Mobile)
 - Safari (iOS Tablet)
-- Samsung Internet (Amdroid Mobile)
+- Samsung Internet (Android Mobile)
 
 ## Device Testing
 
@@ -194,7 +194,7 @@ All actions were derived from addressing the opportunites outlined in the lighth
 1. Added aria-label to external links in footer (Accessibility).
 2. Converted image in index.html to webp format (Performance).
 3. Added meta descriptions to all html pages (SEO).
-4. Replaced Fontawesome CDN with manual installation of Fontawesome and deleted uneccessary styling rules (Performance).
+4. Replaced Fontawesome CDN with manual installation of Fontawesome and deleted unnecessary styling rules (Performance).
 5. Converted images in resouces.html to webp format and changed resolution appropriately (Performance).
    * Between the before and after shown below, the performance score stayed the same but the Cumulative Layout Shift changed by 0.004.
    * [Resources Mobile Before](https://github.com/PVieira04/mastermaths/blob/main/assets/media/lighthouse/lighthouse-report-resources-mobile-before.png)
@@ -210,7 +210,7 @@ Across all HTML pages, mobile rendering of the Lighthouse tool results in an equ
 
 Resulting Investigation:
 - Cumulative Layout Shift(CLS) is either the same or higher on mobile when compared to desktop. This could affect the Performance score.
-- The problem with this hypothesis is that the about page has an the same CLS value on mobile and desktop renders of the tool (0.042).
+- The problem with this hypothesis is that the about page has the same CLS value on mobile and desktop renders of the tool (0.042).
 - Across desktop renders of all pages, the First Contentful Paint and Largest Contentful Paint are at 0.5 seconds, whereas mobile renders of all pages have a First Contentful Paint of 1.7 and a Largest Contentful Paint of 1.7 or higher.
 - Unable to find a reason why mobile renders are slower across the board.
 
@@ -218,7 +218,7 @@ Resulting Investigation:
 
 Firefox browser had a different layout that on other browsers. The cause of this is that Firefox treats "br" tags differently to other browsers so the spacing between some elements was a bit off. I instead changed the affected sections to have appropriate margins instead.
 
-Firefow also showed a difference with the submit input text. In my HTML, I did not specify a value attribute for it so it defaults to the default text. On firefox, that is "Submit Query" rather than just "Submit" which shows on all other browsers. After adding the value attribute, the issue was fixed.
+Firefox also showed a difference with the submit input text. In my HTML, I did not specify a value attribute for it so it defaults to the default text. On Firefox, that is "Submit Query" rather than just "Submit" which shows on all other browsers. After adding the value attribute, the issue was fixed.
 
 Safari browser had various differences when compared to all other desktop browsers I tested. The way I handled this was by using flexbox on the body of my html and giving my footer a style of mrgin-top: auto. Before I used the sticky footer method but it seems safari doesn't support that method.
 
@@ -226,7 +226,7 @@ Another safari issue was that my landing page in tablet mode treated .home-landi
 
 Safari also adds an extra gloss style to the form select fields. I fixed this by getting rid of all styling for the select field and then adding my own background image to it so an arrow still appears, making it more obvious to the user that it is a select field.
 
-At one point, my favicons were not working. This was because I was using absolute filepathing (having copied the code directly from the attributed website in the credits of my README) so it was showing on the local side but not on the deployed side. The simple fix was just adding a "." to the beginning of the filepath.
+At one point, my favicons were not working. This was because I was using absolute file pathing (having copied the code directly from the attributed website in the credits of my README) so it was showing on the local side but not on the deployed side. The simple fix was just adding a "." to the beginning of the file path.
 
 During my testing using a screen reader, I discovered that on the landing page, it reads out the .home-landing-left section first but I want the user to first know about the tagline in .home-landing-right. To fix this, I restructured my HTML so that .home-landing-right came first and then changed the relevant flexbox settings in my CSS.
 
