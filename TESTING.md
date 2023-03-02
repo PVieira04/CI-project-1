@@ -231,3 +231,5 @@ At one point, my favicons were not working. This was because I was using absolut
 During my testing using a screen reader, I discovered that on the landing page, it reads out the .home-landing-left section first but I want the user to first know about the tagline in .home-landing-right. To fix this, I restructured my HTML so that .home-landing-right came first and then changed the relevant flexbox settings in my CSS.
 
 ## Known Issues
+
+Safari browser has an issue which I was not able to fix. The styling of border-radius does not appear to be applied to the website on Safari but shows on every other browser. This can be seen if one uses tab on the keyboard to navigate through the website's links. After researching the issue, it seems that, while [supported by the latest version](https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius#browser_compatibility) of Safari, there seems to be some kind of [render layer issue](https://github.com/google/model-viewer/issues/662). After trying to apply the "transform: translateZ(0)" style rule to the same element I wanted to apply a border radius to, it did not work like it did for other posters.
