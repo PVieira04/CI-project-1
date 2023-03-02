@@ -53,8 +53,14 @@ MasterMaths is a site that exposes users to the existence of a mathematics home 
 2. Convince parents to buy into the tutor’s method
 3. Funnel suitable users towards the contact section to request a callback
 4. Get users on the phone to discuss payment and booking a session
+5. Increase traffic to the site by providing value to users
 
-### New User Goals
+### Target Audience
+
+My target audience are parents who are concerned about their child's schooling and who want to help ensure their child's success. The parent should live in London and ideally be 30 minutes away from the tutor via public transport.
+
+#### New User Goals
+
 A first time user may want to :
 - know price
 - know whether tutor teaches online or at home
@@ -65,8 +71,8 @@ A first time user may want to :
 - know about previous students
 - know how the tutor will teach their child
 
-### Returning User Goals
-Returning users may want to:
+#### Returning User Goals
+Returning users may want to :
 - find resources for their child
 - remind themselves of the tutor's teaching method
 
